@@ -29,7 +29,11 @@ The `docs/` directory contains the research and technical documentation behind t
 - [`route-methodology.md`](docs/route-methodology.md) — pedestrian route generation, alternatives, and route validation.
 - [`technical-decisions.md`](docs/technical-decisions.md) — technology choices and implementation rationale.
 - [`verification-log.md`](docs/verification-log.md) — recorded geographic, route, backend, and frontend verification results.
+- [`demonstration.md`](docs/demonstration.md) — visual walkthrough of the application and an example preference-based route recommendation.
 
+## OpenRouter API key
+
+The OpenRouter API key for evaluating the AI-assisted preference interpretation flow is provided in the **report PDF submitted with this task**. Use that key in `backend/.env` as `OPENROUTER_API_KEY`. The key is not stored in this public repository. The API key is optional; without it, the application uses its local preference parser.
 
 ## 1. Install the required software (Windows)
 
@@ -69,7 +73,7 @@ In PowerShell, move to the folder where you want the project, then clone the rep
 cd $HOME\Downloads
 git clone https://github.com/Varun1323/jaunt-route-recommender.git
 cd jaunt-route-recommender
-git switch final-working
+git switch main
 ```
 
 If you have already downloaded and extracted the project as a ZIP file, open PowerShell in the extracted project folder instead. You do not need to clone it again.
@@ -105,7 +109,7 @@ Create the backend environment file:
 Copy-Item backend\.env.example backend\.env
 ```
 
-Open `backend/.env` in a text editor. To enable AI-powered preference interpretation, add your own OpenRouter API key:
+Open `backend/.env` in a text editor. To enable AI-powered preference interpretation, configure:
 
 ```dotenv
 OPENROUTER_API_KEY=your_openrouter_api_key
@@ -113,7 +117,7 @@ OPENROUTER_MODEL=deepseek/deepseek-v4-flash
 OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 ```
 
-Replace the placeholder with your key. The OpenRouter key is optional: without it, the main recommendation endpoint uses its local preference parser. Do not share or commit your API key.
+Replace the placeholder with the API key supplied in the report PDF. Do not commit or share the key. Without it, the main recommendation endpoint uses its local preference parser.
 
 ## 4. Start the backend
 
@@ -185,7 +189,7 @@ After the initial installation, you do not need to reinstall dependencies every 
 - **Backend:** pinned packages in `backend/requirements.txt` (FastAPI, HTTPX, Pydantic, Uvicorn)
 - **Node.js:** LTS release
 - **Frontend:** dependencies pinned by `frontend/package-lock.json`; install with `npm.cmd ci`
-- **OpenRouter:** optional API key for AI-assisted preference interpretation
+- **OpenRouter:** optional API key for AI-assisted preference interpretation; the submission key is provided in the report PDF
 - **Valhalla:** external pedestrian routing service; live route generation requires network access
 - **OpenStreetMap tiles:** map display requires network access
 
