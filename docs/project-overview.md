@@ -1,51 +1,64 @@
-# Project Overview
+# Jaunt Route Recommender — Project Overview
 
-## Assignment and product objective
+## The task
 
-Jaunt is a planned walking-route recommendation application for Manhattan. The initial trip is from **Grand Central Terminal** to **Bryant Park**. The eventual product will compare three pedestrian routes:
+This project was built for the Jaunt technical task: design and implement a small web prototype that recommends a walking route based on what a traveler wants from the journey.
 
-1. A direct pedestrian-network route.
-2. An architecture-focused route with verified, walkable intermediate viewing points.
-3. An alternative-street route offering a different walking experience.
+A conventional map application generally optimizes for getting from A to B. Jaunt explores a different question: **which walking route best matches this traveler's priorities?** One traveler may value architecture and history, another may want the shortest walk, and another may want a useful balance of sightseeing and travel time.
 
-The application is intended to evaluate route candidates against traveler preferences. Specific preference inputs, weights, route scoring, and recommendation behavior remain to be designed after the geographic research is reviewed.
+The prototype focuses on Midtown Manhattan and supports selectable start and end landmarks, natural-language preferences, pedestrian route candidates, map visualization, route metrics, and an explanation of the recommendation.
 
-The active landmark set has nine entries: Grand Central Terminal, Pershing Square Building, Chrysler Building, Graybar Building, Chanin Building, Daily News Building, 1 Vanderbilt, the Stephen A. Schwarzman Building (NYPL), and Bryant Park.
+## How the application works
 
-## Planned technology stack
+1. The traveler selects an origin and destination.
+2. The traveler describes their preference in natural language.
+3. The React application sends the journey and preference to the FastAPI backend.
+4. The backend interprets the preference using OpenRouter when configured, with a deterministic local parser as a fallback.
+5. The backend loads validated pedestrian route candidates and can request additional candidates from Valhalla when the selected strategy warrants it.
+6. The recommendation engine evaluates route distance, estimated walking time, intermediate landmarks, architectural and historical relevance, and applicable constraints.
+7. The API returns the recommended route, ranked alternatives, metrics, and a human-readable explanation.
+8. The frontend displays the route geometry and supporting information on an interactive Leaflet map.
 
-- **Frontend:** React, TypeScript, Tailwind CSS, Leaflet.
-- **Backend:** Python and FastAPI.
-- **Data:** JSON and GeoJSON.
-- **Pedestrian routing:** Valhalla, subject to availability, policy, and coverage verification.
+The route ranking is performed by deterministic backend logic. AI assists with interpreting natural-language intent and selecting from bounded backend options; it does not invent route geometry or choose a winner outside the scoring engine.
 
-## Current implementation
+## Study area and landmark catalogue
 
-There is no frontend, FastAPI service, or recommendation engine. The current Python scripts are research and collection utilities:
+The research catalogue contains nine core landmarks used for the route study:
 
-- `backend/scripts/collect_geodata.py` collects OSM feature candidates through Overpass, with selective landmark collection, caching, retries, and unverified candidate output.
-- `backend/scripts/collect_nyc_buildings.py` collects nearby full building-footprint polygons from the NYC Open Data BUILDING dataset for 1 Vanderbilt and NYPL.
-- `backend/scripts/geodata_geometry.py` compares local polygon bounds, overlap, IoU, boundary distances, and OSM ring validity.
-- `backend/scripts/fetch_routes.py` requests pedestrian routes from Valhalla and writes only provider-returned route geometry. It refuses unverified points and missing waypoint inputs.
+- Grand Central Terminal
+- Pershing Square Building
+- Chrysler Building
+- Graybar Building
+- Chanin Building
+- Daily News Building
+- 1 Vanderbilt
+- Stephen A. Schwarzman Building (New York Public Library)
+- Bryant Park
 
-## Data layout and conventions
+The application also includes the Midtown visitor-interest catalogue used by the current UI, including Times Square, Rockefeller Center, St. Patrick's Cathedral, and the Museum of Modern Art. The backend data and frontend selection catalogue are maintained separately to support the broader research set and the task's user-facing journeys.
 
-- `backend/data/landmarks.json`: nine active landmark definitions. Coordinates are still null and marked unverified.
-- `backend/data/landmark_candidates_v2.json`: OSM candidate report. The file retains provider-level candidate statuses; candidate responses do not approve identity or entrances.
-- `backend/data/nyc_building_candidates.json`: NYC BUILDING candidates for NYPL and 1 Vanderbilt. NYC IDs and polygons stay separate from OSM records.
-- `backend/data/raw/osm/` and `backend/data/raw/nyc_open_data/`: raw collection/cache evidence, including a direct OSM geometry file for way `265875648`.
-- `backend/data/routes/`: currently only `.gitkeep`; no route result is available.
-- `docs/`: research, source policy, route methodology, decisions, progress, and verification evidence.
+## Technology
 
-Coordinates are WGS84. GeoJSON positions are `[longitude, latitude]`. Building representative points and geocoder points are not entrance points. Route GeoJSON must be actual pedestrian-engine output, not a straight line.
+| Layer | Technology | Responsibility |
+|---|---|---|
+| Frontend | React, TypeScript, Vite | User input, journey selection, recommendation and route presentation |
+| Map | Leaflet | Interactive map and pedestrian GeoJSON rendering |
+| Backend | Python, FastAPI, Pydantic | API, validation, preference interpretation, route orchestration |
+| Preference AI | OpenRouter API | Optional structured interpretation and explanation focus |
+| Routing | Valhalla pedestrian costing | Road/path-network geometry, distance, estimated duration |
+| Geographic data | OpenStreetMap, NYC Open Data, official landmark sources | Place context, mapped geometry, building footprints and provenance |
+| Storage | JSON and GeoJSON files | Landmark catalogue, route cache, raw source responses and metadata |
 
-## Expected future functionality
+## Main API
 
-After geographic inputs and public access points are reviewed, the application may display route alternatives on a Leaflet map, show distance and estimated walking time from the routing provider, and compare traveler-selected preferences. Sightseeing dwell time must remain separate from walking time. The recommendation engine must stay independent from presentation code.
+- `GET /api/landmarks` — returns the landmark catalogue.
+- `GET /api/routes?origin_id=...&destination_id=...` — returns route candidates for a selected journey.
+- `POST /api/recommend` — interprets a traveler preference, evaluates route candidates, and returns a recommendation with alternatives and rationale.
 
-## Current limitations
+The repository also contains a separate `/api/v1/recommend` workflow. The current frontend recommendation flow uses `POST /api/recommend`.
 
-- No origin/destination coordinates are approved for routing and no public entrance points are verified.
-- No genuine Valhalla pedestrian route geometry, distance, or duration is stored.
-- Five landmarks have recent review recommendations, but all underlying candidate records remain `candidate_unconfirmed` and all `landmarks.json` coordinates remain unverified.
-- Four landmarks still await systematic verification. Details and evidence retention limits are in [verification-log.md](verification-log.md).
+## Scope
+
+Jaunt is a task prototype for preference-aware walking-route recommendation. It demonstrates research-led place selection, real pedestrian-network route geometry, route comparison, deterministic scoring, natural-language preference interpretation, and map-based presentation.
+
+Walking durations are routing-engine estimates. The prototype does not model live crowd density, real-time closures, pavement condition, or accessibility status. It is not intended to replace a navigation service.
