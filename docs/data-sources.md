@@ -1,36 +1,60 @@
-# Data Sources and Usage
+# Data Sources, Provenance, and Attribution
 
-| Source | What it provides | Why use it | Limitations and usage |
+This document records the geographic, historical, and routing sources used by the Jaunt prototype and the role each source plays.
+
+## Source register
+
+| Source | Data used | Why it is appropriate | How the project uses it |
 |---|---|---|---|
-| NYC Landmarks Preservation Commission (LPC) designation reports | Official designation, address/site, architectural description, and historical significance. | Primary municipal preservation records; reports are the basis for landmark designation. | Reports reflect designation-era conditions and do not guarantee current visitor access. Cite the specific report; do not infer entrance locations from parcel/site descriptions. |
-| Official building, park, and institutional websites | Current visitor information, public access notes, address, and institutional history. | First-party access and operating information. | Hours and access change; verify again at runtime or before recommending entry. An office building's public-facing exterior does not imply interior admission. |
-| New York Public Library (NYPL) | Official history, architecture, visitor spaces, and access guidance for the Stephen A. Schwarzman Building. | The institution is the operator and authoritative source for its own visitor facilities. | Some rooms require appointments, research credentials, or have changing hours. |
-| Bryant Park Corporation (BPC) | Official park location, public hours, history, amenities, and management. | Park operator and primary source for operating conditions. | Hours and closures are changeable; verify current status before routing visitors into the park. |
-| OpenStreetMap (OSM) database via Overpass API | Mapped building/park geometries, names/tags, and geometrically derived representative points. | Open, inspectable mapped data that can be queried for specific features and returned with OSM element IDs. | Community-maintained; completeness, tags, geometry, and positional accuracy vary. A building centroid is not an entrance. Public Overpass instances have capacity limits; their documentation recommends moderate use (guideline around 10,000 requests/day and under 1 GB/day) and discourages relying on them as a backend for larger applications. Use bulk extracts or self-hosting if needs grow. |
-| NYC Open Data BUILDING (`5zhs-2jue`) | Full `the_geom` building footprint polygons and fields including `NAME`, `BIN`, `DOITT_ID`, `BASE_BBL`, `OBJECTID`, construction year, feature code, geometry source, height, and update/status attributes. Queried through the Socrata resource endpoint with a spatial `within_circle` filter. | NYC Office of Technology and Innovation maintains the city basemap; its published building-footprints metadata describes these as full building outlines, updated frequently, and identifies DOITT_ID as a consistent identifier. Spatial retrieval avoids downloading the million-row citywide dataset. | `NAME` is limited to commonly known buildings and is not actively maintained. BIN can be duplicated; OBJECTID is synthetic; use identifiers jointly and inspect geometry. Candidate footprints and query-center proximity do not establish identity or an entrance. The API can change, rate-limit, or return an incomplete local subset; raw responses and all selected attributes are retained. No NYC identifiers are OSM IDs. Follow NYC Open Data [Terms of Use](https://opendata.cityofnewyork.us/overview/#terms-of-use), cite NYC Open Data and the dataset, and check current service limits before sustained use. |
-| OpenStreetMap Nominatim | Search/geocoding of named places and addresses. | Useful for discovery and cross-checking, not as authoritative evidence of building entrances. | Public endpoint policy limits use to at most 1 request/second, requires an identifying User-Agent/Referer and attribution, and prohibits heavy/production-style autocomplete use. This task's live requests could not resolve. |
-| Valhalla routing engine | Pedestrian route geometry, length, and estimated time over an OSM-derived graph. Official documentation describes `pedestrian` costing; FOSSGIS hosts a public demo at `valhalla1.openstreetmap.de`. | Open-source engine with pedestrian routing, route geometry, and customizable costing. | The public demo follows fair use/rate limits and has no production SLA. Valhalla's README asks public end-user apps to notify maintainers and identify requests with `X-Client-Id`. Do not make bulk/background requests or depend on this demo for production. Geometry and time are model results, not guaranteed accessible/safe conditions or observed travel time. |
-| OpenRouteService (fallback candidate) | Hosted pedestrian directions and up to three alternatives, subject to account/API conditions. | Documented alternative if Valhalla is unavailable. | Hosted API requires a key and has profile/request limits; terms and current restrictions must be reviewed before use. A switch changes provider and must be recorded. No ORS request was made in this run. |
+| NYC Landmarks Preservation Commission (LPC) | Designation reports and presentations | Municipal preservation records provide authoritative landmark context, addresses, architectural descriptions, and historical background | Supports place descriptions and architectural/history relevance |
+| Official building and institutional websites | Visitor information, public-facing addresses, institutional history | First-party sources are best suited to describe the institution's own facilities and visitor information | Supports landmark descriptions and visitor context |
+| New York Public Library | History, architecture, visitor spaces, and access information for the Stephen A. Schwarzman Building | The institution is the operator and primary source for its own visitor facilities | Supports NYPL place information |
+| Bryant Park Corporation | Park location, history, hours, amenities, and management | The park operator is the primary source for park information | Supports Bryant Park place information |
+| OpenStreetMap (OSM) | Mapped buildings, parks, pedestrian ways, feature tags, and geometry | Open, inspectable geographic data with element-level identifiers and downloadable geometry | Supplies pedestrian-network and feature geometry; source IDs and raw responses are retained |
+| Overpass API | Targeted OSM feature queries | Allows selective retrieval of relevant OSM elements | Used by the geographic collection scripts with caching and request throttling |
+| NYC Open Data BUILDING (`5zhs-2jue`) | Building footprint polygons and attributes including BIN, DOITT_ID, BASE_BBL, OBJECTID, construction year, and geometry source | City-maintained building dataset with full footprint geometry and municipal identifiers | Cross-source building geometry analysis and provenance |
+| Nominatim | Place/address search results | Useful for geocoding and discovery | Used as a search input; a geocoder result is not treated as a building entrance |
+| Valhalla | Pedestrian route geometry, distance, and estimated duration | Open-source routing engine with a pedestrian costing model and GeoJSON-compatible shape output | Generates the actual route geometry shown by the application |
+| OpenRouter | Structured interpretation of traveler preferences and constrained explanation focus | Provides an LLM interface while allowing the application to validate structured output and retain deterministic scoring | Optional preference interpretation; backend controls allowed values and scoring |
+
+## Place-specific source references
+
+- Grand Central Terminal: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/0266.pdf), [visitor information](https://grandcentralterminal.com/visit/).
+- Pershing Square Building: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/2556.pdf).
+- Chrysler Building: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/0992.pdf).
+- Graybar Building: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/2554.pdf).
+- Chanin Building: [LPC presentation](https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20240625/374-Lexington-Avenue.pdf).
+- Daily News Building: [LPC presentation](https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20181120/220-East-42nd-Street-final.pdf), [Docomomo US register](https://docomomo-us.org/register/daily-news-building).
+- NYPL: [Visitor Center](https://visitorcenter.nypl.org/), [LPC interior designation report](https://s-media.nyc.gov/agencies/lpc/lp/2592.pdf).
+- Bryant Park: [hours and directions](https://bryantpark.org/the-park/hours-and-directions), [park history](https://bryantpark.org/the-park/history).
+- 1 Vanderbilt: [official website](https://www.onevanderbilt.com/), [NYC BUILDING dataset](https://data.cityofnewyork.us/City-Government/BUILDING/5zhs-2jue).
+
+## Collection and data handling
+
+- OSM records retain element type, OSM ID, tags, source URL, and raw response data.
+- NYC Open Data records retain the dataset ID, source URL, municipal identifiers, original attributes, and polygon geometry.
+- OSM IDs and NYC identifiers are stored in their own namespaces and are not interchanged.
+- Geographic collection scripts use selective spatial queries, successful-response caching, retries, and request delays.
+- Route records retain Valhalla provenance, request parameters, route identifiers, endpoint references, distance, duration, and GeoJSON geometry.
+- Raw source responses are retained under `backend/data/raw/` to make collection decisions reproducible.
 
 ## Attribution and licensing
 
-OSM data is licensed under the Open Database License (ODbL). Public-facing maps should show readable attribution such as **“© OpenStreetMap contributors”** linked to [openstreetmap.org/copyright](https://www.openstreetmap.org/copyright). OSM-derived database content should carry attribution and the relevant ODbL notice. Keep provenance per feature so OSM-derived data can be distinguished from LPC and official-site descriptions. Check ODbL share-alike obligations for any derived database before distribution.
+OpenStreetMap data is available under the Open Database License (ODbL). Maps and OSM-derived data should include attribution such as **© OpenStreetMap contributors**, linked to [openstreetmap.org/copyright](https://www.openstreetmap.org/copyright). Review ODbL obligations when distributing a database derived from OSM.
 
-Valhalla software is open source, while the community demo is a hosted service with fair-use expectations. Preserve OSM attribution for OSM-based route data, identify the Valhalla provider in route metadata, and include an identifying client header if an end-user app ever uses the demo. Confirm the current hosting operator's policy before deployment.
+NYC Open Data use is governed by the [NYC Open Data Terms of Use](https://opendata.cityofnewyork.us/overview/#terms-of-use). Dataset attribution should identify the NYC BUILDING dataset.
 
-NYC building candidates are stored separately from OSM candidates in `backend/data/nyc_building_candidates.json`, with raw payloads under `backend/data/raw/nyc_open_data/`. Preserve the dataset ID, source URL, retrieval time, complete geometry, original attributes, and `candidate_unconfirmed` status. The 1 Vanderbilt address lookup is only a spatial search anchor; its provider and provenance are recorded separately. The NYPL reference point is likewise only a query anchor.
+Valhalla is open-source software. The public demo is a shared research service with fair-use expectations, not a production service-level agreement. Requests should be throttled and identify the client as required by the hosting operator.
 
-## Policies consulted
+## Provider policy references
 
-- [Overpass API commons and usage guidance](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html)
+- [Overpass API usage guidance](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html)
 - [Nominatim usage policy](https://operations.osmfoundation.org/policies/nominatim/)
-- [OSM Foundation attribution guidelines](https://osmfoundation.org/wiki/Licence/Attribution_Guidelines)
-- [Valhalla README: public demo server](https://github.com/valhalla/valhalla#demo-server)
-- [Valhalla routing API documentation](https://valhalla.github.io/valhalla/api/)
-- [openrouteservice hosted API restrictions](https://giscience.github.io/openrouteservice/hosted-api-restrictions)
-- [openrouteservice terms](https://ask.openrouteservice.org/tos)
+- [OSM attribution guidelines](https://osmfoundation.org/wiki/Licence/Attribution_Guidelines)
+- [Valhalla routing API](https://valhalla.github.io/valhalla/api/)
+- [Valhalla public demo information](https://github.com/valhalla/valhalla#demo-server)
 - [NYC BUILDING dataset](https://data.cityofnewyork.us/City-Government/BUILDING/5zhs-2jue)
 - [NYC OTI building-footprints metadata](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md)
 - [Socrata API endpoints](https://dev.socrata.com/docs/endpoints)
-- [Socrata within_circle spatial query function](https://dev.socrata.com/docs/functions/within_circle)
+- [Socrata spatial query functions](https://dev.socrata.com/docs/functions/within_circle)
 - [NYC Open Data Terms of Use](https://opendata.cityofnewyork.us/overview/#terms-of-use)
