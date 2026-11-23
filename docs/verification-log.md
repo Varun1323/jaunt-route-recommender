@@ -6,7 +6,7 @@ This document records implementation checks, geographic data checks, route-gener
 
 The project compares OSM feature geometry with NYC Open Data building footprints where both sources provide relevant records. Geometry comparison includes polygon overlap (IoU), boundary-distance measurements, ring validity, and source identifier reconciliation.
 
-The recorded cross-source comparisons support footprint matches for the researched Midtown buildings, including Pershing Square Building, Chrysler Building, Graybar Building, Chanin Building, Daily News Building, 1 Vanderbilt, and the Stephen A. Schwarzman Building. Bryant Park is represented as a park feature rather than a building-footprint record.
+The recorded cross-source comparisons support footprint matches for the researched Midtown buildings, including Pershing Square Building, Chrysler Building, Chanin Building, Daily News Building, 1 Vanderbilt, and the Stephen A. Schwarzman Building. Bryant Park is represented as a park feature rather than a building-footprint record.
 
 These checks establish geographic feature correspondence for the research dataset. Building footprint geometry, pedestrian approach points, and route geometry are distinct data concepts and are stored separately.
 
@@ -23,7 +23,7 @@ Route validation checks:
 - Pedestrian costing and Valhalla provenance.
 - Distinctness and detour limits for alternative routes.
 
-The nine-landmark research set supports 72 directed origin/destination journeys. The recorded route-coverage run generated or reused all 72 direct baselines with zero failed journeys. The stored snapshot contains 74 valid route records: 72 baselines and two Grand Central Terminal → Bryant Park alternatives.
+The task-facing application presents eight selectable landmarks, which define up to 56 directed origin/destination journeys (8 origins × 7 destinations). The recorded route-cache snapshot contains 74 valid route records from the earlier broader nine-location collection: 72 baselines and two Grand Central Terminal → Bryant Park alternatives. The API filters route candidates by the selected origin and destination.
 
 All route geometries shown by the prototype are provider-returned pedestrian-network geometries. Walking times are routing-engine estimates.
 
