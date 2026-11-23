@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: 1 Vanderbilt to Stephen A. Schwarzman Building",
+    "route_description": "Direct pedestrian route between 1 Vanderbilt and Stephen A. Schwarzman Building.",
+    "origin_landmark_id": "one_vanderbilt",
+    "origin_landmark_name": "1 Vanderbilt",
+    "origin_routing_coordinate": {
+      "lat": 40.752367,
+      "lon": -73.978524
+    },
+    "destination_landmark_id": "stephen_a_schwarzman_building",
+    "destination_landmark_name": "Stephen A. Schwarzman Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "via_waypoints": [],
+    "distance_m": 344.0,
+    "estimated_duration_s": 263.7,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:49Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.978524,
+            40.752367
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982104,
+            40.753879
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: 1 Vanderbilt to Stephen A. Schwarzman Building",
+        "route_description": "Direct pedestrian route between 1 Vanderbilt and Stephen A. Schwarzman Building.",
+        "origin_landmark_id": "one_vanderbilt",
+        "origin_landmark_name": "1 Vanderbilt",
+        "origin_routing_coordinate": {
+          "lat": 40.752367,
+          "lon": -73.978524
+        },
+        "destination_landmark_id": "stephen_a_schwarzman_building",
+        "destination_landmark_name": "Stephen A. Schwarzman Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "via_waypoints": [],
+        "distance_m": 344.0,
+        "estimated_duration_s": 263.7,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:49Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

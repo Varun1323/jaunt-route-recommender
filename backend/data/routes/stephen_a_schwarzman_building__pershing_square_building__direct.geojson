@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Stephen A. Schwarzman Building to Pershing Square Building",
+    "route_description": "Direct pedestrian route between Stephen A. Schwarzman Building and Pershing Square Building.",
+    "origin_landmark_id": "stephen_a_schwarzman_building",
+    "origin_landmark_name": "Stephen A. Schwarzman Building",
+    "origin_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "destination_landmark_id": "pershing_square_building",
+    "destination_landmark_name": "Pershing Square Building",
+    "destination_routing_coordinate": {
+      "lat": 40.751886,
+      "lon": -73.977397
+    },
+    "via_waypoints": [],
+    "distance_m": 453.0,
+    "estimated_duration_s": 313.6,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:48:17Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.982104,
+            40.753879
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977397,
+            40.751886
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Stephen A. Schwarzman Building to Pershing Square Building",
+        "route_description": "Direct pedestrian route between Stephen A. Schwarzman Building and Pershing Square Building.",
+        "origin_landmark_id": "stephen_a_schwarzman_building",
+        "origin_landmark_name": "Stephen A. Schwarzman Building",
+        "origin_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "destination_landmark_id": "pershing_square_building",
+        "destination_landmark_name": "Pershing Square Building",
+        "destination_routing_coordinate": {
+          "lat": 40.751886,
+          "lon": -73.977397
+        },
+        "via_waypoints": [],
+        "distance_m": 453.0,
+        "estimated_duration_s": 313.6,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:48:17Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T07:04:32Z",
+  "origin": "grand_central_terminal",
+  "destination": "bryant_park",
+  "route_id": "via_0243ed66efd868b0",
+  "reason": "duplicate_path",
+  "compared_to": "architecture",
+  "alternative_distance_m": 1013.0,
+  "reference_distance_m": 1102.0,
+  "distance_difference_m": -89.0,
+  "detour_ratio": 0.9192
+}

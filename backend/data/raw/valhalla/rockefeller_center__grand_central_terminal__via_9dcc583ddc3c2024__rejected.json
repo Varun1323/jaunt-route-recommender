@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T07:29:21Z",
+  "origin": "rockefeller_center",
+  "destination": "grand_central_terminal",
+  "route_id": "via_9dcc583ddc3c2024",
+  "reason": "excessive_detour",
+  "compared_to": "direct",
+  "alternative_distance_m": 2352.0,
+  "reference_distance_m": 1128.0,
+  "distance_difference_m": 1224.0,
+  "detour_ratio": 2.0851
+}

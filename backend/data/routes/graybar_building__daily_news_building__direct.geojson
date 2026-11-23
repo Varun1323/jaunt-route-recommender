@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Graybar Building to Daily News Building",
+    "route_description": "Direct pedestrian route between Graybar Building and Daily News Building.",
+    "origin_landmark_id": "graybar_building",
+    "origin_landmark_name": "Graybar Building",
+    "origin_routing_coordinate": {
+      "lat": 40.752168,
+      "lon": -73.975677
+    },
+    "destination_landmark_id": "daily_news_building",
+    "destination_landmark_name": "Daily News Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75018,
+      "lon": -73.973342
+    },
+    "via_waypoints": [],
+    "distance_m": 376.0,
+    "estimated_duration_s": 265.7,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:29Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.975677,
+            40.752168
+          ],
+          [
+            -73.975659,
+            40.75216
+          ],
+          [
+            -73.975695,
+            40.75211
+          ],
+          [
+            -73.975738,
+            40.752048
+          ],
+          [
+            -73.975953,
+            40.751763
+          ],
+          [
+            -73.975988,
+            40.751715
+          ],
+          [
+            -73.976086,
+            40.751582
+          ],
+          [
+            -73.976083,
+            40.751567
+          ],
+          [
+            -73.976154,
+            40.751481
+          ],
+          [
+            -73.976055,
+            40.751439
+          ],
+          [
+            -73.975948,
+            40.751394
+          ],
+          [
+            -73.975898,
+            40.751372
+          ],
+          [
+            -73.974647,
+            40.750845
+          ],
+          [
+            -73.974591,
+            40.750821
+          ],
+          [
+            -73.974474,
+            40.750773
+          ],
+          [
+            -73.974313,
+            40.750706
+          ],
+          [
+            -73.97436,
+            40.750642
+          ],
+          [
+            -73.974379,
+            40.750617
+          ],
+          [
+            -73.973867,
+            40.750399
+          ],
+          [
+            -73.973562,
+            40.750272
+          ],
+          [
+            -73.973342,
+            40.75018
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Graybar Building to Daily News Building",
+        "route_description": "Direct pedestrian route between Graybar Building and Daily News Building.",
+        "origin_landmark_id": "graybar_building",
+        "origin_landmark_name": "Graybar Building",
+        "origin_routing_coordinate": {
+          "lat": 40.752168,
+          "lon": -73.975677
+        },
+        "destination_landmark_id": "daily_news_building",
+        "destination_landmark_name": "Daily News Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75018,
+          "lon": -73.973342
+        },
+        "via_waypoints": [],
+        "distance_m": 376.0,
+        "estimated_duration_s": 265.7,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:29Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

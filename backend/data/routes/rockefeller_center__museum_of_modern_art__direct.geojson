@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Rockefeller Center to Museum of Modern Art",
+    "route_description": "Direct pedestrian route between Rockefeller Center and Museum of Modern Art.",
+    "origin_landmark_id": "rockefeller_center",
+    "origin_landmark_name": "Rockefeller Center",
+    "origin_routing_coordinate": {
+      "lat": 40.759258,
+      "lon": -73.979957
+    },
+    "destination_landmark_id": "museum_of_modern_art",
+    "destination_landmark_name": "Museum of Modern Art",
+    "destination_routing_coordinate": {
+      "lat": 40.761612,
+      "lon": -73.977499
+    },
+    "via_waypoints": [],
+    "distance_m": 551.0,
+    "estimated_duration_s": 394.9,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T18:43:07Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.980125,
+            40.759029
+          ],
+          [
+            -73.98071,
+            40.759274
+          ],
+          [
+            -73.98057,
+            40.759465
+          ],
+          [
+            -73.980335,
+            40.759788
+          ],
+          [
+            -73.980285,
+            40.759855
+          ],
+          [
+            -73.980243,
+            40.759911
+          ],
+          [
+            -73.980145,
+            40.760043
+          ],
+          [
+            -73.979875,
+            40.760407
+          ],
+          [
+            -73.979828,
+            40.760467
+          ],
+          [
+            -73.979781,
+            40.760526
+          ],
+          [
+            -73.979415,
+            40.761027
+          ],
+          [
+            -73.979366,
+            40.761095
+          ],
+          [
+            -73.979327,
+            40.761148
+          ],
+          [
+            -73.978964,
+            40.761665
+          ],
+          [
+            -73.978927,
+            40.761717
+          ],
+          [
+            -73.978894,
+            40.761761
+          ],
+          [
+            -73.978878,
+            40.761785
+          ],
+          [
+            -73.978526,
+            40.762289
+          ],
+          [
+            -73.97825,
+            40.762177
+          ],
+          [
+            -73.978241,
+            40.762173
+          ],
+          [
+            -73.977359,
+            40.761803
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Rockefeller Center to Museum of Modern Art",
+        "route_description": "Direct pedestrian route between Rockefeller Center and Museum of Modern Art.",
+        "origin_landmark_id": "rockefeller_center",
+        "origin_landmark_name": "Rockefeller Center",
+        "origin_routing_coordinate": {
+          "lat": 40.759258,
+          "lon": -73.979957
+        },
+        "destination_landmark_id": "museum_of_modern_art",
+        "destination_landmark_name": "Museum of Modern Art",
+        "destination_routing_coordinate": {
+          "lat": 40.761612,
+          "lon": -73.977499
+        },
+        "via_waypoints": [],
+        "distance_m": 551.0,
+        "estimated_duration_s": 394.9,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T18:43:07Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

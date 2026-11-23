@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "coordinate_reference_system": "WGS84",
+  "coordinate_order": "longitude,latitude",
+  "research_date": "2026-11-20",
+  "note": "Coordinates are deliberately null: live OSM/Overpass access failed due to DNS resolution errors. No coordinate is verified by this run.",
+  "landmarks": [
+    {
+      "id": "grand_central_terminal",
+      "prototype_selection": true,
+      "name": "Grand Central Terminal",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "71-105 East 42nd Street; visitor site also publishes 89 E 42nd Street, New York, NY 10017",
+      "description": "Historic rail terminal completed in 1913, combining monumental Beaux-Arts design and a major transportation function.",
+      "categories": [
+        "transportation",
+        "architecture",
+        "historic_landmark",
+        "public_attraction"
+      ],
+      "architectural_relevance": "The NYC Landmarks Preservation Commission describes it as a magnificent example of French Beaux-Arts architecture and an artistic solution to a difficult engineering problem.",
+      "historical_relevance": "The present terminal was completed in 1913 after the earlier Grand Central Depot; the development helped shape Midtown and Terminal City.",
+      "access_type": "public_attraction",
+      "source_urls": [
+        "https://s-media.nyc.gov/agencies/lpc/lp/0266.pdf",
+        "https://grandcentralterminal.com/visit/"
+      ],
+      "source_type": [
+        "NYC Landmarks Preservation Commission designation report",
+        "official venue visitor information"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "pershing_square_building",
+      "prototype_selection": false,
+      "name": "Pershing Square Building",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "125 Park Avenue (also 101-105 East 41st Street, 100-108 East 42nd Street, 117-123 and 127-131 Park Avenue)",
+      "description": "A 1921-23 office building at Park Avenue and East 42nd Street, opposite Grand Central Terminal.",
+      "categories": [
+        "architecture",
+        "historic_landmark",
+        "office_building",
+        "exterior_viewpoint"
+      ],
+      "architectural_relevance": "LPC describes its Lombard Revival design, colorful brick and terra-cotta facades, and distinctive tower form without the later setback profile.",
+      "historical_relevance": "Its site and foundations were linked to subway construction; the building became part of Terminal City's redevelopment around Grand Central.",
+      "access_type": "exterior_viewpoint",
+      "source_urls": [
+        "https://s-media.nyc.gov/agencies/lpc/lp/2556.pdf",
+        "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=F9AA880C-F833-4E2B-95C2-95ED212E6C7B&ID=2948850&Options=&Search="
+      ],
+      "source_type": [
+        "NYC Landmarks Preservation Commission designation report",
+        "NYC City Council designation record"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "chrysler_building",
+      "prototype_selection": true,
+      "name": "Chrysler Building",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "405 Lexington Avenue, New York, NY 10174",
+      "description": "A landmark Midtown skyscraper known for its Art Deco design and distinctive crown.",
+      "categories": [
+        "architecture",
+        "art_deco",
+        "historic_landmark",
+        "exterior_viewpoint"
+      ],
+      "architectural_relevance": "The NYC Landmarks Preservation Commission designated the Chrysler Building as an individual landmark; its designation report documents its design and fabric.",
+      "historical_relevance": "Constructed during the late-1920s Manhattan skyscraper boom and associated with automobile executive Walter P. Chrysler.",
+      "access_type": "exterior_viewpoint",
+      "source_urls": [
+        "https://s-media.nyc.gov/agencies/lpc/lp/0992.pdf"
+      ],
+      "source_type": [
+        "NYC Landmarks Preservation Commission designation report"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "graybar_building",
+      "prototype_selection": false,
+      "name": "Graybar Building",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "420 Lexington Avenue (aka 420-430 Lexington Avenue), New York, NY 10170",
+      "description": "A 1925-27 office building associated with Grand Central's Terminal City development.",
+      "categories": [
+        "architecture",
+        "art_deco",
+        "historic_landmark",
+        "office_building",
+        "exterior_viewpoint"
+      ],
+      "architectural_relevance": "LPC identifies its Art Deco and Byzantine decorative program, stepped form, monumental reliefs, and sculpted rat details at the portals.",
+      "historical_relevance": "One of the final Terminal City structures; it housed Graybar Electric's headquarters from 1927 to 1982 and was designated a city landmark in 2016.",
+      "access_type": "exterior_viewpoint",
+      "source_urls": [
+        "https://s-media.nyc.gov/agencies/lpc/lp/2554.pdf",
+        "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=DF925EC8-DBBE-468F-992D-B7F8E709C3F3&ID=2948848&Options=&Search="
+      ],
+      "source_type": [
+        "NYC Landmarks Preservation Commission designation report",
+        "NYC City Council designation record"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "chanin_building",
+      "prototype_selection": false,
+      "name": "Chanin Building",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "122 East 42nd Street (aka 374 Lexington Avenue), New York, NY",
+      "description": "A 1927-29 Art Deco office skyscraper at Lexington Avenue and East 42nd Street.",
+      "categories": [
+        "architecture",
+        "art_deco",
+        "office_building",
+        "exterior_viewpoint"
+      ],
+      "architectural_relevance": "An Art Deco tower designed by Sloan & Robertson with sculptural decoration by Rene Chambellan.",
+      "historical_relevance": "Part of the 1920s Midtown high-rise development around Grand Central Terminal.",
+      "access_type": "exterior_viewpoint",
+      "source_urls": [
+        "https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20240625/374-Lexington-Avenue.pdf"
+      ],
+      "source_type": [
+        "NYC Landmarks Preservation Commission project presentation"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "daily_news_building",
+      "prototype_selection": false,
+      "name": "Daily News Building",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "220-226 East 42nd Street, New York, NY 10017",
+      "description": "A Raymond Hood-designed Art Deco skyscraper originally built as the headquarters of the Daily News.",
+      "categories": [
+        "architecture",
+        "art_deco",
+        "historic_landmark",
+        "office_building",
+        "exterior_viewpoint"
+      ],
+      "architectural_relevance": "A major Art Deco presence with a notable lobby and globe; the exterior and first-floor interior have landmark status.",
+      "historical_relevance": "Built in 1929-30 as home and symbol of the Daily News; it is also a National Historic Landmark.",
+      "access_type": "exterior_viewpoint",
+      "source_urls": [
+        "https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20181120/220-East-42nd-Street-final.pdf",
+        "https://docomomo-us.org/register/daily-news-building"
+      ],
+      "source_type": [
+        "NYC Landmarks Preservation Commission presentation",
+        "DOCOMOMO US register"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "one_vanderbilt",
+      "name": "1 Vanderbilt",
+      "prototype_selection": false,
+      "alternate_names": [
+        "One Vanderbilt",
+        "One Vanderbilt Avenue",
+        "1 Vanderbilt Avenue"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "street_address": "1 Vanderbilt Avenue, Manhattan, New York City",
+      "description": "A Midtown Manhattan office and observation tower at 1 Vanderbilt Avenue.",
+      "categories": ["architecture", "office_building", "exterior_viewpoint"],
+      "architectural_relevance": "Contemporary supertall office tower with a tapered profile and articulated crown.",
+      "historical_relevance": "Developed as part of the East Midtown commercial district adjacent to Grand Central Terminal.",
+      "access_type": "exterior_viewpoint",
+      "source_urls": ["https://www.onevanderbilt.com/"],
+      "source_type": ["official building website; descriptive details require further source review"],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "stephen_a_schwarzman_building",
+      "name": "Stephen A. Schwarzman Building",
+      "prototype_selection": true,
+      "prototype_display_name": "New York Public Library",
+      "alternate_names": ["New York Public Library", "Schwarzman Building", "NYPL Main Branch"],
+      "latitude": null,
+      "longitude": null,
+      "street_address": "476 Fifth Avenue, Manhattan, New York City",
+      "description": "The New York Public Library's landmark main research library on Fifth Avenue at Bryant Park.",
+      "categories": ["architecture", "historic_landmark", "public_attraction", "library"],
+      "architectural_relevance": "A major Beaux-Arts civic building designed by Carrere and Hastings.",
+      "historical_relevance": "Opened in 1911 as the New York Public Library's central research library.",
+      "access_type": "public_attraction",
+      "source_urls": ["https://www.nypl.org/locations/schwarzman", "https://s-media.nyc.gov/agencies/lpc/lp/2592.pdf"],
+      "source_type": ["official NYPL visitor information", "NYC Landmarks Preservation Commission designation report"],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "bryant_park",
+      "prototype_selection": true,
+      "name": "Bryant Park",
+      "latitude": null,
+      "longitude": null,
+      "street_address": "Between West 40th and West 42nd Streets and Fifth and Sixth Avenues, New York, NY",
+      "description": "A major public park in Midtown Manhattan behind the NYPL Stephen A. Schwarzman Building.",
+      "categories": [
+        "nature",
+        "recreation",
+        "public_space",
+        "park",
+        "historic_site",
+        "public_attraction"
+      ],
+      "architectural_relevance": "A large urban public space with recurring programming and amenities; it occupies the public-landscape side of this route's destination area.",
+      "historical_relevance": "The site has served as a potter's field, was associated with the Croton Reservoir era, and underwent restoration efforts led by Bryant Park Corporation, founded in 1980.",
+      "access_type": "public_attraction",
+      "source_urls": [
+        "https://bryantpark.org/the-park/hours-and-directions",
+        "https://bryantpark.org/the-park/history",
+        "https://bryantpark.org/about-us"
+      ],
+      "source_type": [
+        "official park location and hours",
+        "official park history",
+        "official park operator information"
+      ],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "times_square",
+      "prototype_selection": true,
+      "name": "Times Square",
+      "alternate_names": ["Times Square"],
+      "latitude": null,
+      "longitude": null,
+      "street_address": null,
+      "description": "",
+      "categories": ["entertainment"],
+      "access_type": "unresolved",
+      "source_urls": [],
+      "source_type": [],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "rockefeller_center",
+      "prototype_selection": true,
+      "name": "Rockefeller Center",
+      "alternate_names": ["Rockefeller Center", "Rockefeller Centre"],
+      "latitude": null,
+      "longitude": null,
+      "street_address": null,
+      "description": "",
+      "categories": ["architecture", "urban_design"],
+      "access_type": "unresolved",
+      "source_urls": [],
+      "source_type": [],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "st_patricks_cathedral",
+      "prototype_selection": true,
+      "name": "St. Patrick's Cathedral",
+      "alternate_names": ["St. Patrick's Cathedral", "Saint Patrick's Cathedral", "St Patrick's Cathedral"],
+      "latitude": null,
+      "longitude": null,
+      "street_address": null,
+      "description": "",
+      "categories": ["religion", "heritage"],
+      "access_type": "unresolved",
+      "source_urls": [],
+      "source_type": [],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    },
+    {
+      "id": "museum_of_modern_art",
+      "prototype_selection": true,
+      "name": "Museum of Modern Art",
+      "alternate_names": ["Museum of Modern Art", "The Museum of Modern Art", "MoMA"],
+      "latitude": null,
+      "longitude": null,
+      "street_address": null,
+      "description": "",
+      "categories": ["art", "culture"],
+      "access_type": "unresolved",
+      "source_urls": [],
+      "source_type": [],
+      "coordinate_verification_status": "unverified_not_retrieved",
+      "coordinate_basis": null,
+      "osm_feature": null,
+      "entrance_coordinates": null
+    }
+  ]
+}

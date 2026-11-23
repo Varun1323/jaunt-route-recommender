@@ -1,0 +1,1389 @@
+{
+  "schema_version": 1,
+  "endpoint": "https://valhalla1.openstreetmap.de",
+  "costing": "pedestrian",
+  "updated_at": "2026-11-21T08:54:42Z",
+  "expected_journey_count": 72,
+  "successful_journey_count": 72,
+  "validated_route_journey_count": 72,
+  "failed_journey_count": 0,
+  "valid_route_count": 74,
+  "journeys_with_meaningful_alternatives": [
+    "grand_central_terminal__bryant_park"
+  ],
+  "journeys": {
+    "bryant_park__chanin_building": {
+      "origin_id": "bryant_park",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 733.0,
+      "duration_s": 516.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__chrysler_building": {
+      "origin_id": "bryant_park",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 852.0,
+      "duration_s": 602.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__daily_news_building": {
+      "origin_id": "bryant_park",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 1066.0,
+      "duration_s": 756.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__grand_central_terminal": {
+      "origin_id": "bryant_park",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 687.0,
+      "duration_s": 490.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__graybar_building": {
+      "origin_id": "bryant_park",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 877.0,
+      "duration_s": 620.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__one_vanderbilt": {
+      "origin_id": "bryant_park",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 566.0,
+      "duration_s": 402.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__pershing_square_building": {
+      "origin_id": "bryant_park",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 675.0,
+      "duration_s": 478.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "bryant_park__stephen_a_schwarzman_building": {
+      "origin_id": "bryant_park",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 221.0,
+      "duration_s": 164.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\bryant_park__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__bryant_park": {
+      "origin_id": "chanin_building",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 733.0,
+      "duration_s": 537.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__chrysler_building": {
+      "origin_id": "chanin_building",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 115.0,
+      "duration_s": 86.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__daily_news_building": {
+      "origin_id": "chanin_building",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 332.0,
+      "duration_s": 240.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__grand_central_terminal": {
+      "origin_id": "chanin_building",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 138.0,
+      "duration_s": 106.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__graybar_building": {
+      "origin_id": "chanin_building",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 154.0,
+      "duration_s": 110.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__one_vanderbilt": {
+      "origin_id": "chanin_building",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 167.0,
+      "duration_s": 123.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__pershing_square_building": {
+      "origin_id": "chanin_building",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 58.0,
+      "duration_s": 45.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chanin_building__stephen_a_schwarzman_building": {
+      "origin_id": "chanin_building",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 512.0,
+      "duration_s": 387.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chanin_building__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__bryant_park": {
+      "origin_id": "chrysler_building",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 849.0,
+      "duration_s": 630.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__chanin_building": {
+      "origin_id": "chrysler_building",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 115.0,
+      "duration_s": 93.1,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__daily_news_building": {
+      "origin_id": "chrysler_building",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 300.0,
+      "duration_s": 219.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__grand_central_terminal": {
+      "origin_id": "chrysler_building",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 164.0,
+      "duration_s": 127.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__graybar_building": {
+      "origin_id": "chrysler_building",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 77.0,
+      "duration_s": 57.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__one_vanderbilt": {
+      "origin_id": "chrysler_building",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 282.0,
+      "duration_s": 216.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__pershing_square_building": {
+      "origin_id": "chrysler_building",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 173.0,
+      "duration_s": 138.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "chrysler_building__stephen_a_schwarzman_building": {
+      "origin_id": "chrysler_building",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 627.0,
+      "duration_s": 480.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\chrysler_building__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__bryant_park": {
+      "origin_id": "daily_news_building",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 1066.0,
+      "duration_s": 789.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__chanin_building": {
+      "origin_id": "daily_news_building",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 332.0,
+      "duration_s": 251.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__chrysler_building": {
+      "origin_id": "daily_news_building",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 300.0,
+      "duration_s": 227.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__grand_central_terminal": {
+      "origin_id": "daily_news_building",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 424.0,
+      "duration_s": 326.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__graybar_building": {
+      "origin_id": "daily_news_building",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 377.0,
+      "duration_s": 284.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__one_vanderbilt": {
+      "origin_id": "daily_news_building",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 500.0,
+      "duration_s": 375.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__pershing_square_building": {
+      "origin_id": "daily_news_building",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 391.0,
+      "duration_s": 297.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "daily_news_building__stephen_a_schwarzman_building": {
+      "origin_id": "daily_news_building",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 844.0,
+      "duration_s": 639.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\daily_news_building__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__bryant_park": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 3,
+      "route_ids": [
+        "architecture",
+        "direct",
+        "via_vanderbilt"
+      ],
+      "cached": true,
+      "distance_m": 686.0,
+      "duration_s": 494.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": [
+        "architecture"
+      ]
+    },
+    "grand_central_terminal__chanin_building": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 138.0,
+      "duration_s": 100.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__chrysler_building": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 164.0,
+      "duration_s": 112.1,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__daily_news_building": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 424.0,
+      "duration_s": 304.0,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__graybar_building": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 196.0,
+      "duration_s": 131.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__one_vanderbilt": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 122.0,
+      "duration_s": 93.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__pershing_square_building": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 79.0,
+      "duration_s": 62.0,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "grand_central_terminal__stephen_a_schwarzman_building": {
+      "origin_id": "grand_central_terminal",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 465.0,
+      "duration_s": 345.1,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\grand_central_terminal__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__bryant_park": {
+      "origin_id": "graybar_building",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 876.0,
+      "duration_s": 630.3,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__chanin_building": {
+      "origin_id": "graybar_building",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 154.0,
+      "duration_s": 117.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__chrysler_building": {
+      "origin_id": "graybar_building",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 77.0,
+      "duration_s": 57.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__daily_news_building": {
+      "origin_id": "graybar_building",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 376.0,
+      "duration_s": 265.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__grand_central_terminal": {
+      "origin_id": "graybar_building",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 196.0,
+      "duration_s": 147.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__one_vanderbilt": {
+      "origin_id": "graybar_building",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 311.0,
+      "duration_s": 232.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__pershing_square_building": {
+      "origin_id": "graybar_building",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 213.0,
+      "duration_s": 163.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "graybar_building__stephen_a_schwarzman_building": {
+      "origin_id": "graybar_building",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 654.0,
+      "duration_s": 480.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\graybar_building__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__bryant_park": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 566.0,
+      "duration_s": 413.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__chanin_building": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 167.0,
+      "duration_s": 113.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__chrysler_building": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 286.0,
+      "duration_s": 198.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__daily_news_building": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 500.0,
+      "duration_s": 354.1,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__grand_central_terminal": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 122.0,
+      "duration_s": 86.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__graybar_building": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 311.0,
+      "duration_s": 216.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__pershing_square_building": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 108.0,
+      "duration_s": 75.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "one_vanderbilt__stephen_a_schwarzman_building": {
+      "origin_id": "one_vanderbilt",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 344.0,
+      "duration_s": 263.7,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\one_vanderbilt__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__bryant_park": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 675.0,
+      "duration_s": 491.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__chanin_building": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 58.0,
+      "duration_s": 38.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__chrysler_building": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 173.0,
+      "duration_s": 124.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__daily_news_building": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 391.0,
+      "duration_s": 278.4,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__grand_central_terminal": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 79.0,
+      "duration_s": 60.5,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__graybar_building": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 213.0,
+      "duration_s": 149.0,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__one_vanderbilt": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 108.0,
+      "duration_s": 78.1,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "pershing_square_building__stephen_a_schwarzman_building": {
+      "origin_id": "pershing_square_building",
+      "destination_id": "stephen_a_schwarzman_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 453.0,
+      "duration_s": 341.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\pershing_square_building__stephen_a_schwarzman_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__bryant_park": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "bryant_park",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 221.0,
+      "duration_s": 149.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__bryant_park__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__chanin_building": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "chanin_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 512.0,
+      "duration_s": 351.8,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__chanin_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__chrysler_building": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "chrysler_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 631.0,
+      "duration_s": 436.3,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__chrysler_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__daily_news_building": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "daily_news_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 844.0,
+      "duration_s": 592.0,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__daily_news_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__grand_central_terminal": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "grand_central_terminal",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 467.0,
+      "duration_s": 324.2,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__grand_central_terminal__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__graybar_building": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "graybar_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 656.0,
+      "duration_s": 454.1,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__graybar_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__one_vanderbilt": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "one_vanderbilt",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 344.0,
+      "duration_s": 237.9,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__one_vanderbilt__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    },
+    "stephen_a_schwarzman_building__pershing_square_building": {
+      "origin_id": "stephen_a_schwarzman_building",
+      "destination_id": "pershing_square_building",
+      "status": "route_generated_candidate_unverified",
+      "route_validation_status": "validated",
+      "endpoint_access_verification_status": "candidate_unverified",
+      "route_count_generated": 0,
+      "valid_route_count": 1,
+      "route_ids": [
+        "direct"
+      ],
+      "cached": true,
+      "distance_m": 453.0,
+      "duration_s": 313.6,
+      "route_path": "C:\\Users\\shriv\\OneDrive\\Desktop\\Jaunt-route-recommender\\backend\\data\\routes\\stephen_a_schwarzman_building__pershing_square_building__direct.geojson",
+      "failure_reason": null,
+      "updated_at": "2026-11-21T08:54:42Z",
+      "distinct_alternative_ids": []
+    }
+  },
+  "coordinate_verification_note": "Routes use candidate access coordinates; public access points remain unverified."
+}

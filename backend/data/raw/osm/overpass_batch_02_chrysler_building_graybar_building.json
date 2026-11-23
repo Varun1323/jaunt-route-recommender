@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-20T12:10:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 42500770,
+  "center": {
+    "lat": 40.7516216,
+    "lon": -73.9753388
+  },
+  "tags": {
+    "architect": "William Van Alen",
+    "architect:wikidata": "Q706549",
+    "building": "tower",
+    "building:architecture": "art_deco",
+    "building:part": "no",
+    "building:use": "office",
+    "heritage": "2",
+    "heritage:operator": "nrhp",
+    "name": "Chrysler Building",
+    "name:el": "Κτίριο Κράισλερ",
+    "name:es": "Edificio Chrysler",
+    "name:he": "בניין קרייזלר",
+    "name:ko": "크라이슬러 빌딩",
+    "name:ru": "Крайслер-билдинг",
+    "nycdoitt:bin": "1036156",
+    "start_date": "1930",
+    "tourism": "yes",
+    "wikidata": "Q11274",
+    "wikipedia": "en:Chrysler Building"
+  }
+},
+{
+  "type": "way",
+  "id": 265947361,
+  "center": {
+    "lat": 40.7526977,
+    "lon": -73.9758525
+  },
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "420",
+    "addr:postcode": "10017",
+    "addr:street": "Lexington Avenue",
+    "building": "commercial",
+    "height": "118.6",
+    "name": "Graybar Building",
+    "nycdoitt:bin": "1035385",
+    "start_date": "1927",
+    "wikidata": "Q71429431",
+    "wikipedia": "en:Graybar Building"
+  }
+}
+
+  ]
+}

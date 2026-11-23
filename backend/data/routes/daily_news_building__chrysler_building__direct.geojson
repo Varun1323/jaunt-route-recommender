@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Daily News Building to Chrysler Building",
+    "route_description": "Direct pedestrian route between Daily News Building and Chrysler Building.",
+    "origin_landmark_id": "daily_news_building",
+    "origin_landmark_name": "Daily News Building",
+    "origin_routing_coordinate": {
+      "lat": 40.75018,
+      "lon": -73.973342
+    },
+    "destination_landmark_id": "chrysler_building",
+    "destination_landmark_name": "Chrysler Building",
+    "destination_routing_coordinate": {
+      "lat": 40.751644,
+      "lon": -73.975765
+    },
+    "via_waypoints": [],
+    "distance_m": 300.0,
+    "estimated_duration_s": 227.2,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:01Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.973342,
+            40.75018
+          ],
+          [
+            -73.973562,
+            40.750272
+          ],
+          [
+            -73.973867,
+            40.750399
+          ],
+          [
+            -73.974379,
+            40.750617
+          ],
+          [
+            -73.974417,
+            40.750633
+          ],
+          [
+            -73.974541,
+            40.75068
+          ],
+          [
+            -73.974638,
+            40.750718
+          ],
+          [
+            -73.97466,
+            40.750727
+          ],
+          [
+            -73.975105,
+            40.750919
+          ],
+          [
+            -73.975758,
+            40.751194
+          ],
+          [
+            -73.975975,
+            40.751285
+          ],
+          [
+            -73.97601,
+            40.751309
+          ],
+          [
+            -73.975995,
+            40.75133
+          ],
+          [
+            -73.975948,
+            40.751394
+          ],
+          [
+            -73.975887,
+            40.751477
+          ],
+          [
+            -73.975879,
+            40.751488
+          ],
+          [
+            -73.975765,
+            40.751644
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Daily News Building to Chrysler Building",
+        "route_description": "Direct pedestrian route between Daily News Building and Chrysler Building.",
+        "origin_landmark_id": "daily_news_building",
+        "origin_landmark_name": "Daily News Building",
+        "origin_routing_coordinate": {
+          "lat": 40.75018,
+          "lon": -73.973342
+        },
+        "destination_landmark_id": "chrysler_building",
+        "destination_landmark_name": "Chrysler Building",
+        "destination_routing_coordinate": {
+          "lat": 40.751644,
+          "lon": -73.975765
+        },
+        "via_waypoints": [],
+        "distance_m": 300.0,
+        "estimated_duration_s": 227.2,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:01Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

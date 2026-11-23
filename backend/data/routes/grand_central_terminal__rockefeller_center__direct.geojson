@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Grand Central Terminal to Rockefeller Center",
+    "route_description": "Direct pedestrian route between Grand Central Terminal and Rockefeller Center.",
+    "origin_landmark_id": "grand_central_terminal",
+    "origin_landmark_name": "Grand Central Terminal",
+    "origin_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "destination_landmark_id": "rockefeller_center",
+    "destination_landmark_name": "Rockefeller Center",
+    "destination_routing_coordinate": {
+      "lat": 40.759258,
+      "lon": -73.979957
+    },
+    "via_waypoints": [],
+    "distance_m": 1132.0,
+    "estimated_duration_s": 814.5,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T07:28:14Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977366,
+            40.752125
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977662,
+            40.75225
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978356,
+            40.752544
+          ],
+          [
+            -73.97871,
+            40.75269
+          ],
+          [
+            -73.979111,
+            40.752856
+          ],
+          [
+            -73.978725,
+            40.753381
+          ],
+          [
+            -73.978712,
+            40.753399
+          ],
+          [
+            -73.978677,
+            40.753446
+          ],
+          [
+            -73.978645,
+            40.753488
+          ],
+          [
+            -73.978631,
+            40.753501
+          ],
+          [
+            -73.978276,
+            40.754002
+          ],
+          [
+            -73.978296,
+            40.754009
+          ],
+          [
+            -73.978371,
+            40.754044
+          ],
+          [
+            -73.978466,
+            40.754088
+          ],
+          [
+            -73.978487,
+            40.754097
+          ],
+          [
+            -73.978475,
+            40.754113
+          ],
+          [
+            -73.97845,
+            40.75415
+          ],
+          [
+            -73.978413,
+            40.754201
+          ],
+          [
+            -73.978401,
+            40.754218
+          ],
+          [
+            -73.978031,
+            40.754722
+          ],
+          [
+            -73.979411,
+            40.7553
+          ],
+          [
+            -73.979366,
+            40.75536
+          ],
+          [
+            -73.979326,
+            40.755413
+          ],
+          [
+            -73.978952,
+            40.755923
+          ],
+          [
+            -73.978904,
+            40.755988
+          ],
+          [
+            -73.978863,
+            40.756042
+          ],
+          [
+            -73.978493,
+            40.756556
+          ],
+          [
+            -73.978452,
+            40.756614
+          ],
+          [
+            -73.978411,
+            40.75667
+          ],
+          [
+            -73.978041,
+            40.757181
+          ],
+          [
+            -73.978152,
+            40.757226
+          ],
+          [
+            -73.978256,
+            40.757268
+          ],
+          [
+            -73.97828,
+            40.757278
+          ],
+          [
+            -73.978265,
+            40.757299
+          ],
+          [
+            -73.978238,
+            40.757337
+          ],
+          [
+            -73.978197,
+            40.757395
+          ],
+          [
+            -73.979218,
+            40.757827
+          ],
+          [
+            -73.979249,
+            40.75784
+          ],
+          [
+            -73.978876,
+            40.758348
+          ],
+          [
+            -73.978856,
+            40.758375
+          ],
+          [
+            -73.978838,
+            40.758408
+          ],
+          [
+            -73.97881,
+            40.758459
+          ],
+          [
+            -73.9788,
+            40.758474
+          ],
+          [
+            -73.978898,
+            40.758514
+          ],
+          [
+            -73.978954,
+            40.758538
+          ],
+          [
+            -73.979009,
+            40.758561
+          ],
+          [
+            -73.980125,
+            40.759029
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Grand Central Terminal to Rockefeller Center",
+        "route_description": "Direct pedestrian route between Grand Central Terminal and Rockefeller Center.",
+        "origin_landmark_id": "grand_central_terminal",
+        "origin_landmark_name": "Grand Central Terminal",
+        "origin_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "destination_landmark_id": "rockefeller_center",
+        "destination_landmark_name": "Rockefeller Center",
+        "destination_routing_coordinate": {
+          "lat": 40.759258,
+          "lon": -73.979957
+        },
+        "via_waypoints": [],
+        "distance_m": 1132.0,
+        "estimated_duration_s": 814.5,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T07:28:14Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

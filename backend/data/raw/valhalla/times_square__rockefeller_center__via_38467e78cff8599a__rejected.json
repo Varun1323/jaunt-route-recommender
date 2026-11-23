@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T16:48:37Z",
+  "origin": "times_square",
+  "destination": "rockefeller_center",
+  "route_id": "via_38467e78cff8599a",
+  "reason": "excessive_detour",
+  "compared_to": "direct",
+  "alternative_distance_m": 1424.0,
+  "reference_distance_m": 711.0,
+  "distance_difference_m": 713.0,
+  "detour_ratio": 2.0028
+}

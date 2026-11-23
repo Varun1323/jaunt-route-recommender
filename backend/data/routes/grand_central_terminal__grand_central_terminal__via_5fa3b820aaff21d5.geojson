@@ -1,0 +1,552 @@
+{
+  "type": "FeatureCollection",
+  "name": "via_5fa3b820aaff21d5",
+  "metadata": {
+    "route_id": "via_5fa3b820aaff21d5",
+    "route_name": "Via Museum of Modern Art",
+    "route_description": "Circular route from Grand Central Terminal to Grand Central Terminal via the requested intermediate landmarks in order.",
+    "origin_landmark_id": "grand_central_terminal",
+    "origin_landmark_name": "Grand Central Terminal",
+    "origin_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "destination_landmark_id": "grand_central_terminal",
+    "destination_landmark_name": "Grand Central Terminal",
+    "destination_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "via_waypoints": [
+      {
+        "landmark_id": "museum_of_modern_art",
+        "landmark_name": "Museum of Modern Art",
+        "lat": 40.761612,
+        "lon": -73.977499
+      }
+    ],
+    "distance_m": 2922.0,
+    "estimated_duration_s": 2087.0,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T18:27:31Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977366,
+            40.752125
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977662,
+            40.75225
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978356,
+            40.752544
+          ],
+          [
+            -73.97871,
+            40.75269
+          ],
+          [
+            -73.979111,
+            40.752856
+          ],
+          [
+            -73.979129,
+            40.752863
+          ],
+          [
+            -73.979214,
+            40.752909
+          ],
+          [
+            -73.978939,
+            40.75327
+          ],
+          [
+            -73.978842,
+            40.753397
+          ],
+          [
+            -73.978823,
+            40.753422
+          ],
+          [
+            -73.978776,
+            40.753486
+          ],
+          [
+            -73.978732,
+            40.753545
+          ],
+          [
+            -73.978371,
+            40.754044
+          ],
+          [
+            -73.97833,
+            40.754099
+          ],
+          [
+            -73.97828,
+            40.754166
+          ],
+          [
+            -73.978056,
+            40.754472
+          ],
+          [
+            -73.977912,
+            40.754673
+          ],
+          [
+            -73.977867,
+            40.754735
+          ],
+          [
+            -73.977824,
+            40.754795
+          ],
+          [
+            -73.977489,
+            40.755251
+          ],
+          [
+            -73.977452,
+            40.755304
+          ],
+          [
+            -73.977408,
+            40.755362
+          ],
+          [
+            -73.977376,
+            40.755407
+          ],
+          [
+            -73.977157,
+            40.755719
+          ],
+          [
+            -73.977005,
+            40.755931
+          ],
+          [
+            -73.976964,
+            40.755987
+          ],
+          [
+            -73.97693,
+            40.756034
+          ],
+          [
+            -73.976559,
+            40.756539
+          ],
+          [
+            -73.976512,
+            40.756604
+          ],
+          [
+            -73.976469,
+            40.756662
+          ],
+          [
+            -73.976298,
+            40.756895
+          ],
+          [
+            -73.976131,
+            40.757123
+          ],
+          [
+            -73.976092,
+            40.757177
+          ],
+          [
+            -73.976048,
+            40.757236
+          ],
+          [
+            -73.976005,
+            40.757295
+          ],
+          [
+            -73.976081,
+            40.757326
+          ],
+          [
+            -73.97611,
+            40.757343
+          ],
+          [
+            -73.977496,
+            40.757927
+          ],
+          [
+            -73.977122,
+            40.758438
+          ],
+          [
+            -73.977106,
+            40.758461
+          ],
+          [
+            -73.97708,
+            40.758491
+          ],
+          [
+            -73.977049,
+            40.758526
+          ],
+          [
+            -73.97703,
+            40.758553
+          ],
+          [
+            -73.976664,
+            40.759058
+          ],
+          [
+            -73.976649,
+            40.75908
+          ],
+          [
+            -73.976623,
+            40.75912
+          ],
+          [
+            -73.976589,
+            40.759177
+          ],
+          [
+            -73.976209,
+            40.759688
+          ],
+          [
+            -73.976165,
+            40.759751
+          ],
+          [
+            -73.976127,
+            40.759806
+          ],
+          [
+            -73.975758,
+            40.76032
+          ],
+          [
+            -73.975866,
+            40.760371
+          ],
+          [
+            -73.975969,
+            40.760419
+          ],
+          [
+            -73.975948,
+            40.760449
+          ],
+          [
+            -73.975908,
+            40.760506
+          ],
+          [
+            -73.975896,
+            40.760523
+          ],
+          [
+            -73.975543,
+            40.761041
+          ],
+          [
+            -73.977359,
+            40.761803
+          ],
+          [
+            -73.975543,
+            40.761041
+          ],
+          [
+            -73.975896,
+            40.760523
+          ],
+          [
+            -73.975908,
+            40.760506
+          ],
+          [
+            -73.975948,
+            40.760449
+          ],
+          [
+            -73.975969,
+            40.760419
+          ],
+          [
+            -73.976364,
+            40.759901
+          ],
+          [
+            -73.9764,
+            40.759849
+          ],
+          [
+            -73.976446,
+            40.759783
+          ],
+          [
+            -73.976822,
+            40.759279
+          ],
+          [
+            -73.976705,
+            40.759227
+          ],
+          [
+            -73.976741,
+            40.759176
+          ],
+          [
+            -73.97679,
+            40.759107
+          ],
+          [
+            -73.977162,
+            40.758606
+          ],
+          [
+            -73.977206,
+            40.758544
+          ],
+          [
+            -73.977248,
+            40.758489
+          ],
+          [
+            -73.977613,
+            40.757978
+          ],
+          [
+            -73.977662,
+            40.75791
+          ],
+          [
+            -73.977705,
+            40.75785
+          ],
+          [
+            -73.978026,
+            40.757401
+          ],
+          [
+            -73.978069,
+            40.757342
+          ],
+          [
+            -73.978111,
+            40.757283
+          ],
+          [
+            -73.978152,
+            40.757226
+          ],
+          [
+            -73.978518,
+            40.756714
+          ],
+          [
+            -73.978557,
+            40.756659
+          ],
+          [
+            -73.978601,
+            40.756601
+          ],
+          [
+            -73.978982,
+            40.756093
+          ],
+          [
+            -73.979023,
+            40.756037
+          ],
+          [
+            -73.979071,
+            40.755973
+          ],
+          [
+            -73.979451,
+            40.755467
+          ],
+          [
+            -73.97949,
+            40.755413
+          ],
+          [
+            -73.979533,
+            40.755353
+          ],
+          [
+            -73.979895,
+            40.75485
+          ],
+          [
+            -73.979943,
+            40.754783
+          ],
+          [
+            -73.979983,
+            40.754727
+          ],
+          [
+            -73.980127,
+            40.754529
+          ],
+          [
+            -73.980352,
+            40.754221
+          ],
+          [
+            -73.980392,
+            40.754166
+          ],
+          [
+            -73.980436,
+            40.754102
+          ],
+          [
+            -73.980809,
+            40.753576
+          ],
+          [
+            -73.980737,
+            40.753548
+          ],
+          [
+            -73.980691,
+            40.753529
+          ],
+          [
+            -73.979315,
+            40.752962
+          ],
+          [
+            -73.979293,
+            40.752953
+          ],
+          [
+            -73.979214,
+            40.752909
+          ],
+          [
+            -73.979129,
+            40.752863
+          ],
+          [
+            -73.979111,
+            40.752856
+          ],
+          [
+            -73.97871,
+            40.75269
+          ],
+          [
+            -73.978356,
+            40.752544
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.977662,
+            40.75225
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977366,
+            40.752125
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "via_5fa3b820aaff21d5",
+        "route_name": "Via Museum of Modern Art",
+        "route_description": "Circular route from Grand Central Terminal to Grand Central Terminal via the requested intermediate landmarks in order.",
+        "origin_landmark_id": "grand_central_terminal",
+        "origin_landmark_name": "Grand Central Terminal",
+        "origin_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "destination_landmark_id": "grand_central_terminal",
+        "destination_landmark_name": "Grand Central Terminal",
+        "destination_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "via_waypoints": [
+          {
+            "landmark_id": "museum_of_modern_art",
+            "landmark_name": "Museum of Modern Art",
+            "lat": 40.761612,
+            "lon": -73.977499
+          }
+        ],
+        "distance_m": 2922.0,
+        "estimated_duration_s": 2087.0,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T18:27:31Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

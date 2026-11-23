@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chrysler Building to Stephen A. Schwarzman Building",
+    "route_description": "Direct pedestrian route between Chrysler Building and Stephen A. Schwarzman Building.",
+    "origin_landmark_id": "chrysler_building",
+    "origin_landmark_name": "Chrysler Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751644,
+      "lon": -73.975765
+    },
+    "destination_landmark_id": "stephen_a_schwarzman_building",
+    "destination_landmark_name": "Stephen A. Schwarzman Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "via_waypoints": [],
+    "distance_m": 627.0,
+    "estimated_duration_s": 480.6,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:56Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.975765,
+            40.751644
+          ],
+          [
+            -73.975879,
+            40.751488
+          ],
+          [
+            -73.975988,
+            40.75153
+          ],
+          [
+            -73.976083,
+            40.751567
+          ],
+          [
+            -73.976154,
+            40.751481
+          ],
+          [
+            -73.976206,
+            40.751417
+          ],
+          [
+            -73.976225,
+            40.751391
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982104,
+            40.753879
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chrysler Building to Stephen A. Schwarzman Building",
+        "route_description": "Direct pedestrian route between Chrysler Building and Stephen A. Schwarzman Building.",
+        "origin_landmark_id": "chrysler_building",
+        "origin_landmark_name": "Chrysler Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751644,
+          "lon": -73.975765
+        },
+        "destination_landmark_id": "stephen_a_schwarzman_building",
+        "destination_landmark_name": "Stephen A. Schwarzman Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "via_waypoints": [],
+        "distance_m": 627.0,
+        "estimated_duration_s": 480.6,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:56Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend dependencies/build output (future)
+node_modules/
+dist/
+build/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary geographic collection and routing state
+backend/data/raw/osm/.last_request
+backend/data/raw/osm/collection_error.json
+backend/data/raw/valhalla/route_error.json
+
+# Playwright output
+frontend/test-results/
+frontend/playwright-report/

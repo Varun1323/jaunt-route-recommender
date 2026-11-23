@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-11-20T17:30:00Z",
+  "description": "Candidate pedestrian routing coordinates projected onto the main outdoor connected pedestrian component. All coordinates are unverified projections. Some additional place references are Nominatim representative points, not documented entrances.",
+  "main_pedestrian_component_size": 1419,
+  "landmarks": [
+    {
+      "landmark_id": "grand_central_terminal",
+      "landmark_name": "Grand Central Terminal",
+      "documented_access": {
+        "access_type": "public_entrance",
+        "access_name": "South Entrance Portal (42nd Street)",
+        "street_address": "89 East 42nd Street, New York, NY 10017",
+        "approach_description": "Research-derived reference point near 89 East 42nd Street south portal (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.75235,
+          "longitude": -73.9772,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1111692728,
+        "highway_type": "footway",
+        "segment_nodes": [
+          10170668440,
+          11507193252
+        ],
+        "candidate_latitude": 40.752125,
+        "candidate_longitude": -73.977366,
+        "projection_distance_m": 28.73,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "medium",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1111692728 at 28.73 m (medium confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "stephen_a_schwarzman_building",
+      "landmark_name": "Stephen A. Schwarzman Building",
+      "documented_access": {
+        "access_type": "public_entrance",
+        "access_name": "West 42nd Street Accessible Entrance",
+        "street_address": "10 West 42nd Street, New York, NY 10018",
+        "approach_description": "Research-derived reference point near 10 West 42nd Street accessible entrance on north facade (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.75375,
+          "longitude": -73.9822,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1112036866,
+        "highway_type": "footway",
+        "segment_nodes": [
+          10173679650,
+          10173679651
+        ],
+        "candidate_latitude": 40.75388,
+        "candidate_longitude": -73.982104,
+        "projection_distance_m": 16.54,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "high",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1112036866 at 16.54 m (high confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "bryant_park",
+      "landmark_name": "Bryant Park",
+      "documented_access": {
+        "access_type": "park_entrance",
+        "access_name": "Mid-block Accessible Park Entrances",
+        "street_address": "Mid-block West 40th and West 42nd Streets (between Fifth and Sixth Avenues), New York, NY 10018",
+        "approach_description": "Research-derived reference point near mid-block West 42nd Street park entrance (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.75415,
+          "longitude": -73.9835,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1577112225,
+        "highway_type": "footway",
+        "segment_nodes": [
+          14362496015,
+          14362496012
+        ],
+        "candidate_latitude": 40.754132,
+        "candidate_longitude": -73.983513,
+        "projection_distance_m": 2.24,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "high",
+        "way_tags": {
+          "highway": "footway"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1577112225 at 2.24 m (high confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "one_vanderbilt",
+      "landmark_name": "1 Vanderbilt",
+      "documented_access": {
+        "access_type": "public_entrance",
+        "access_name": "SUMMIT & Transit Hall Public Entrances",
+        "street_address": "45 East 42nd Street, New York, NY 10017",
+        "approach_description": "Research-derived reference point near 45 East 42nd Street SUMMIT / Transit Hall entrance (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.7524,
+          "longitude": -73.9785,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1238700038,
+        "highway_type": "footway",
+        "segment_nodes": [
+          10166333076,
+          13785909813
+        ],
+        "candidate_latitude": 40.752367,
+        "candidate_longitude": -73.978524,
+        "projection_distance_m": 4.23,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "high",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1238700038 at 4.23 m (high confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "pershing_square_building",
+      "landmark_name": "Pershing Square Building",
+      "documented_access": {
+        "access_type": "exterior_viewpoint",
+        "access_name": "Pershing Square Plaza Sidewalk Viewing Point",
+        "street_address": "125 Park Avenue / Pershing Square Plaza, New York, NY 10017",
+        "approach_description": "Research-derived reference point near Pershing Square Plaza along East 42nd Street (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.75195,
+          "longitude": -73.97735,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1111692727,
+        "highway_type": "footway",
+        "segment_nodes": [
+          11506834530,
+          11509789261
+        ],
+        "candidate_latitude": 40.751886,
+        "candidate_longitude": -73.977397,
+        "projection_distance_m": 8.13,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "high",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1111692727 at 8.13 m (high confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "chrysler_building",
+      "landmark_name": "Chrysler Building",
+      "documented_access": {
+        "access_type": "exterior_viewpoint",
+        "access_name": "Lexington Avenue & 42nd Street Viewing Point",
+        "street_address": "405 Lexington Avenue, New York, NY 10174",
+        "approach_description": "Research-derived reference point near Lexington Avenue and East 42nd Street corner (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.751635,
+          "longitude": -73.975743,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1111806463,
+        "highway_type": "footway",
+        "segment_nodes": [
+          10168841836,
+          10171649191
+        ],
+        "candidate_latitude": 40.751644,
+        "candidate_longitude": -73.975765,
+        "projection_distance_m": 2.08,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "high",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1111806463 at 2.08 m (high confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "graybar_building",
+      "landmark_name": "Graybar Building",
+      "documented_access": {
+        "access_type": "exterior_viewpoint",
+        "access_name": "Lexington Avenue Graybar Portal Viewing Point",
+        "street_address": "420 Lexington Avenue, New York, NY 10170",
+        "approach_description": "Research-derived reference point near 420 Lexington Avenue entrance frontage (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.752307,
+          "longitude": -73.975845,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1238731796,
+        "highway_type": "footway",
+        "segment_nodes": [
+          11296286909,
+          4689103465
+        ],
+        "candidate_latitude": 40.752168,
+        "candidate_longitude": -73.975677,
+        "projection_distance_m": 20.99,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "medium",
+        "way_tags": {
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1238731796 at 20.99 m (medium confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "chanin_building",
+      "landmark_name": "Chanin Building",
+      "documented_access": {
+        "access_type": "exterior_viewpoint",
+        "access_name": "East 42nd Street Frieze Viewing Point",
+        "street_address": "122 East 42nd Street, New York, NY 10168",
+        "approach_description": "Research-derived reference point near 122 East 42nd Street sidewalk frontage (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.751386,
+          "longitude": -73.976965,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1111692727,
+        "highway_type": "footway",
+        "segment_nodes": [
+          11509789261,
+          10168841825
+        ],
+        "candidate_latitude": 40.751628,
+        "candidate_longitude": -73.976787,
+        "projection_distance_m": 30.87,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "medium",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1111692727 at 30.87 m (medium confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "daily_news_building",
+      "landmark_name": "Daily News Building",
+      "documented_access": {
+        "access_type": "exterior_viewpoint",
+        "access_name": "East 42nd Street Exterior & Entrance Viewing Point",
+        "street_address": "220 East 42nd Street, New York, NY 10017",
+        "approach_description": "Research-derived reference point near 220 East 42nd Street exterior frontage (unverified; for projection search only)",
+        "reference_target_coordinates": {
+          "latitude": 40.7501,
+          "longitude": -73.9734,
+          "coordinate_status": "research_derived_unverified"
+        }
+      },
+      "routing_candidate": {
+        "osm_way_id": 1111760837,
+        "highway_type": "footway",
+        "segment_nodes": [
+          4011390052,
+          4011396502
+        ],
+        "candidate_latitude": 40.75018,
+        "candidate_longitude": -73.973342,
+        "projection_distance_m": 10.12,
+        "connected_component_size": 1419,
+        "is_connected_to_main_network": true,
+        "confidence": "high",
+        "way_tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Unverified projection candidate. Reference target is a research-derived coordinate (not independently verified) for the documented access frontage. Projected onto OSM way 1111760837 at 10.12 m (high confidence based on projection distance). Candidate is in the main outdoor pedestrian component (1419 nodes). Coordinate must be confirmed by field observation before use in routing."
+    },
+    {
+      "landmark_id": "times_square",
+      "landmark_name": "Times Square",
+      "documented_access": {
+        "access_type": "unresolved",
+        "access_name": null,
+        "street_address": null,
+        "approach_description": "Nominatim place point is a search anchor only; pedestrian entrance is not established.",
+        "reference_target_coordinates": {
+          "latitude": 40.7572614,
+          "longitude": -73.9858998,
+          "coordinate_status": "nominatim_place_point_unverified"
+        }
+      },
+      "reference_osm_feature": {
+        "osm_type": "way",
+        "osm_id": 702540318,
+        "name": "Times Square",
+        "tags": {},
+        "source_url": "https://www.openstreetmap.org/way/702540318",
+        "source_type": "OpenStreetMap Nominatim"
+      },
+      "routing_candidate": {
+        "osm_way_id": null,
+        "highway_type": null,
+        "segment_nodes": [],
+        "candidate_latitude": 40.757261,
+        "candidate_longitude": -73.9859,
+        "projection_distance_m": null,
+        "connected_component_size": null,
+        "is_connected_to_main_network": false,
+        "confidence": "unverified",
+        "way_tags": {},
+        "coordinate_basis": "Nominatim result point; entrance and local sidewalk connection not established",
+        "reference_osm_feature": {
+          "osm_type": "way",
+          "osm_id": 702540318,
+          "source_url": "https://www.openstreetmap.org/way/702540318"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Nominatim place point retained only as an unverified routing candidate because the local pedestrian graph has no nearby connected segment. It is not a public entrance; Valhalla must successfully snap it to a valid pedestrian route."
+    },
+    {
+      "landmark_id": "rockefeller_center",
+      "landmark_name": "Rockefeller Center",
+      "documented_access": {
+        "access_type": "unresolved",
+        "access_name": null,
+        "street_address": null,
+        "approach_description": "Nominatim place point is a search anchor only; pedestrian entrance is not established.",
+        "reference_target_coordinates": {
+          "latitude": 40.7592576,
+          "longitude": -73.9799569,
+          "coordinate_status": "nominatim_place_point_unverified"
+        }
+      },
+      "reference_osm_feature": {
+        "osm_type": "relation",
+        "osm_id": 18351439,
+        "name": "Rockefeller Center",
+        "tags": {},
+        "source_url": "https://www.openstreetmap.org/relation/18351439",
+        "source_type": "OpenStreetMap Nominatim"
+      },
+      "routing_candidate": {
+        "osm_way_id": null,
+        "highway_type": null,
+        "segment_nodes": [],
+        "candidate_latitude": 40.759258,
+        "candidate_longitude": -73.979957,
+        "projection_distance_m": null,
+        "connected_component_size": null,
+        "is_connected_to_main_network": false,
+        "confidence": "unverified",
+        "way_tags": {},
+        "coordinate_basis": "Nominatim result point; entrance and local sidewalk connection not established",
+        "reference_osm_feature": {
+          "osm_type": "relation",
+          "osm_id": 18351439,
+          "source_url": "https://www.openstreetmap.org/relation/18351439"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Nominatim place point retained only as an unverified routing candidate because the local pedestrian graph has no nearby connected segment. It is not a public entrance; Valhalla must successfully snap it to a valid pedestrian route."
+    },
+    {
+      "landmark_id": "st_patricks_cathedral",
+      "landmark_name": "St. Patrick's Cathedral",
+      "documented_access": {
+        "access_type": "unresolved",
+        "access_name": null,
+        "street_address": null,
+        "approach_description": "Nominatim place point is a search anchor only; pedestrian entrance is not established.",
+        "reference_target_coordinates": {
+          "latitude": 40.7585578,
+          "longitude": -73.9763641,
+          "coordinate_status": "nominatim_place_point_unverified"
+        }
+      },
+      "reference_osm_feature": {
+        "osm_type": "way",
+        "osm_id": 266010379,
+        "name": "Saint Patrick\u2019s Cathedral",
+        "tags": {},
+        "source_url": "https://www.openstreetmap.org/way/266010379",
+        "source_type": "OpenStreetMap Nominatim"
+      },
+      "routing_candidate": {
+        "osm_way_id": null,
+        "highway_type": null,
+        "segment_nodes": [],
+        "candidate_latitude": 40.758558,
+        "candidate_longitude": -73.976364,
+        "projection_distance_m": null,
+        "connected_component_size": null,
+        "is_connected_to_main_network": false,
+        "confidence": "unverified",
+        "way_tags": {},
+        "coordinate_basis": "Nominatim result point; entrance and local sidewalk connection not established",
+        "reference_osm_feature": {
+          "osm_type": "way",
+          "osm_id": 266010379,
+          "source_url": "https://www.openstreetmap.org/way/266010379"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Nominatim place point retained only as an unverified routing candidate because the local pedestrian graph has no nearby connected segment. It is not a public entrance; Valhalla must successfully snap it to a valid pedestrian route."
+    },
+    {
+      "landmark_id": "museum_of_modern_art",
+      "landmark_name": "Museum of Modern Art",
+      "documented_access": {
+        "access_type": "unresolved",
+        "access_name": null,
+        "street_address": null,
+        "approach_description": "Nominatim place point is a search anchor only; pedestrian entrance is not established.",
+        "reference_target_coordinates": {
+          "latitude": 40.7616124,
+          "longitude": -73.9774992,
+          "coordinate_status": "nominatim_place_point_unverified"
+        }
+      },
+      "reference_osm_feature": {
+        "osm_type": "way",
+        "osm_id": 278346578,
+        "name": "MoMA",
+        "tags": {},
+        "source_url": "https://www.openstreetmap.org/way/278346578",
+        "source_type": "OpenStreetMap Nominatim"
+      },
+      "routing_candidate": {
+        "osm_way_id": null,
+        "highway_type": null,
+        "segment_nodes": [],
+        "candidate_latitude": 40.761612,
+        "candidate_longitude": -73.977499,
+        "projection_distance_m": null,
+        "connected_component_size": null,
+        "is_connected_to_main_network": false,
+        "confidence": "unverified",
+        "way_tags": {},
+        "coordinate_basis": "Nominatim result point; entrance and local sidewalk connection not established",
+        "reference_osm_feature": {
+          "osm_type": "way",
+          "osm_id": 278346578,
+          "source_url": "https://www.openstreetmap.org/way/278346578"
+        }
+      },
+      "verification_status": "candidate_unconfirmed",
+      "manual_review_required": true,
+      "review_notes": "Nominatim place point retained only as an unverified routing candidate because the local pedestrian graph has no nearby connected segment. It is not a public entrance; Valhalla must successfully snap it to a valid pedestrian route."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T18:44:14Z",
+  "origin": "stephen_a_schwarzman_building",
+  "destination": "chrysler_building",
+  "route_id": "via_12182f9e52f82697",
+  "reason": "duplicate_path",
+  "compared_to": "direct",
+  "alternative_distance_m": 631.0,
+  "reference_distance_m": 631.0,
+  "distance_difference_m": 0.0,
+  "detour_ratio": 1.0
+}

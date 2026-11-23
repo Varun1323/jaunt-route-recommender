@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "name": "via_edb07b91e85165e9",
+  "metadata": {
+    "route_id": "via_edb07b91e85165e9",
+    "route_name": "Via St. Patrick's Cathedral",
+    "route_description": "Route from Rockefeller Center to Museum of Modern Art via the requested intermediate landmarks in order.",
+    "origin_landmark_id": "rockefeller_center",
+    "origin_landmark_name": "Rockefeller Center",
+    "origin_routing_coordinate": {
+      "lat": 40.759258,
+      "lon": -73.979957
+    },
+    "destination_landmark_id": "museum_of_modern_art",
+    "destination_landmark_name": "Museum of Modern Art",
+    "destination_routing_coordinate": {
+      "lat": 40.761612,
+      "lon": -73.977499
+    },
+    "via_waypoints": [
+      {
+        "landmark_id": "st_patricks_cathedral",
+        "landmark_name": "St. Patrick's Cathedral",
+        "lat": 40.758558,
+        "lon": -73.976364
+      }
+    ],
+    "distance_m": 924.0,
+    "estimated_duration_s": 674.8,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T18:43:09Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.980125,
+            40.759029
+          ],
+          [
+            -73.979009,
+            40.758561
+          ],
+          [
+            -73.978954,
+            40.758538
+          ],
+          [
+            -73.978898,
+            40.758514
+          ],
+          [
+            -73.978838,
+            40.758596
+          ],
+          [
+            -73.97858,
+            40.758943
+          ],
+          [
+            -73.978526,
+            40.759017
+          ],
+          [
+            -73.978477,
+            40.758999
+          ],
+          [
+            -73.978434,
+            40.758982
+          ],
+          [
+            -73.978415,
+            40.759002
+          ],
+          [
+            -73.978377,
+            40.759042
+          ],
+          [
+            -73.978342,
+            40.759079
+          ],
+          [
+            -73.978326,
+            40.759096
+          ],
+          [
+            -73.977949,
+            40.758935
+          ],
+          [
+            -73.977289,
+            40.758658
+          ],
+          [
+            -73.977257,
+            40.758644
+          ],
+          [
+            -73.977162,
+            40.758606
+          ],
+          [
+            -73.977069,
+            40.758569
+          ],
+          [
+            -73.97703,
+            40.758553
+          ],
+          [
+            -73.97653,
+            40.758337
+          ],
+          [
+            -73.97703,
+            40.758553
+          ],
+          [
+            -73.976664,
+            40.759058
+          ],
+          [
+            -73.976649,
+            40.75908
+          ],
+          [
+            -73.976623,
+            40.75912
+          ],
+          [
+            -73.976589,
+            40.759177
+          ],
+          [
+            -73.976209,
+            40.759688
+          ],
+          [
+            -73.976165,
+            40.759751
+          ],
+          [
+            -73.976127,
+            40.759806
+          ],
+          [
+            -73.975758,
+            40.76032
+          ],
+          [
+            -73.975866,
+            40.760371
+          ],
+          [
+            -73.975969,
+            40.760419
+          ],
+          [
+            -73.975948,
+            40.760449
+          ],
+          [
+            -73.975908,
+            40.760506
+          ],
+          [
+            -73.975896,
+            40.760523
+          ],
+          [
+            -73.975543,
+            40.761041
+          ],
+          [
+            -73.977359,
+            40.761803
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "via_edb07b91e85165e9",
+        "route_name": "Via St. Patrick's Cathedral",
+        "route_description": "Route from Rockefeller Center to Museum of Modern Art via the requested intermediate landmarks in order.",
+        "origin_landmark_id": "rockefeller_center",
+        "origin_landmark_name": "Rockefeller Center",
+        "origin_routing_coordinate": {
+          "lat": 40.759258,
+          "lon": -73.979957
+        },
+        "destination_landmark_id": "museum_of_modern_art",
+        "destination_landmark_name": "Museum of Modern Art",
+        "destination_routing_coordinate": {
+          "lat": 40.761612,
+          "lon": -73.977499
+        },
+        "via_waypoints": [
+          {
+            "landmark_id": "st_patricks_cathedral",
+            "landmark_name": "St. Patrick's Cathedral",
+            "lat": 40.758558,
+            "lon": -73.976364
+          }
+        ],
+        "distance_m": 924.0,
+        "estimated_duration_s": 674.8,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T18:43:09Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

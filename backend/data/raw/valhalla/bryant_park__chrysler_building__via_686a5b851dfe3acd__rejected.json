@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T07:23:13Z",
+  "origin": "bryant_park",
+  "destination": "chrysler_building",
+  "route_id": "via_686a5b851dfe3acd",
+  "reason": "duplicate_path",
+  "compared_to": "direct",
+  "alternative_distance_m": 852.0,
+  "reference_distance_m": 852.0,
+  "distance_difference_m": 0.0,
+  "detour_ratio": 1.0
+}

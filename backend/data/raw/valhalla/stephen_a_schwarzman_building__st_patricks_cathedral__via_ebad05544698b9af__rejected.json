@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-23T05:07:17Z",
+  "origin": "stephen_a_schwarzman_building",
+  "destination": "st_patricks_cathedral",
+  "route_id": "via_ebad05544698b9af",
+  "reason": "duplicate_path",
+  "compared_to": "via_57069099a7e442ec",
+  "alternative_distance_m": 1201.0,
+  "reference_distance_m": 1339.0,
+  "distance_difference_m": -138.0,
+  "detour_ratio": 0.8969
+}

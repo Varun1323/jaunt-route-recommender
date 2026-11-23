@@ -1,0 +1,21 @@
+{
+  "locations": [
+    {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    {
+      "lat": 40.752367,
+      "lon": -73.978524
+    },
+    {
+      "lat": 40.754132,
+      "lon": -73.983513
+    }
+  ],
+  "costing": "pedestrian",
+  "units": "kilometers",
+  "id": "via_vanderbilt",
+  "shape_format": "polyline6",
+  "alternates": 0
+}

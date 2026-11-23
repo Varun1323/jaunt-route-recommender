@@ -1,0 +1,98 @@
+﻿{
+    "version":  0.6,
+    "generator":  "OpenStreetMap API",
+    "elements":  [
+                     {
+                         "type":  "way",
+                         "id":  265875648,
+                         "tags":  {
+                                      "addr:city":  "New York",
+                                      "addr:housenumber":  "1",
+                                      "addr:postcode":  "10017",
+                                      "addr:state":  "NY",
+                                      "addr:street":  "Vanderbilt Avenue",
+                                      "building":  "office",
+                                      "building:colour":  "#7592A4",
+                                      "building:levels":  "73",
+                                      "building:material":  "glass",
+                                      "height":  "397",
+                                      "name":  "One Vanderbilt",
+                                      "name:en":  "One Vanderbilt",
+                                      "nycdoitt:bin":  "1035349",
+                                      "start_date":  "2020",
+                                      "website":  "https://www.onevanderbilt.com/",
+                                      "wikidata":  "Q18398409",
+                                      "wikipedia":  "en:One Vanderbilt"
+                                  },
+                         "nodes":  [
+                                       2714855950,
+                                       13484753598,
+                                       13484753562,
+                                       2714855957,
+                                       11507273116,
+                                       13484753556,
+                                       2714855955,
+                                       13484753600,
+                                       13484774102,
+                                       13484774103,
+                                       2714855942,
+                                       11507273104,
+                                       2714855950
+                                   ],
+                         "geometry":  [
+                                          {
+                                              "lat":  40.7528611,
+                                              "lon":  -73.9790293
+                                          },
+                                          {
+                                              "lat":  40.7529102,
+                                              "lon":  -73.9789942
+                                          },
+                                          {
+                                              "lat":  40.7529202,
+                                              "lon":  -73.9790172
+                                          },
+                                          {
+                                              "lat":  40.7533487,
+                                              "lon":  -73.9787083
+                                          },
+                                          {
+                                              "lat":  40.7531617,
+                                              "lon":  -73.9782525
+                                          },
+                                          {
+                                              "lat":  40.7531392,
+                                              "lon":  -73.9781978
+                                          },
+                                          {
+                                              "lat":  40.7530709,
+                                              "lon":  -73.9780314
+                                          },
+                                          {
+                                              "lat":  40.7530276,
+                                              "lon":  -73.9780624
+                                          },
+                                          {
+                                              "lat":  40.7526655,
+                                              "lon":  -73.9783213
+                                          },
+                                          {
+                                              "lat":  40.7526820,
+                                              "lon":  -73.9783615
+                                          },
+                                          {
+                                              "lat":  40.7526087,
+                                              "lon":  -73.9784138
+                                          },
+                                          {
+                                              "lat":  40.7527213,
+                                              "lon":  -73.9786885
+                                          },
+                                          {
+                                              "lat":  40.7528611,
+                                              "lon":  -73.9790293
+                                          }
+                                      ]
+                     }
+                 ]
+}

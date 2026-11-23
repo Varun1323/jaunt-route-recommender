@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Grand Central Terminal to Times Square",
+    "route_description": "Direct pedestrian route between Grand Central Terminal and Times Square.",
+    "origin_landmark_id": "grand_central_terminal",
+    "origin_landmark_name": "Grand Central Terminal",
+    "origin_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "destination_landmark_id": "times_square",
+    "destination_landmark_name": "Times Square",
+    "destination_routing_coordinate": {
+      "lat": 40.757261,
+      "lon": -73.9859
+    },
+    "via_waypoints": [],
+    "distance_m": 1031.0,
+    "estimated_duration_s": 747.3,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-23T10:58:59Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977366,
+            40.752125
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977662,
+            40.75225
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978356,
+            40.752544
+          ],
+          [
+            -73.97871,
+            40.75269
+          ],
+          [
+            -73.979111,
+            40.752856
+          ],
+          [
+            -73.979129,
+            40.752863
+          ],
+          [
+            -73.979214,
+            40.752909
+          ],
+          [
+            -73.979293,
+            40.752953
+          ],
+          [
+            -73.979315,
+            40.752962
+          ],
+          [
+            -73.980691,
+            40.753529
+          ],
+          [
+            -73.980737,
+            40.753548
+          ],
+          [
+            -73.980809,
+            40.753576
+          ],
+          [
+            -73.980909,
+            40.75362
+          ],
+          [
+            -73.980947,
+            40.753636
+          ],
+          [
+            -73.981943,
+            40.754048
+          ],
+          [
+            -73.982349,
+            40.754216
+          ],
+          [
+            -73.983907,
+            40.754879
+          ],
+          [
+            -73.983953,
+            40.754899
+          ],
+          [
+            -73.984047,
+            40.754938
+          ],
+          [
+            -73.98415,
+            40.754981
+          ],
+          [
+            -73.984191,
+            40.754994
+          ],
+          [
+            -73.985528,
+            40.755559
+          ],
+          [
+            -73.986237,
+            40.755858
+          ],
+          [
+            -73.98625,
+            40.755863
+          ],
+          [
+            -73.986243,
+            40.755889
+          ],
+          [
+            -73.986231,
+            40.755963
+          ],
+          [
+            -73.986224,
+            40.755993
+          ],
+          [
+            -73.986097,
+            40.756379
+          ],
+          [
+            -73.986089,
+            40.756401
+          ],
+          [
+            -73.986062,
+            40.756452
+          ],
+          [
+            -73.986055,
+            40.756473
+          ],
+          [
+            -73.986048,
+            40.756491
+          ],
+          [
+            -73.986034,
+            40.756532
+          ],
+          [
+            -73.986015,
+            40.756583
+          ],
+          [
+            -73.986008,
+            40.756598
+          ],
+          [
+            -73.985759,
+            40.757158
+          ],
+          [
+            -73.985869,
+            40.757201
+          ],
+          [
+            -73.985909,
+            40.757217
+          ],
+          [
+            -73.985891,
+            40.757243
+          ],
+          [
+            -73.985863,
+            40.757281
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Grand Central Terminal to Times Square",
+        "route_description": "Direct pedestrian route between Grand Central Terminal and Times Square.",
+        "origin_landmark_id": "grand_central_terminal",
+        "origin_landmark_name": "Grand Central Terminal",
+        "origin_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "destination_landmark_id": "times_square",
+        "destination_landmark_name": "Times Square",
+        "destination_routing_coordinate": {
+          "lat": 40.757261,
+          "lon": -73.9859
+        },
+        "via_waypoints": [],
+        "distance_m": 1031.0,
+        "estimated_duration_s": 747.3,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-23T10:58:59Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

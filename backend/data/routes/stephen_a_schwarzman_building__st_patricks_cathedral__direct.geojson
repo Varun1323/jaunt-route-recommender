@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Stephen A. Schwarzman Building to St. Patrick's Cathedral",
+    "route_description": "Direct pedestrian route between Stephen A. Schwarzman Building and St. Patrick's Cathedral.",
+    "origin_landmark_id": "stephen_a_schwarzman_building",
+    "origin_landmark_name": "Stephen A. Schwarzman Building",
+    "origin_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "destination_landmark_id": "st_patricks_cathedral",
+    "destination_landmark_name": "St. Patrick's Cathedral",
+    "destination_routing_coordinate": {
+      "lat": 40.758558,
+      "lon": -73.976364
+    },
+    "via_waypoints": [],
+    "distance_m": 831.0,
+    "estimated_duration_s": 597.7,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T16:49:22Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.982104,
+            40.753879
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.980879,
+            40.75348
+          ],
+          [
+            -73.980809,
+            40.753576
+          ],
+          [
+            -73.980436,
+            40.754102
+          ],
+          [
+            -73.980392,
+            40.754166
+          ],
+          [
+            -73.980352,
+            40.754221
+          ],
+          [
+            -73.980127,
+            40.754529
+          ],
+          [
+            -73.979983,
+            40.754727
+          ],
+          [
+            -73.979943,
+            40.754783
+          ],
+          [
+            -73.979895,
+            40.75485
+          ],
+          [
+            -73.979533,
+            40.755353
+          ],
+          [
+            -73.97949,
+            40.755413
+          ],
+          [
+            -73.979451,
+            40.755467
+          ],
+          [
+            -73.979071,
+            40.755973
+          ],
+          [
+            -73.979023,
+            40.756037
+          ],
+          [
+            -73.978982,
+            40.756093
+          ],
+          [
+            -73.978601,
+            40.756601
+          ],
+          [
+            -73.978557,
+            40.756659
+          ],
+          [
+            -73.978518,
+            40.756714
+          ],
+          [
+            -73.978411,
+            40.75667
+          ],
+          [
+            -73.978041,
+            40.757181
+          ],
+          [
+            -73.978001,
+            40.757237
+          ],
+          [
+            -73.977958,
+            40.757297
+          ],
+          [
+            -73.977585,
+            40.757801
+          ],
+          [
+            -73.977564,
+            40.757829
+          ],
+          [
+            -73.977543,
+            40.75786
+          ],
+          [
+            -73.977507,
+            40.75791
+          ],
+          [
+            -73.977496,
+            40.757927
+          ],
+          [
+            -73.977122,
+            40.758438
+          ],
+          [
+            -73.977106,
+            40.758461
+          ],
+          [
+            -73.97708,
+            40.758491
+          ],
+          [
+            -73.977049,
+            40.758526
+          ],
+          [
+            -73.97703,
+            40.758553
+          ],
+          [
+            -73.97653,
+            40.758337
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Stephen A. Schwarzman Building to St. Patrick's Cathedral",
+        "route_description": "Direct pedestrian route between Stephen A. Schwarzman Building and St. Patrick's Cathedral.",
+        "origin_landmark_id": "stephen_a_schwarzman_building",
+        "origin_landmark_name": "Stephen A. Schwarzman Building",
+        "origin_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "destination_landmark_id": "st_patricks_cathedral",
+        "destination_landmark_name": "St. Patrick's Cathedral",
+        "destination_routing_coordinate": {
+          "lat": 40.758558,
+          "lon": -73.976364
+        },
+        "via_waypoints": [],
+        "distance_m": 831.0,
+        "estimated_duration_s": 597.7,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T16:49:22Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

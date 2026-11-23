@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: 1 Vanderbilt to Daily News Building",
+    "route_description": "Direct pedestrian route between 1 Vanderbilt and Daily News Building.",
+    "origin_landmark_id": "one_vanderbilt",
+    "origin_landmark_name": "1 Vanderbilt",
+    "origin_routing_coordinate": {
+      "lat": 40.752367,
+      "lon": -73.978524
+    },
+    "destination_landmark_id": "daily_news_building",
+    "destination_landmark_name": "Daily News Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75018,
+      "lon": -73.973342
+    },
+    "via_waypoints": [],
+    "distance_m": 500.0,
+    "estimated_duration_s": 354.1,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:43Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.978524,
+            40.752367
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.976225,
+            40.751391
+          ],
+          [
+            -73.976206,
+            40.751383
+          ],
+          [
+            -73.97612,
+            40.751351
+          ],
+          [
+            -73.97604,
+            40.751322
+          ],
+          [
+            -73.97601,
+            40.751309
+          ],
+          [
+            -73.975975,
+            40.751285
+          ],
+          [
+            -73.975758,
+            40.751194
+          ],
+          [
+            -73.975105,
+            40.750919
+          ],
+          [
+            -73.97466,
+            40.750727
+          ],
+          [
+            -73.974638,
+            40.750718
+          ],
+          [
+            -73.974541,
+            40.75068
+          ],
+          [
+            -73.974417,
+            40.750633
+          ],
+          [
+            -73.974379,
+            40.750617
+          ],
+          [
+            -73.973867,
+            40.750399
+          ],
+          [
+            -73.973562,
+            40.750272
+          ],
+          [
+            -73.973342,
+            40.75018
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: 1 Vanderbilt to Daily News Building",
+        "route_description": "Direct pedestrian route between 1 Vanderbilt and Daily News Building.",
+        "origin_landmark_id": "one_vanderbilt",
+        "origin_landmark_name": "1 Vanderbilt",
+        "origin_routing_coordinate": {
+          "lat": 40.752367,
+          "lon": -73.978524
+        },
+        "destination_landmark_id": "daily_news_building",
+        "destination_landmark_name": "Daily News Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75018,
+          "lon": -73.973342
+        },
+        "via_waypoints": [],
+        "distance_m": 500.0,
+        "estimated_duration_s": 354.1,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:43Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

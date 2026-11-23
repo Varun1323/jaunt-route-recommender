@@ -1,0 +1,1428 @@
+[
+  {
+    "landmark_id": "grand_central_terminal",
+    "landmark_name": "Grand Central Terminal",
+    "recorded_access_name": "South Entrance Portal (42nd Street)",
+    "recorded_address": "89 East 42nd Street, New York, NY 10017",
+    "recorded_coordinates": {
+      "latitude": 40.7527,
+      "longitude": -73.9772
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 4676427870,
+        "lat": 40.7529787,
+        "lon": -73.9775796,
+        "distance_m": 44.5,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main",
+          "level": "0"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 3842775629,
+        "lat": 40.7530218,
+        "lon": -73.9776876,
+        "distance_m": 54.5,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "entrance": "yes",
+          "name": "Grand Central 43rd Street / Vanderbilt Avenue entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 3842788780,
+        "lat": 40.7522481,
+        "lon": -73.9775815,
+        "distance_m": 59.6,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "level": "0",
+          "name": "Grand Central 42nd Street entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 4676427530,
+        "lat": 40.7520653,
+        "lon": -73.9770781,
+        "distance_m": 71.3,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "main",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 2715512169,
+        "lat": 40.7525142,
+        "lon": -73.9782031,
+        "distance_m": 87.0,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "level": "1",
+          "name": "Grand Central 42nd Street / Vanderbilt Avenue entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "node_id": 7581084586,
+        "lat": 40.7521739,
+        "lon": -73.9781938,
+        "distance_m": 102.1,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 11507273133,
+        "lat": 40.7531713,
+        "lon": -73.9778213,
+        "distance_m": 74.1,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "uncontrolled",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "highway": "crossing",
+          "tactile_paving": "yes"
+        }
+      },
+      {
+        "node_id": 11506834636,
+        "lat": 40.7521153,
+        "lon": -73.9776729,
+        "distance_m": 76.2,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 11507273119,
+        "lat": 40.7531455,
+        "lon": -73.9779608,
+        "distance_m": 81.0,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "uncontrolled",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "highway": "crossing",
+          "tactile_paving": "yes"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "stephen_a_schwarzman_building",
+    "landmark_name": "Stephen A. Schwarzman Building",
+    "recorded_access_name": "West 42nd Street Accessible Entrance",
+    "recorded_address": "10 West 42nd Street, New York, NY 10018",
+    "recorded_coordinates": {
+      "latitude": 40.753014,
+      "longitude": -73.981769
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 1634448982,
+        "lat": 40.753014,
+        "lon": -73.9817686,
+        "distance_m": 0.0,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "access": "yes",
+          "entrance": "main",
+          "name": "New York Public Library",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 2032062868,
+        "lat": 40.7536644,
+        "lon": -73.9819051,
+        "distance_m": 73.2,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 1747664287,
+        "lat": 40.7523403,
+        "lon": -73.9823879,
+        "distance_m": 91.3,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 6593122282,
+        "lat": 40.7535966,
+        "lon": -73.9814754,
+        "distance_m": 69.3,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "description": "all B,D,F,<F>,M,7,<7> trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 7826843770,
+        "lat": 40.7528885,
+        "lon": -73.9813256,
+        "distance_m": 39.9,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing"
+        }
+      },
+      {
+        "node_id": 4625652083,
+        "lat": 40.7527646,
+        "lon": -73.9814175,
+        "distance_m": 40.6,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing",
+          "tactile_paving": "yes"
+        }
+      },
+      {
+        "node_id": 7826843771,
+        "lat": 40.7527636,
+        "lon": -73.9812565,
+        "distance_m": 51.4,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "bryant_park",
+    "landmark_name": "Bryant Park",
+    "recorded_access_name": "Mid-block Accessible Park Entrances",
+    "recorded_address": "Mid-block West 40th and West 42nd Streets (between Fifth and Sixth Avenues), New York, NY 10018",
+    "recorded_coordinates": {
+      "latitude": 40.754655,
+      "longitude": -73.984804
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 8751484439,
+        "lat": 40.7548407,
+        "lon": -73.9849769,
+        "distance_m": 25.3,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "covered": "yes",
+          "door": "hinged",
+          "entrance": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 8751484440,
+        "lat": 40.7548493,
+        "lon": -73.9849705,
+        "distance_m": 25.8,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "covered": "yes",
+          "door": "revolving",
+          "entrance": "yes",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 11427330651,
+        "lat": 40.7544403,
+        "lon": -73.983424,
+        "distance_m": 118.7,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "emergency",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 7581325945,
+        "lat": 40.7549277,
+        "lon": -73.9846857,
+        "distance_m": 31.9,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "description": "all B,D,F,<F>,M,7,<7> trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 6593122246,
+        "lat": 40.7545762,
+        "lon": -73.983852,
+        "distance_m": 80.7,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "description": "all B,D,F,<F>,M,7,<7> trains",
+          "door": "no",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 7581325946,
+        "lat": 40.7550114,
+        "lon": -73.9837749,
+        "distance_m": 95.3,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "description": "all B,D,F,<F>,M trains",
+          "door": "no",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 7581325942,
+        "lat": 40.7537069,
+        "lon": -73.9851774,
+        "distance_m": 110.0,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "check_date:wheelchair": "2026-06-10",
+          "description": "all B,D,F,<F>,M,7,<7> trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 10169532644,
+        "lat": 40.7542326,
+        "lon": -73.9847279,
+        "distance_m": 47.4,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      },
+      {
+        "node_id": 10169532642,
+        "lat": 40.7542363,
+        "lon": -73.9845535,
+        "distance_m": 51.1,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 6597464528,
+        "lat": 40.7549032,
+        "lon": -73.9842621,
+        "distance_m": 53.3,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:sound": "no",
+          "traffic_signals:vibration": "no"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "one_vanderbilt",
+    "landmark_name": "1 Vanderbilt",
+    "recorded_access_name": "SUMMIT & Transit Hall Public Entrances",
+    "recorded_address": "45 East 42nd Street, New York, NY 10017",
+    "recorded_coordinates": {
+      "latitude": 40.752609,
+      "longitude": -73.978386
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 4676427870,
+        "lat": 40.7529787,
+        "lon": -73.9775796,
+        "distance_m": 79.4,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main",
+          "level": "0"
+        }
+      },
+      {
+        "node_id": 2945443489,
+        "lat": 40.7517322,
+        "lon": -73.9790313,
+        "distance_m": 111.6,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 2715512169,
+        "lat": 40.7525142,
+        "lon": -73.9782031,
+        "distance_m": 18.7,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "level": "1",
+          "name": "Grand Central 42nd Street / Vanderbilt Avenue entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "node_id": 11507273104,
+        "lat": 40.7527213,
+        "lon": -73.9786885,
+        "distance_m": 28.4,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "level": "0",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 7581084586,
+        "lat": 40.7521739,
+        "lon": -73.9781938,
+        "distance_m": 51.0,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 11507273116,
+        "lat": 40.7531617,
+        "lon": -73.9782525,
+        "distance_m": 62.5,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "level": "0",
+          "name": "43rd / Vanderbilt",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 3842775629,
+        "lat": 40.7530218,
+        "lon": -73.9776876,
+        "distance_m": 74.6,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "entrance": "yes",
+          "name": "Grand Central 43rd Street / Vanderbilt Avenue entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 13785909811,
+        "lat": 40.7524108,
+        "lon": -73.9783817,
+        "distance_m": 22.0,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 3955360021,
+        "lat": 40.7527651,
+        "lon": -73.9791798,
+        "distance_m": 69.1,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 11507273119,
+        "lat": 40.7531455,
+        "lon": -73.9779608,
+        "distance_m": 69.6,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "uncontrolled",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "highway": "crossing",
+          "tactile_paving": "yes"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "pershing_square_building",
+    "landmark_name": "Pershing Square Building",
+    "recorded_access_name": "Pershing Square Plaza Sidewalk Viewing Point",
+    "recorded_address": "125 Park Avenue / Pershing Square Plaza, New York, NY 10017",
+    "recorded_coordinates": {
+      "latitude": 40.75185,
+      "longitude": -73.97735
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 12412959740,
+        "lat": 40.7508402,
+        "lon": -73.9769205,
+        "distance_m": 118.0,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "addr:housenumber": "370",
+          "addr:postcode": "10017",
+          "addr:street": "Lexington Avenue",
+          "entrance": "yes"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 7581054281,
+        "lat": 40.7517261,
+        "lon": -73.9771042,
+        "distance_m": 24.9,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 7581054283,
+        "lat": 40.7516973,
+        "lon": -73.9776832,
+        "distance_m": 32.8,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 4676427530,
+        "lat": 40.7520653,
+        "lon": -73.9770781,
+        "distance_m": 33.1,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "main",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 7581054282,
+        "lat": 40.751645,
+        "lon": -73.9777214,
+        "distance_m": 38.7,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 3842788780,
+        "lat": 40.7522481,
+        "lon": -73.9775815,
+        "distance_m": 48.4,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "level": "0",
+          "name": "Grand Central 42nd Street entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 11506834636,
+        "lat": 40.7521153,
+        "lon": -73.9776729,
+        "distance_m": 40.1,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 3955360011,
+        "lat": 40.7513742,
+        "lon": -73.977956,
+        "distance_m": 73.5,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes"
+        }
+      },
+      {
+        "node_id": 3955360010,
+        "lat": 40.7513568,
+        "lon": -73.9780861,
+        "distance_m": 82.8,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "chrysler_building",
+    "landmark_name": "Chrysler Building",
+    "recorded_access_name": "Lexington Avenue & 42nd Street Viewing Point",
+    "recorded_address": "405 Lexington Avenue, New York, NY 10174",
+    "recorded_coordinates": {
+      "latitude": 40.751635,
+      "longitude": -73.975743
+    },
+    "nearby_building_entrances": [],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 7581084589,
+        "lat": 40.7517214,
+        "lon": -73.9760012,
+        "distance_m": 23.8,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "door": "no",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 7671174830,
+        "lat": 40.7517684,
+        "lon": -73.9759667,
+        "distance_m": 24.0,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7> trains",
+          "highway": "elevator",
+          "level": "-1;0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 7581054284,
+        "lat": 40.7512696,
+        "lon": -73.9758844,
+        "distance_m": 42.3,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "door": "no",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 7581084585,
+        "lat": 40.7512474,
+        "lon": -73.9758317,
+        "distance_m": 43.7,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 5306850805,
+        "lat": 40.7513026,
+        "lon": -73.9754135,
+        "distance_m": 46.2,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 10168841828,
+        "lat": 40.7515303,
+        "lon": -73.975988,
+        "distance_m": 23.7,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      },
+      {
+        "node_id": 10168841830,
+        "lat": 40.7513935,
+        "lon": -73.9759478,
+        "distance_m": 31.9,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      },
+      {
+        "node_id": 10168841826,
+        "lat": 40.7514811,
+        "lon": -73.9761537,
+        "distance_m": 38.6,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "graybar_building",
+    "landmark_name": "Graybar Building",
+    "recorded_access_name": "Lexington Avenue Graybar Portal Viewing Point",
+    "recorded_address": "420 Lexington Avenue, New York, NY 10170",
+    "recorded_coordinates": {
+      "latitude": 40.752307,
+      "longitude": -73.975845
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 3154722490,
+        "lat": 40.7526006,
+        "lon": -73.9745331,
+        "distance_m": 115.2,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 4689103465,
+        "lat": 40.7521677,
+        "lon": -73.9756773,
+        "distance_m": 21.0,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "name": "Grand Central 43rd Street / Lexington Avenue entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 3842775637,
+        "lat": 40.7523009,
+        "lon": -73.9755823,
+        "distance_m": 22.1,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "automatic_door": "no",
+          "door": "hinged",
+          "entrance": "yes",
+          "name": "Grand Central 43rd Street / Lexington Avenue entrance",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "open": "no",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 4689113869,
+        "lat": 40.752056,
+        "lon": -73.9757566,
+        "distance_m": 28.9,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "yes",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 7671174830,
+        "lat": 40.7517684,
+        "lon": -73.9759667,
+        "distance_m": 60.8,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7> trains",
+          "highway": "elevator",
+          "level": "-1;0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 7581084589,
+        "lat": 40.7517214,
+        "lon": -73.9760012,
+        "distance_m": 66.4,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "door": "no",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 10171649194,
+        "lat": 40.752174,
+        "lon": -73.9755153,
+        "distance_m": 31.5,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      },
+      {
+        "node_id": 10171649195,
+        "lat": 40.7520697,
+        "lon": -73.9755918,
+        "distance_m": 33.9,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      },
+      {
+        "node_id": 10125260541,
+        "lat": 40.7520837,
+        "lon": -73.9754653,
+        "distance_m": 40.5,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "chanin_building",
+    "landmark_name": "Chanin Building",
+    "recorded_access_name": "East 42nd Street Frieze Viewing Point",
+    "recorded_address": "122 East 42nd Street, New York, NY 10168",
+    "recorded_coordinates": {
+      "latitude": 40.751386,
+      "longitude": -73.976965
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 12412959740,
+        "lat": 40.7508402,
+        "lon": -73.9769205,
+        "distance_m": 60.8,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "addr:housenumber": "370",
+          "addr:postcode": "10017",
+          "addr:street": "Lexington Avenue",
+          "entrance": "yes"
+        }
+      },
+      {
+        "node_id": 12412959741,
+        "lat": 40.750669,
+        "lon": -73.9767651,
+        "distance_m": 81.5,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "addr:housenumber": "370",
+          "addr:postcode": "10017",
+          "addr:street": "Lexington Avenue",
+          "entrance": "main"
+        }
+      },
+      {
+        "node_id": 12502528677,
+        "lat": 40.7504957,
+        "lon": -73.9768905,
+        "distance_m": 99.2,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main"
+        }
+      },
+      {
+        "node_id": 2715511964,
+        "lat": 40.7508662,
+        "lon": -73.9779703,
+        "distance_m": 102.5,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "addr:housenumber": "101",
+          "addr:postcode": "10017",
+          "addr:street": "Park Avenue",
+          "entrance": "main"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [
+      {
+        "node_id": 7581054281,
+        "lat": 40.7517261,
+        "lon": -73.9771042,
+        "distance_m": 39.6,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "node_id": 7581054283,
+        "lat": 40.7516973,
+        "lon": -73.9776832,
+        "distance_m": 69.7,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 7581054282,
+        "lat": 40.751645,
+        "lon": -73.9777214,
+        "distance_m": 69.9,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "node_id": 4676427530,
+        "lat": 40.7520653,
+        "lon": -73.9770781,
+        "distance_m": 76.1,
+        "topologically_connected": true,
+        "connected_way_count": 2,
+        "tags": {
+          "entrance": "main",
+          "network": "Metro-North Railroad",
+          "network:wikidata": "Q125908",
+          "railway": "subway_entrance"
+        }
+      },
+      {
+        "node_id": 7581084589,
+        "lat": 40.7517214,
+        "lon": -73.9760012,
+        "distance_m": 89.3,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "description": "all 4,5,6,<6>,7,<7>,S trains",
+          "door": "no",
+          "level": "0",
+          "network": "NYC Subway",
+          "network:wikidata": "Q7733",
+          "operator": "New York City Transit Authority",
+          "operator:wikidata": "Q1325591",
+          "railway": "subway_entrance",
+          "wheelchair": "yes"
+        }
+      }
+    ],
+    "nearest_crossings": [
+      {
+        "node_id": 10168825913,
+        "lat": 40.7508247,
+        "lon": -73.9766384,
+        "distance_m": 68.2,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing"
+        }
+      },
+      {
+        "node_id": 10168841826,
+        "lat": 40.7514811,
+        "lon": -73.9761537,
+        "distance_m": 69.2,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      },
+      {
+        "node_id": 10168841832,
+        "lat": 40.7513514,
+        "lon": -73.9761204,
+        "distance_m": 71.2,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      }
+    ]
+  },
+  {
+    "landmark_id": "daily_news_building",
+    "landmark_name": "Daily News Building",
+    "recorded_access_name": "East 42nd Street Exterior & Entrance Viewing Point",
+    "recorded_address": "220 East 42nd Street, New York, NY 10017",
+    "recorded_coordinates": {
+      "latitude": 40.750201,
+      "longitude": -73.973506
+    },
+    "nearby_building_entrances": [
+      {
+        "node_id": 2943221108,
+        "lat": 40.750297,
+        "lon": -73.9738899,
+        "distance_m": 34.1,
+        "topologically_connected": false,
+        "connected_way_count": 0,
+        "tags": {
+          "entrance": "main",
+          "material": "glass"
+        }
+      }
+    ],
+    "nearby_subway_entrances": [],
+    "nearest_crossings": [
+      {
+        "node_id": 4136147002,
+        "lat": 40.7497712,
+        "lon": -73.9741404,
+        "distance_m": 71.7,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:sound": "no",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 4136147003,
+        "lat": 40.7496794,
+        "lon": -73.9741194,
+        "distance_m": 77.7,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "no",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "no",
+          "traffic_signals:sound": "no",
+          "traffic_signals:vibration": "no"
+        }
+      },
+      {
+        "node_id": 10168825864,
+        "lat": 40.7507061,
+        "lon": -73.9743131,
+        "distance_m": 88.2,
+        "topologically_connected": true,
+        "connected_way_count": 1,
+        "tags": {
+          "button_operated": "yes",
+          "crossing": "traffic_signals",
+          "crossing:island": "no",
+          "crossing:markings": "zebra",
+          "crossing:signals": "yes",
+          "highway": "crossing",
+          "tactile_paving": "yes",
+          "traffic_signals:arrow": "yes",
+          "traffic_signals:sound": "yes",
+          "traffic_signals:vibration": "yes"
+        }
+      }
+    ]
+  }
+]

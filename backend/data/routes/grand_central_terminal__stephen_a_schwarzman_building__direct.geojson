@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Grand Central Terminal to Stephen A. Schwarzman Building",
+    "route_description": "Direct pedestrian route between Grand Central Terminal and Stephen A. Schwarzman Building.",
+    "origin_landmark_id": "grand_central_terminal",
+    "origin_landmark_name": "Grand Central Terminal",
+    "origin_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "destination_landmark_id": "stephen_a_schwarzman_building",
+    "destination_landmark_name": "Stephen A. Schwarzman Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "via_waypoints": [],
+    "distance_m": 465.0,
+    "estimated_duration_s": 345.1,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:22Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977366,
+            40.752125
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977662,
+            40.75225
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978356,
+            40.752544
+          ],
+          [
+            -73.97871,
+            40.75269
+          ],
+          [
+            -73.979111,
+            40.752856
+          ],
+          [
+            -73.979125,
+            40.752836
+          ],
+          [
+            -73.97918,
+            40.752765
+          ],
+          [
+            -73.979287,
+            40.752813
+          ],
+          [
+            -73.979386,
+            40.752856
+          ],
+          [
+            -73.980333,
+            40.753257
+          ],
+          [
+            -73.980759,
+            40.753435
+          ],
+          [
+            -73.980879,
+            40.75348
+          ],
+          [
+            -73.981022,
+            40.753534
+          ],
+          [
+            -73.981058,
+            40.753485
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982104,
+            40.753879
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Grand Central Terminal to Stephen A. Schwarzman Building",
+        "route_description": "Direct pedestrian route between Grand Central Terminal and Stephen A. Schwarzman Building.",
+        "origin_landmark_id": "grand_central_terminal",
+        "origin_landmark_name": "Grand Central Terminal",
+        "origin_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "destination_landmark_id": "stephen_a_schwarzman_building",
+        "destination_landmark_name": "Stephen A. Schwarzman Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "via_waypoints": [],
+        "distance_m": 465.0,
+        "estimated_duration_s": 345.1,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:22Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T07:35:54Z",
+  "origin": "bryant_park",
+  "destination": "museum_of_modern_art",
+  "route_id": "via_4a13486f1985e50a",
+  "reason": "excessive_detour",
+  "compared_to": "direct",
+  "alternative_distance_m": 2434.0,
+  "reference_distance_m": 1178.0,
+  "distance_difference_m": 1256.0,
+  "detour_ratio": 2.0662
+}

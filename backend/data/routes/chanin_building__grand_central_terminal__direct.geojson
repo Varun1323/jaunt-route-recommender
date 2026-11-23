@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chanin Building to Grand Central Terminal",
+    "route_description": "Direct pedestrian route between Chanin Building and Grand Central Terminal.",
+    "origin_landmark_id": "chanin_building",
+    "origin_landmark_name": "Chanin Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751628,
+      "lon": -73.976787
+    },
+    "destination_landmark_id": "grand_central_terminal",
+    "destination_landmark_name": "Grand Central Terminal",
+    "destination_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "via_waypoints": [],
+    "distance_m": 138.0,
+    "estimated_duration_s": 106.2,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:35Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.976787,
+            40.751628
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977714,
+            40.752058
+          ],
+          [
+            -73.977673,
+            40.752115
+          ],
+          [
+            -73.977634,
+            40.752171
+          ],
+          [
+            -73.977618,
+            40.752194
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977366,
+            40.752125
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chanin Building to Grand Central Terminal",
+        "route_description": "Direct pedestrian route between Chanin Building and Grand Central Terminal.",
+        "origin_landmark_id": "chanin_building",
+        "origin_landmark_name": "Chanin Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751628,
+          "lon": -73.976787
+        },
+        "destination_landmark_id": "grand_central_terminal",
+        "destination_landmark_name": "Grand Central Terminal",
+        "destination_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "via_waypoints": [],
+        "distance_m": 138.0,
+        "estimated_duration_s": 106.2,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:35Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

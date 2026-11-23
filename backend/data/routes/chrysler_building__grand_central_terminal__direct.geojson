@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chrysler Building to Grand Central Terminal",
+    "route_description": "Direct pedestrian route between Chrysler Building and Grand Central Terminal.",
+    "origin_landmark_id": "chrysler_building",
+    "origin_landmark_name": "Chrysler Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751644,
+      "lon": -73.975765
+    },
+    "destination_landmark_id": "grand_central_terminal",
+    "destination_landmark_name": "Grand Central Terminal",
+    "destination_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "via_waypoints": [],
+    "distance_m": 164.0,
+    "estimated_duration_s": 127.8,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:49Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.975765,
+            40.751644
+          ],
+          [
+            -73.975879,
+            40.751488
+          ],
+          [
+            -73.975988,
+            40.75153
+          ],
+          [
+            -73.976083,
+            40.751567
+          ],
+          [
+            -73.976086,
+            40.751582
+          ],
+          [
+            -73.976286,
+            40.751666
+          ],
+          [
+            -73.976794,
+            40.751882
+          ],
+          [
+            -73.977112,
+            40.752017
+          ],
+          [
+            -73.977366,
+            40.752125
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chrysler Building to Grand Central Terminal",
+        "route_description": "Direct pedestrian route between Chrysler Building and Grand Central Terminal.",
+        "origin_landmark_id": "chrysler_building",
+        "origin_landmark_name": "Chrysler Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751644,
+          "lon": -73.975765
+        },
+        "destination_landmark_id": "grand_central_terminal",
+        "destination_landmark_name": "Grand Central Terminal",
+        "destination_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "via_waypoints": [],
+        "distance_m": 164.0,
+        "estimated_duration_s": 127.8,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:49Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

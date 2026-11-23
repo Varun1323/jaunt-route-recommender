@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Times Square to Bryant Park",
+    "route_description": "Direct pedestrian route between Times Square and Bryant Park.",
+    "origin_landmark_id": "times_square",
+    "origin_landmark_name": "Times Square",
+    "origin_routing_coordinate": {
+      "lat": 40.757261,
+      "lon": -73.9859
+    },
+    "destination_landmark_id": "bryant_park",
+    "destination_landmark_name": "Bryant Park",
+    "destination_routing_coordinate": {
+      "lat": 40.754132,
+      "lon": -73.983513
+    },
+    "via_waypoints": [],
+    "distance_m": 517.0,
+    "estimated_duration_s": 388.7,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T18:19:50Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.985863,
+            40.757281
+          ],
+          [
+            -73.985891,
+            40.757243
+          ],
+          [
+            -73.985909,
+            40.757217
+          ],
+          [
+            -73.985869,
+            40.757201
+          ],
+          [
+            -73.985759,
+            40.757158
+          ],
+          [
+            -73.986008,
+            40.756598
+          ],
+          [
+            -73.986015,
+            40.756583
+          ],
+          [
+            -73.986034,
+            40.756532
+          ],
+          [
+            -73.986048,
+            40.756491
+          ],
+          [
+            -73.986055,
+            40.756473
+          ],
+          [
+            -73.986062,
+            40.756452
+          ],
+          [
+            -73.986089,
+            40.756401
+          ],
+          [
+            -73.986097,
+            40.756379
+          ],
+          [
+            -73.986224,
+            40.755993
+          ],
+          [
+            -73.986231,
+            40.755963
+          ],
+          [
+            -73.986243,
+            40.755889
+          ],
+          [
+            -73.98625,
+            40.755863
+          ],
+          [
+            -73.986259,
+            40.755837
+          ],
+          [
+            -73.986289,
+            40.755762
+          ],
+          [
+            -73.986318,
+            40.755694
+          ],
+          [
+            -73.986319,
+            40.755691
+          ],
+          [
+            -73.986312,
+            40.755675
+          ],
+          [
+            -73.986305,
+            40.755665
+          ],
+          [
+            -73.986296,
+            40.755659
+          ],
+          [
+            -73.986283,
+            40.755654
+          ],
+          [
+            -73.986268,
+            40.755647
+          ],
+          [
+            -73.985068,
+            40.755139
+          ],
+          [
+            -73.985011,
+            40.755115
+          ],
+          [
+            -73.984951,
+            40.755089
+          ],
+          [
+            -73.98488,
+            40.755058
+          ],
+          [
+            -73.98484,
+            40.755041
+          ],
+          [
+            -73.984328,
+            40.754817
+          ],
+          [
+            -73.984283,
+            40.754797
+          ],
+          [
+            -73.984179,
+            40.754757
+          ],
+          [
+            -73.984081,
+            40.75472
+          ],
+          [
+            -73.984055,
+            40.754711
+          ],
+          [
+            -73.984044,
+            40.754706
+          ],
+          [
+            -73.983935,
+            40.754659
+          ],
+          [
+            -73.983693,
+            40.754556
+          ],
+          [
+            -73.983707,
+            40.754536
+          ],
+          [
+            -73.983712,
+            40.75453
+          ],
+          [
+            -73.983718,
+            40.754521
+          ],
+          [
+            -73.983741,
+            40.754489
+          ],
+          [
+            -73.983794,
+            40.754414
+          ],
+          [
+            -73.983815,
+            40.754401
+          ],
+          [
+            -73.983804,
+            40.754391
+          ],
+          [
+            -73.983856,
+            40.754319
+          ],
+          [
+            -73.983874,
+            40.754303
+          ],
+          [
+            -73.983885,
+            40.754287
+          ],
+          [
+            -73.983598,
+            40.754169
+          ],
+          [
+            -73.983513,
+            40.754133
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Times Square to Bryant Park",
+        "route_description": "Direct pedestrian route between Times Square and Bryant Park.",
+        "origin_landmark_id": "times_square",
+        "origin_landmark_name": "Times Square",
+        "origin_routing_coordinate": {
+          "lat": 40.757261,
+          "lon": -73.9859
+        },
+        "destination_landmark_id": "bryant_park",
+        "destination_landmark_name": "Bryant Park",
+        "destination_routing_coordinate": {
+          "lat": 40.754132,
+          "lon": -73.983513
+        },
+        "via_waypoints": [],
+        "distance_m": 517.0,
+        "estimated_duration_s": 388.7,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T18:19:50Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

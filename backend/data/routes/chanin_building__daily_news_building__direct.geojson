@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chanin Building to Daily News Building",
+    "route_description": "Direct pedestrian route between Chanin Building and Daily News Building.",
+    "origin_landmark_id": "chanin_building",
+    "origin_landmark_name": "Chanin Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751628,
+      "lon": -73.976787
+    },
+    "destination_landmark_id": "daily_news_building",
+    "destination_landmark_name": "Daily News Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75018,
+      "lon": -73.973342
+    },
+    "via_waypoints": [],
+    "distance_m": 332.0,
+    "estimated_duration_s": 240.2,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:33Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.976787,
+            40.751628
+          ],
+          [
+            -73.976225,
+            40.751391
+          ],
+          [
+            -73.976206,
+            40.751383
+          ],
+          [
+            -73.97612,
+            40.751351
+          ],
+          [
+            -73.97604,
+            40.751322
+          ],
+          [
+            -73.97601,
+            40.751309
+          ],
+          [
+            -73.975975,
+            40.751285
+          ],
+          [
+            -73.975758,
+            40.751194
+          ],
+          [
+            -73.975105,
+            40.750919
+          ],
+          [
+            -73.97466,
+            40.750727
+          ],
+          [
+            -73.974638,
+            40.750718
+          ],
+          [
+            -73.974541,
+            40.75068
+          ],
+          [
+            -73.974417,
+            40.750633
+          ],
+          [
+            -73.974379,
+            40.750617
+          ],
+          [
+            -73.973867,
+            40.750399
+          ],
+          [
+            -73.973562,
+            40.750272
+          ],
+          [
+            -73.973342,
+            40.75018
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chanin Building to Daily News Building",
+        "route_description": "Direct pedestrian route between Chanin Building and Daily News Building.",
+        "origin_landmark_id": "chanin_building",
+        "origin_landmark_name": "Chanin Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751628,
+          "lon": -73.976787
+        },
+        "destination_landmark_id": "daily_news_building",
+        "destination_landmark_name": "Daily News Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75018,
+          "lon": -73.973342
+        },
+        "via_waypoints": [],
+        "distance_m": 332.0,
+        "estimated_duration_s": 240.2,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:33Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

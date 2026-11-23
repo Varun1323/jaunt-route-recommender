@@ -1,0 +1,400 @@
+{
+  "type": "FeatureCollection",
+  "name": "via_5ee94a43beca9e8f",
+  "metadata": {
+    "route_id": "via_5ee94a43beca9e8f",
+    "route_name": "Via Chrysler Building, Stephen A. Schwarzman Building",
+    "route_description": "Route from Grand Central Terminal to Rockefeller Center via the requested intermediate landmarks in order.",
+    "origin_landmark_id": "grand_central_terminal",
+    "origin_landmark_name": "Grand Central Terminal",
+    "origin_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "destination_landmark_id": "rockefeller_center",
+    "destination_landmark_name": "Rockefeller Center",
+    "destination_routing_coordinate": {
+      "lat": 40.759258,
+      "lon": -73.979957
+    },
+    "via_waypoints": [
+      {
+        "landmark_id": "chrysler_building",
+        "landmark_name": "Chrysler Building",
+        "lat": 40.751644,
+        "lon": -73.975765
+      },
+      {
+        "landmark_id": "stephen_a_schwarzman_building",
+        "landmark_name": "Stephen A. Schwarzman Building",
+        "lat": 40.75388,
+        "lon": -73.982104
+      }
+    ],
+    "distance_m": 1615.0,
+    "estimated_duration_s": 1187.4,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T07:28:16Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977366,
+            40.752125
+          ],
+          [
+            -73.977112,
+            40.752017
+          ],
+          [
+            -73.976794,
+            40.751882
+          ],
+          [
+            -73.976286,
+            40.751666
+          ],
+          [
+            -73.976086,
+            40.751582
+          ],
+          [
+            -73.976083,
+            40.751567
+          ],
+          [
+            -73.975988,
+            40.75153
+          ],
+          [
+            -73.975879,
+            40.751488
+          ],
+          [
+            -73.975765,
+            40.751644
+          ],
+          [
+            -73.975879,
+            40.751488
+          ],
+          [
+            -73.975988,
+            40.75153
+          ],
+          [
+            -73.976083,
+            40.751567
+          ],
+          [
+            -73.976154,
+            40.751481
+          ],
+          [
+            -73.976206,
+            40.751417
+          ],
+          [
+            -73.976225,
+            40.751391
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982104,
+            40.753879
+          ],
+          [
+            -73.982472,
+            40.754036
+          ],
+          [
+            -73.982461,
+            40.754052
+          ],
+          [
+            -73.982449,
+            40.754068
+          ],
+          [
+            -73.982411,
+            40.754123
+          ],
+          [
+            -73.982361,
+            40.754197
+          ],
+          [
+            -73.982349,
+            40.754216
+          ],
+          [
+            -73.983907,
+            40.754879
+          ],
+          [
+            -73.983882,
+            40.7549
+          ],
+          [
+            -73.983539,
+            40.755401
+          ],
+          [
+            -73.983523,
+            40.755424
+          ],
+          [
+            -73.983496,
+            40.755462
+          ],
+          [
+            -73.983453,
+            40.755522
+          ],
+          [
+            -73.983078,
+            40.756031
+          ],
+          [
+            -73.983037,
+            40.756087
+          ],
+          [
+            -73.983001,
+            40.756143
+          ],
+          [
+            -73.982616,
+            40.756659
+          ],
+          [
+            -73.982578,
+            40.756715
+          ],
+          [
+            -73.982533,
+            40.75678
+          ],
+          [
+            -73.982173,
+            40.757266
+          ],
+          [
+            -73.982124,
+            40.757335
+          ],
+          [
+            -73.982077,
+            40.757401
+          ],
+          [
+            -73.981703,
+            40.757906
+          ],
+          [
+            -73.98168,
+            40.757936
+          ],
+          [
+            -73.981663,
+            40.75796
+          ],
+          [
+            -73.981638,
+            40.757993
+          ],
+          [
+            -73.981616,
+            40.758021
+          ],
+          [
+            -73.981247,
+            40.758529
+          ],
+          [
+            -73.981232,
+            40.75855
+          ],
+          [
+            -73.981206,
+            40.758588
+          ],
+          [
+            -73.981163,
+            40.75865
+          ],
+          [
+            -73.980791,
+            40.759163
+          ],
+          [
+            -73.980779,
+            40.759178
+          ],
+          [
+            -73.98075,
+            40.759218
+          ],
+          [
+            -73.98072,
+            40.759261
+          ],
+          [
+            -73.98071,
+            40.759274
+          ],
+          [
+            -73.980125,
+            40.759029
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "via_5ee94a43beca9e8f",
+        "route_name": "Via Chrysler Building, Stephen A. Schwarzman Building",
+        "route_description": "Route from Grand Central Terminal to Rockefeller Center via the requested intermediate landmarks in order.",
+        "origin_landmark_id": "grand_central_terminal",
+        "origin_landmark_name": "Grand Central Terminal",
+        "origin_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "destination_landmark_id": "rockefeller_center",
+        "destination_landmark_name": "Rockefeller Center",
+        "destination_routing_coordinate": {
+          "lat": 40.759258,
+          "lon": -73.979957
+        },
+        "via_waypoints": [
+          {
+            "landmark_id": "chrysler_building",
+            "landmark_name": "Chrysler Building",
+            "lat": 40.751644,
+            "lon": -73.975765
+          },
+          {
+            "landmark_id": "stephen_a_schwarzman_building",
+            "landmark_name": "Stephen A. Schwarzman Building",
+            "lat": 40.75388,
+            "lon": -73.982104
+          }
+        ],
+        "distance_m": 1615.0,
+        "estimated_duration_s": 1187.4,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T07:28:16Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chanin Building to Graybar Building",
+    "route_description": "Direct pedestrian route between Chanin Building and Graybar Building.",
+    "origin_landmark_id": "chanin_building",
+    "origin_landmark_name": "Chanin Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751628,
+      "lon": -73.976787
+    },
+    "destination_landmark_id": "graybar_building",
+    "destination_landmark_name": "Graybar Building",
+    "destination_routing_coordinate": {
+      "lat": 40.752168,
+      "lon": -73.975677
+    },
+    "via_waypoints": [],
+    "distance_m": 154.0,
+    "estimated_duration_s": 110.8,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:37Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.976787,
+            40.751628
+          ],
+          [
+            -73.976225,
+            40.751391
+          ],
+          [
+            -73.976206,
+            40.751417
+          ],
+          [
+            -73.976154,
+            40.751481
+          ],
+          [
+            -73.976083,
+            40.751567
+          ],
+          [
+            -73.976086,
+            40.751582
+          ],
+          [
+            -73.975988,
+            40.751715
+          ],
+          [
+            -73.975953,
+            40.751763
+          ],
+          [
+            -73.975738,
+            40.752048
+          ],
+          [
+            -73.975695,
+            40.75211
+          ],
+          [
+            -73.975659,
+            40.75216
+          ],
+          [
+            -73.975677,
+            40.752168
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chanin Building to Graybar Building",
+        "route_description": "Direct pedestrian route between Chanin Building and Graybar Building.",
+        "origin_landmark_id": "chanin_building",
+        "origin_landmark_name": "Chanin Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751628,
+          "lon": -73.976787
+        },
+        "destination_landmark_id": "graybar_building",
+        "destination_landmark_name": "Graybar Building",
+        "destination_routing_coordinate": {
+          "lat": 40.752168,
+          "lon": -73.975677
+        },
+        "via_waypoints": [],
+        "distance_m": 154.0,
+        "estimated_duration_s": 110.8,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:37Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T07:30:17Z",
+  "origin": "times_square",
+  "destination": "st_patricks_cathedral",
+  "route_id": "via_61f682695f2b1add",
+  "reason": "excessive_detour",
+  "compared_to": "direct",
+  "alternative_distance_m": 2327.0,
+  "reference_distance_m": 1089.0,
+  "distance_difference_m": 1238.0,
+  "detour_ratio": 2.1368
+}

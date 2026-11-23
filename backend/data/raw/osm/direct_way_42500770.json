@@ -1,0 +1,115 @@
+{
+  "version": "0.6",
+  "generator": "OpenStreetMap API via /way/42500770/full.json",
+  "elements": [
+    {
+      "type": "way",
+      "id": 42500770,
+      "tags": {
+        "architect": "William Van Alen",
+        "architect:wikidata": "Q706549",
+        "building": "tower",
+        "building:architecture": "art_deco",
+        "building:part": "no",
+        "building:use": "office",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "name": "Chrysler Building",
+        "name:el": "\u039a\u03c4\u03af\u03c1\u03b9\u03bf \u039a\u03c1\u03ac\u03b9\u03c3\u03bb\u03b5\u03c1",
+        "name:es": "Edificio Chrysler",
+        "name:he": "\u05d1\u05e0\u05d9\u05d9\u05df \u05e7\u05e8\u05d9\u05d9\u05d6\u05dc\u05e8",
+        "name:ko": "\ud06c\ub77c\uc774\uc2ac\ub7ec \ube4c\ub529",
+        "name:ru": "\u041a\u0440\u0430\u0439\u0441\u043b\u0435\u0440-\u0431\u0438\u043b\u0434\u0438\u043d\u0433",
+        "nycdoitt:bin": "1036156",
+        "start_date": "1930",
+        "tourism": "yes",
+        "wikidata": "Q11274",
+        "wikipedia": "en:Chrysler Building"
+      },
+      "nodes": [
+        530737132,
+        2665014478,
+        2665014638,
+        530737135,
+        530737137,
+        2665014479,
+        2665014429,
+        2714805423,
+        2665014352,
+        2665014344,
+        2665014314,
+        2665014313,
+        2714805412,
+        530737139,
+        5306850805,
+        530737132
+      ],
+      "geometry": [
+        {
+          "lat": 40.7514887,
+          "lon": -73.9758501
+        },
+        {
+          "lat": 40.7516351,
+          "lon": -73.9757433
+        },
+        {
+          "lat": 40.7518367,
+          "lon": -73.9755964
+        },
+        {
+          "lat": 40.7519828,
+          "lon": -73.9754899
+        },
+        {
+          "lat": 40.7517045,
+          "lon": -73.9748275
+        },
+        {
+          "lat": 40.7516356,
+          "lon": -73.9748782
+        },
+        {
+          "lat": 40.7515704,
+          "lon": -73.9749636
+        },
+        {
+          "lat": 40.7514754,
+          "lon": -73.9750878
+        },
+        {
+          "lat": 40.7514464,
+          "lon": -73.9751265
+        },
+        {
+          "lat": 40.7513975,
+          "lon": -73.9751761
+        },
+        {
+          "lat": 40.7513278,
+          "lon": -73.9752462
+        },
+        {
+          "lat": 40.751306,
+          "lon": -73.9752683
+        },
+        {
+          "lat": 40.7512796,
+          "lon": -73.9752947
+        },
+        {
+          "lat": 40.7512604,
+          "lon": -73.9753144
+        },
+        {
+          "lat": 40.7513026,
+          "lon": -73.9754135
+        },
+        {
+          "lat": 40.7514887,
+          "lon": -73.9758501
+        }
+      ]
+    }
+  ]
+}

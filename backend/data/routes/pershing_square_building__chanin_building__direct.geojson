@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Pershing Square Building to Chanin Building",
+    "route_description": "Direct pedestrian route between Pershing Square Building and Chanin Building.",
+    "origin_landmark_id": "pershing_square_building",
+    "origin_landmark_name": "Pershing Square Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751886,
+      "lon": -73.977397
+    },
+    "destination_landmark_id": "chanin_building",
+    "destination_landmark_name": "Chanin Building",
+    "destination_routing_coordinate": {
+      "lat": 40.751628,
+      "lon": -73.976787
+    },
+    "via_waypoints": [],
+    "distance_m": 58.0,
+    "estimated_duration_s": 38.2,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:53Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977397,
+            40.751886
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.976787,
+            40.751628
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Pershing Square Building to Chanin Building",
+        "route_description": "Direct pedestrian route between Pershing Square Building and Chanin Building.",
+        "origin_landmark_id": "pershing_square_building",
+        "origin_landmark_name": "Pershing Square Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751886,
+          "lon": -73.977397
+        },
+        "destination_landmark_id": "chanin_building",
+        "destination_landmark_name": "Chanin Building",
+        "destination_routing_coordinate": {
+          "lat": 40.751628,
+          "lon": -73.976787
+        },
+        "via_waypoints": [],
+        "distance_m": 58.0,
+        "estimated_duration_s": 38.2,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:53Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

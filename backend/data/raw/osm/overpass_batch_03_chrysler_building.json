@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-20T12:46:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 42500770,
+  "center": {
+    "lat": 40.7516216,
+    "lon": -73.9753388
+  },
+  "tags": {
+    "architect": "William Van Alen",
+    "architect:wikidata": "Q706549",
+    "building": "tower",
+    "building:architecture": "art_deco",
+    "building:part": "no",
+    "building:use": "office",
+    "heritage": "2",
+    "heritage:operator": "nrhp",
+    "name": "Chrysler Building",
+    "name:el": "Κτίριο Κράισλερ",
+    "name:es": "Edificio Chrysler",
+    "name:he": "בניין קרייזלר",
+    "name:ko": "크라이슬러 빌딩",
+    "name:ru": "Крайслер-билдинг",
+    "nycdoitt:bin": "1036156",
+    "start_date": "1930",
+    "tourism": "yes",
+    "wikidata": "Q11274",
+    "wikipedia": "en:Chrysler Building"
+  }
+}
+
+  ]
+}

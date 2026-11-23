@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Bryant Park to 1 Vanderbilt",
+    "route_description": "Direct pedestrian route between Bryant Park and 1 Vanderbilt.",
+    "origin_landmark_id": "bryant_park",
+    "origin_landmark_name": "Bryant Park",
+    "origin_routing_coordinate": {
+      "lat": 40.754132,
+      "lon": -73.983513
+    },
+    "destination_landmark_id": "one_vanderbilt",
+    "destination_landmark_name": "1 Vanderbilt",
+    "destination_routing_coordinate": {
+      "lat": 40.752367,
+      "lon": -73.978524
+    },
+    "via_waypoints": [],
+    "distance_m": 566.0,
+    "estimated_duration_s": 402.7,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:24Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.983513,
+            40.754133
+          ],
+          [
+            -73.983598,
+            40.754169
+          ],
+          [
+            -73.983588,
+            40.754182
+          ],
+          [
+            -73.983571,
+            40.7542
+          ],
+          [
+            -73.983519,
+            40.75427
+          ],
+          [
+            -73.983529,
+            40.75428
+          ],
+          [
+            -73.983804,
+            40.754391
+          ],
+          [
+            -73.983815,
+            40.754401
+          ],
+          [
+            -73.983794,
+            40.754414
+          ],
+          [
+            -73.983741,
+            40.754489
+          ],
+          [
+            -73.983718,
+            40.754521
+          ],
+          [
+            -73.983712,
+            40.75453
+          ],
+          [
+            -73.983707,
+            40.754536
+          ],
+          [
+            -73.983693,
+            40.754556
+          ],
+          [
+            -73.982472,
+            40.754036
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.978524,
+            40.752367
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Bryant Park to 1 Vanderbilt",
+        "route_description": "Direct pedestrian route between Bryant Park and 1 Vanderbilt.",
+        "origin_landmark_id": "bryant_park",
+        "origin_landmark_name": "Bryant Park",
+        "origin_routing_coordinate": {
+          "lat": 40.754132,
+          "lon": -73.983513
+        },
+        "destination_landmark_id": "one_vanderbilt",
+        "destination_landmark_name": "1 Vanderbilt",
+        "destination_routing_coordinate": {
+          "lat": 40.752367,
+          "lon": -73.978524
+        },
+        "via_waypoints": [],
+        "distance_m": 566.0,
+        "estimated_duration_s": 402.7,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:24Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

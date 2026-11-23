@@ -1,0 +1,92 @@
+{
+  "version": "0.6",
+  "generator": "OpenStreetMap API via /way/22727025/full.json",
+  "elements": [
+    {
+      "type": "way",
+      "id": 22727025,
+      "tags": {
+        "addr:city": "New York",
+        "addr:full": "Between 40th and 42nd Streets at 6th Avenue",
+        "addr:postcode": "10018",
+        "addr:state": "NY",
+        "check_date:opening_hours": "2021-11-16",
+        "ele": "20",
+        "gnis:feature_id": "2083160",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Bryant Park Public WiFi",
+        "leisure": "park",
+        "lpc:inscription_date": "1974-11-12",
+        "name": "Bryant Park",
+        "name:etymology:wikidata": "Q454840",
+        "name:ja": "\u30d6\u30e9\u30a4\u30a2\u30f3\u30c8\u30d1\u30fc\u30af",
+        "name:ko": "\ube0c\ub77c\uc774\uc5b8\ud2b8 \uacf5\uc6d0",
+        "name:ru": "\u0411\u0440\u0430\u0439\u0430\u043d\u0442-\u043f\u0430\u0440\u043a",
+        "name:tr": "Bryant Park",
+        "nrhp:inscription_date": "1966-10-15",
+        "old_name": "Reservoir Square",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "operator": "Bryant Park Corporation",
+        "ref:lpc": "0879",
+        "ref:nrhp": "66000547",
+        "tourism": "attraction",
+        "website": "https://bryantpark.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q995174",
+        "wikipedia": "en:Bryant Park"
+      },
+      "nodes": [
+        243775506,
+        6593121543,
+        6605262906,
+        6593122247,
+        243775508,
+        9590209941,
+        243775509,
+        6605262902,
+        243775506
+      ],
+      "geometry": [
+        {
+          "lat": 40.7528464,
+          "lon": -73.9830608
+        },
+        {
+          "lat": 40.753923,
+          "lon": -73.9822727
+        },
+        {
+          "lat": 40.7540175,
+          "lon": -73.9824866
+        },
+        {
+          "lat": 40.7543773,
+          "lon": -73.9833425
+        },
+        {
+          "lat": 40.7546551,
+          "lon": -73.9839967
+        },
+        {
+          "lat": 40.754635,
+          "lon": -73.9840853
+        },
+        {
+          "lat": 40.7535787,
+          "lon": -73.984804
+        },
+        {
+          "lat": 40.753211,
+          "lon": -73.9839324
+        },
+        {
+          "lat": 40.7528464,
+          "lon": -73.9830608
+        }
+      ]
+    }
+  ]
+}

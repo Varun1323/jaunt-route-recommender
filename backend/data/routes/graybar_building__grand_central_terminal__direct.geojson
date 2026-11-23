@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Graybar Building to Grand Central Terminal",
+    "route_description": "Direct pedestrian route between Graybar Building and Grand Central Terminal.",
+    "origin_landmark_id": "graybar_building",
+    "origin_landmark_name": "Graybar Building",
+    "origin_routing_coordinate": {
+      "lat": 40.752168,
+      "lon": -73.975677
+    },
+    "destination_landmark_id": "grand_central_terminal",
+    "destination_landmark_name": "Grand Central Terminal",
+    "destination_routing_coordinate": {
+      "lat": 40.752125,
+      "lon": -73.977366
+    },
+    "via_waypoints": [],
+    "distance_m": 196.0,
+    "estimated_duration_s": 147.7,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:30Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.975677,
+            40.752168
+          ],
+          [
+            -73.976505,
+            40.752519
+          ],
+          [
+            -73.976531,
+            40.752483
+          ],
+          [
+            -73.976714,
+            40.752559
+          ],
+          [
+            -73.976763,
+            40.752492
+          ],
+          [
+            -73.976787,
+            40.75246
+          ],
+          [
+            -73.976836,
+            40.752393
+          ],
+          [
+            -73.977078,
+            40.752065
+          ],
+          [
+            -73.977112,
+            40.752017
+          ],
+          [
+            -73.977366,
+            40.752125
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Graybar Building to Grand Central Terminal",
+        "route_description": "Direct pedestrian route between Graybar Building and Grand Central Terminal.",
+        "origin_landmark_id": "graybar_building",
+        "origin_landmark_name": "Graybar Building",
+        "origin_routing_coordinate": {
+          "lat": 40.752168,
+          "lon": -73.975677
+        },
+        "destination_landmark_id": "grand_central_terminal",
+        "destination_landmark_name": "Grand Central Terminal",
+        "destination_routing_coordinate": {
+          "lat": 40.752125,
+          "lon": -73.977366
+        },
+        "via_waypoints": [],
+        "distance_m": 196.0,
+        "estimated_duration_s": 147.7,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:30Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

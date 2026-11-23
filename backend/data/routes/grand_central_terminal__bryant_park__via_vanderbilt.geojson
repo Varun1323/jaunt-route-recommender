@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "name": "via_vanderbilt",
+  "metadata": {
+    "route_id": "via_vanderbilt",
+    "route_name": "Via One Vanderbilt Transit Hall",
+    "route_description": "Pedestrian route visiting One Vanderbilt and the pedestrian transit hall corridor.",
+    "origin_landmark_id": "grand_central_terminal",
+    "origin_landmark_name": "Grand Central Terminal",
+    "destination_landmark_id": "bryant_park",
+    "destination_landmark_name": "Bryant Park",
+    "via_waypoints": [
+      {
+        "landmark_id": "one_vanderbilt",
+        "landmark_name": "1 Vanderbilt",
+        "lat": 40.752367,
+        "lon": -73.978524
+      }
+    ],
+    "distance_m": 688.0,
+    "estimated_duration_s": 507.0,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-20T17:58:59Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.977366,
+            40.752125
+          ],
+          [
+            -73.977539,
+            40.752198
+          ],
+          [
+            -73.977598,
+            40.752223
+          ],
+          [
+            -73.977618,
+            40.752194
+          ],
+          [
+            -73.977634,
+            40.752171
+          ],
+          [
+            -73.977673,
+            40.752115
+          ],
+          [
+            -73.977714,
+            40.752058
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.978524,
+            40.752367
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982472,
+            40.754036
+          ],
+          [
+            -73.983693,
+            40.754556
+          ],
+          [
+            -73.983707,
+            40.754536
+          ],
+          [
+            -73.983712,
+            40.75453
+          ],
+          [
+            -73.983718,
+            40.754521
+          ],
+          [
+            -73.983741,
+            40.754489
+          ],
+          [
+            -73.983794,
+            40.754414
+          ],
+          [
+            -73.983815,
+            40.754401
+          ],
+          [
+            -73.983804,
+            40.754391
+          ],
+          [
+            -73.983529,
+            40.75428
+          ],
+          [
+            -73.983519,
+            40.75427
+          ],
+          [
+            -73.983571,
+            40.7542
+          ],
+          [
+            -73.983588,
+            40.754182
+          ],
+          [
+            -73.983598,
+            40.754169
+          ],
+          [
+            -73.983513,
+            40.754133
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "via_vanderbilt",
+        "route_name": "Via One Vanderbilt Transit Hall",
+        "route_description": "Pedestrian route visiting One Vanderbilt and the pedestrian transit hall corridor.",
+        "origin_landmark_id": "grand_central_terminal",
+        "origin_landmark_name": "Grand Central Terminal",
+        "destination_landmark_id": "bryant_park",
+        "destination_landmark_name": "Bryant Park",
+        "via_waypoints": [
+          {
+            "landmark_id": "one_vanderbilt",
+            "landmark_name": "1 Vanderbilt",
+            "lat": 40.752367,
+            "lon": -73.978524
+          }
+        ],
+        "distance_m": 688.0,
+        "estimated_duration_s": 507.0,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-20T17:58:59Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T18:44:53Z",
+  "origin": "times_square",
+  "destination": "museum_of_modern_art",
+  "route_id": "via_f1c7aa7e1a0011eb",
+  "reason": "excessive_detour",
+  "compared_to": "direct",
+  "alternative_distance_m": 3223.0,
+  "reference_distance_m": 1149.0,
+  "distance_difference_m": 2074.0,
+  "detour_ratio": 2.805
+}

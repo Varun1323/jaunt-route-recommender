@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-22T18:34:20Z",
+  "origin": "museum_of_modern_art",
+  "destination": "stephen_a_schwarzman_building",
+  "route_id": "via_859bc4c8d9bb26b9",
+  "reason": "duplicate_path",
+  "compared_to": "via_84aa1b7e182e8859",
+  "alternative_distance_m": 1752.0,
+  "reference_distance_m": 1888.0,
+  "distance_difference_m": -136.0,
+  "detour_ratio": 0.928
+}

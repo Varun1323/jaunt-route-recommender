@@ -1,0 +1,308 @@
+{
+  "type": "FeatureCollection",
+  "name": "via_8d244f10c31fc8e1",
+  "metadata": {
+    "route_id": "via_8d244f10c31fc8e1",
+    "route_name": "Via St. Patrick's Cathedral",
+    "route_description": "Route from Rockefeller Center to Stephen A. Schwarzman Building via the requested intermediate landmarks in order.",
+    "origin_landmark_id": "rockefeller_center",
+    "origin_landmark_name": "Rockefeller Center",
+    "origin_routing_coordinate": {
+      "lat": 40.759258,
+      "lon": -73.979957
+    },
+    "destination_landmark_id": "stephen_a_schwarzman_building",
+    "destination_landmark_name": "Stephen A. Schwarzman Building",
+    "destination_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "via_waypoints": [
+      {
+        "landmark_id": "st_patricks_cathedral",
+        "landmark_name": "St. Patrick's Cathedral",
+        "lat": 40.758558,
+        "lon": -73.976364
+      }
+    ],
+    "distance_m": 1213.0,
+    "estimated_duration_s": 876.6,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T18:32:19Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.980125,
+            40.759029
+          ],
+          [
+            -73.979009,
+            40.758561
+          ],
+          [
+            -73.978954,
+            40.758538
+          ],
+          [
+            -73.978898,
+            40.758514
+          ],
+          [
+            -73.978838,
+            40.758596
+          ],
+          [
+            -73.97858,
+            40.758943
+          ],
+          [
+            -73.978526,
+            40.759017
+          ],
+          [
+            -73.978477,
+            40.758999
+          ],
+          [
+            -73.978434,
+            40.758982
+          ],
+          [
+            -73.978415,
+            40.759002
+          ],
+          [
+            -73.978377,
+            40.759042
+          ],
+          [
+            -73.978342,
+            40.759079
+          ],
+          [
+            -73.978326,
+            40.759096
+          ],
+          [
+            -73.977949,
+            40.758935
+          ],
+          [
+            -73.977289,
+            40.758658
+          ],
+          [
+            -73.977257,
+            40.758644
+          ],
+          [
+            -73.977162,
+            40.758606
+          ],
+          [
+            -73.977069,
+            40.758569
+          ],
+          [
+            -73.97703,
+            40.758553
+          ],
+          [
+            -73.97653,
+            40.758337
+          ],
+          [
+            -73.97703,
+            40.758553
+          ],
+          [
+            -73.977069,
+            40.758569
+          ],
+          [
+            -73.977162,
+            40.758606
+          ],
+          [
+            -73.977206,
+            40.758544
+          ],
+          [
+            -73.977248,
+            40.758489
+          ],
+          [
+            -73.977613,
+            40.757978
+          ],
+          [
+            -73.977662,
+            40.75791
+          ],
+          [
+            -73.977705,
+            40.75785
+          ],
+          [
+            -73.978026,
+            40.757401
+          ],
+          [
+            -73.978069,
+            40.757342
+          ],
+          [
+            -73.978111,
+            40.757283
+          ],
+          [
+            -73.978152,
+            40.757226
+          ],
+          [
+            -73.978518,
+            40.756714
+          ],
+          [
+            -73.978557,
+            40.756659
+          ],
+          [
+            -73.978601,
+            40.756601
+          ],
+          [
+            -73.978982,
+            40.756093
+          ],
+          [
+            -73.979023,
+            40.756037
+          ],
+          [
+            -73.979071,
+            40.755973
+          ],
+          [
+            -73.979451,
+            40.755467
+          ],
+          [
+            -73.97949,
+            40.755413
+          ],
+          [
+            -73.979533,
+            40.755353
+          ],
+          [
+            -73.979895,
+            40.75485
+          ],
+          [
+            -73.979943,
+            40.754783
+          ],
+          [
+            -73.979983,
+            40.754727
+          ],
+          [
+            -73.980127,
+            40.754529
+          ],
+          [
+            -73.980352,
+            40.754221
+          ],
+          [
+            -73.980392,
+            40.754166
+          ],
+          [
+            -73.980436,
+            40.754102
+          ],
+          [
+            -73.980809,
+            40.753576
+          ],
+          [
+            -73.980879,
+            40.75348
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982104,
+            40.753879
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "via_8d244f10c31fc8e1",
+        "route_name": "Via St. Patrick's Cathedral",
+        "route_description": "Route from Rockefeller Center to Stephen A. Schwarzman Building via the requested intermediate landmarks in order.",
+        "origin_landmark_id": "rockefeller_center",
+        "origin_landmark_name": "Rockefeller Center",
+        "origin_routing_coordinate": {
+          "lat": 40.759258,
+          "lon": -73.979957
+        },
+        "destination_landmark_id": "stephen_a_schwarzman_building",
+        "destination_landmark_name": "Stephen A. Schwarzman Building",
+        "destination_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "via_waypoints": [
+          {
+            "landmark_id": "st_patricks_cathedral",
+            "landmark_name": "St. Patrick's Cathedral",
+            "lat": 40.758558,
+            "lon": -73.976364
+          }
+        ],
+        "distance_m": 1213.0,
+        "estimated_duration_s": 876.6,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T18:32:19Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

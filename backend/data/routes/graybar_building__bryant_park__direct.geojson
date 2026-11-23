@@ -1,0 +1,270 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Graybar Building to Bryant Park",
+    "route_description": "Direct pedestrian route between Graybar Building and Bryant Park.",
+    "origin_landmark_id": "graybar_building",
+    "origin_landmark_name": "Graybar Building",
+    "origin_routing_coordinate": {
+      "lat": 40.752168,
+      "lon": -73.975677
+    },
+    "destination_landmark_id": "bryant_park",
+    "destination_landmark_name": "Bryant Park",
+    "destination_routing_coordinate": {
+      "lat": 40.754132,
+      "lon": -73.983513
+    },
+    "via_waypoints": [],
+    "distance_m": 876.0,
+    "estimated_duration_s": 630.3,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:23Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.975677,
+            40.752168
+          ],
+          [
+            -73.976505,
+            40.752519
+          ],
+          [
+            -73.976531,
+            40.752483
+          ],
+          [
+            -73.976714,
+            40.752559
+          ],
+          [
+            -73.976763,
+            40.752492
+          ],
+          [
+            -73.976787,
+            40.75246
+          ],
+          [
+            -73.976836,
+            40.752393
+          ],
+          [
+            -73.976883,
+            40.752413
+          ],
+          [
+            -73.977286,
+            40.752585
+          ],
+          [
+            -73.97733,
+            40.752604
+          ],
+          [
+            -73.977374,
+            40.752623
+          ],
+          [
+            -73.977837,
+            40.752821
+          ],
+          [
+            -73.977896,
+            40.752846
+          ],
+          [
+            -73.977967,
+            40.752797
+          ],
+          [
+            -73.978165,
+            40.752522
+          ],
+          [
+            -73.978186,
+            40.752518
+          ],
+          [
+            -73.978203,
+            40.752514
+          ],
+          [
+            -73.97822,
+            40.752511
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978356,
+            40.752544
+          ],
+          [
+            -73.97871,
+            40.75269
+          ],
+          [
+            -73.979111,
+            40.752856
+          ],
+          [
+            -73.979125,
+            40.752836
+          ],
+          [
+            -73.97918,
+            40.752765
+          ],
+          [
+            -73.979287,
+            40.752813
+          ],
+          [
+            -73.979386,
+            40.752856
+          ],
+          [
+            -73.980333,
+            40.753257
+          ],
+          [
+            -73.980759,
+            40.753435
+          ],
+          [
+            -73.980879,
+            40.75348
+          ],
+          [
+            -73.981022,
+            40.753534
+          ],
+          [
+            -73.981058,
+            40.753485
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982472,
+            40.754036
+          ],
+          [
+            -73.983693,
+            40.754556
+          ],
+          [
+            -73.983707,
+            40.754536
+          ],
+          [
+            -73.983712,
+            40.75453
+          ],
+          [
+            -73.983718,
+            40.754521
+          ],
+          [
+            -73.983741,
+            40.754489
+          ],
+          [
+            -73.983794,
+            40.754414
+          ],
+          [
+            -73.983815,
+            40.754401
+          ],
+          [
+            -73.983804,
+            40.754391
+          ],
+          [
+            -73.983529,
+            40.75428
+          ],
+          [
+            -73.983519,
+            40.75427
+          ],
+          [
+            -73.983571,
+            40.7542
+          ],
+          [
+            -73.983588,
+            40.754182
+          ],
+          [
+            -73.983598,
+            40.754169
+          ],
+          [
+            -73.983513,
+            40.754133
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Graybar Building to Bryant Park",
+        "route_description": "Direct pedestrian route between Graybar Building and Bryant Park.",
+        "origin_landmark_id": "graybar_building",
+        "origin_landmark_name": "Graybar Building",
+        "origin_routing_coordinate": {
+          "lat": 40.752168,
+          "lon": -73.975677
+        },
+        "destination_landmark_id": "bryant_park",
+        "destination_landmark_name": "Bryant Park",
+        "destination_routing_coordinate": {
+          "lat": 40.754132,
+          "lon": -73.983513
+        },
+        "via_waypoints": [],
+        "distance_m": 876.0,
+        "estimated_duration_s": 630.3,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:23Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

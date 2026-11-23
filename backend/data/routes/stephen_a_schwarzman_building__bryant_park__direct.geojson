@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Stephen A. Schwarzman Building to Bryant Park",
+    "route_description": "Direct pedestrian route between Stephen A. Schwarzman Building and Bryant Park.",
+    "origin_landmark_id": "stephen_a_schwarzman_building",
+    "origin_landmark_name": "Stephen A. Schwarzman Building",
+    "origin_routing_coordinate": {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    "destination_landmark_id": "bryant_park",
+    "destination_landmark_name": "Bryant Park",
+    "destination_routing_coordinate": {
+      "lat": 40.754132,
+      "lon": -73.983513
+    },
+    "via_waypoints": [],
+    "distance_m": 221.0,
+    "estimated_duration_s": 149.8,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:48:05Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.982104,
+            40.753879
+          ],
+          [
+            -73.982472,
+            40.754036
+          ],
+          [
+            -73.983693,
+            40.754556
+          ],
+          [
+            -73.983707,
+            40.754536
+          ],
+          [
+            -73.983712,
+            40.75453
+          ],
+          [
+            -73.983718,
+            40.754521
+          ],
+          [
+            -73.983741,
+            40.754489
+          ],
+          [
+            -73.983794,
+            40.754414
+          ],
+          [
+            -73.983815,
+            40.754401
+          ],
+          [
+            -73.983804,
+            40.754391
+          ],
+          [
+            -73.983529,
+            40.75428
+          ],
+          [
+            -73.983519,
+            40.75427
+          ],
+          [
+            -73.983571,
+            40.7542
+          ],
+          [
+            -73.983588,
+            40.754182
+          ],
+          [
+            -73.983598,
+            40.754169
+          ],
+          [
+            -73.983513,
+            40.754133
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Stephen A. Schwarzman Building to Bryant Park",
+        "route_description": "Direct pedestrian route between Stephen A. Schwarzman Building and Bryant Park.",
+        "origin_landmark_id": "stephen_a_schwarzman_building",
+        "origin_landmark_name": "Stephen A. Schwarzman Building",
+        "origin_routing_coordinate": {
+          "lat": 40.75388,
+          "lon": -73.982104
+        },
+        "destination_landmark_id": "bryant_park",
+        "destination_landmark_name": "Bryant Park",
+        "destination_routing_coordinate": {
+          "lat": 40.754132,
+          "lon": -73.983513
+        },
+        "via_waypoints": [],
+        "distance_m": 221.0,
+        "estimated_duration_s": 149.8,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:48:05Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

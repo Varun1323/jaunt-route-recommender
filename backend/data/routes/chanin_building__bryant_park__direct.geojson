@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chanin Building to Bryant Park",
+    "route_description": "Direct pedestrian route between Chanin Building and Bryant Park.",
+    "origin_landmark_id": "chanin_building",
+    "origin_landmark_name": "Chanin Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751628,
+      "lon": -73.976787
+    },
+    "destination_landmark_id": "bryant_park",
+    "destination_landmark_name": "Bryant Park",
+    "destination_routing_coordinate": {
+      "lat": 40.754132,
+      "lon": -73.983513
+    },
+    "via_waypoints": [],
+    "distance_m": 733.0,
+    "estimated_duration_s": 537.2,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:30Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.976787,
+            40.751628
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.979253,
+            40.75267
+          ],
+          [
+            -73.97929,
+            40.752686
+          ],
+          [
+            -73.979355,
+            40.752719
+          ],
+          [
+            -73.979426,
+            40.752754
+          ],
+          [
+            -73.979446,
+            40.752763
+          ],
+          [
+            -73.980823,
+            40.753348
+          ],
+          [
+            -73.980866,
+            40.753367
+          ],
+          [
+            -73.980945,
+            40.753394
+          ],
+          [
+            -73.981045,
+            40.75343
+          ],
+          [
+            -73.981089,
+            40.753448
+          ],
+          [
+            -73.981126,
+            40.753463
+          ],
+          [
+            -73.982472,
+            40.754036
+          ],
+          [
+            -73.983693,
+            40.754556
+          ],
+          [
+            -73.983707,
+            40.754536
+          ],
+          [
+            -73.983712,
+            40.75453
+          ],
+          [
+            -73.983718,
+            40.754521
+          ],
+          [
+            -73.983741,
+            40.754489
+          ],
+          [
+            -73.983794,
+            40.754414
+          ],
+          [
+            -73.983815,
+            40.754401
+          ],
+          [
+            -73.983804,
+            40.754391
+          ],
+          [
+            -73.983529,
+            40.75428
+          ],
+          [
+            -73.983519,
+            40.75427
+          ],
+          [
+            -73.983571,
+            40.7542
+          ],
+          [
+            -73.983588,
+            40.754182
+          ],
+          [
+            -73.983598,
+            40.754169
+          ],
+          [
+            -73.983513,
+            40.754133
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chanin Building to Bryant Park",
+        "route_description": "Direct pedestrian route between Chanin Building and Bryant Park.",
+        "origin_landmark_id": "chanin_building",
+        "origin_landmark_name": "Chanin Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751628,
+          "lon": -73.976787
+        },
+        "destination_landmark_id": "bryant_park",
+        "destination_landmark_name": "Bryant Park",
+        "destination_routing_coordinate": {
+          "lat": 40.754132,
+          "lon": -73.983513
+        },
+        "via_waypoints": [],
+        "distance_m": 733.0,
+        "estimated_duration_s": 537.2,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:30Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

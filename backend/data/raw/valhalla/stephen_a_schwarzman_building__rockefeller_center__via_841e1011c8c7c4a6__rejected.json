@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-23T04:35:45Z",
+  "origin": "stephen_a_schwarzman_building",
+  "destination": "rockefeller_center",
+  "route_id": "via_841e1011c8c7c4a6",
+  "reason": "excessive_detour",
+  "compared_to": "direct",
+  "alternative_distance_m": 1654.0,
+  "reference_distance_m": 823.0,
+  "distance_difference_m": 831.0,
+  "detour_ratio": 2.0097
+}

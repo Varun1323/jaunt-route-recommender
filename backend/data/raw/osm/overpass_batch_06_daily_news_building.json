@@ -1,0 +1,29 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-20T12:49:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 42500778,
+  "center": {
+    "lat": 40.7497454,
+    "lon": -73.9732003
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Daily News Building",
+    "ref:nrhp": "82001191",
+    "start_date": "1930",
+    "tourism": "yes",
+    "wikidata": "Q2070225",
+    "wikipedia": "en:Daily News Building"
+  }
+}
+
+  ]
+}

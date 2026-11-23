@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Chanin Building to 1 Vanderbilt",
+    "route_description": "Direct pedestrian route between Chanin Building and 1 Vanderbilt.",
+    "origin_landmark_id": "chanin_building",
+    "origin_landmark_name": "Chanin Building",
+    "origin_routing_coordinate": {
+      "lat": 40.751628,
+      "lon": -73.976787
+    },
+    "destination_landmark_id": "one_vanderbilt",
+    "destination_landmark_name": "1 Vanderbilt",
+    "destination_routing_coordinate": {
+      "lat": 40.752367,
+      "lon": -73.978524
+    },
+    "via_waypoints": [],
+    "distance_m": 167.0,
+    "estimated_duration_s": 123.8,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:46:38Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.976787,
+            40.751628
+          ],
+          [
+            -73.977084,
+            40.751754
+          ],
+          [
+            -73.97751,
+            40.751934
+          ],
+          [
+            -73.977556,
+            40.751954
+          ],
+          [
+            -73.977614,
+            40.751979
+          ],
+          [
+            -73.977679,
+            40.752007
+          ],
+          [
+            -73.977733,
+            40.752031
+          ],
+          [
+            -73.977801,
+            40.75206
+          ],
+          [
+            -73.97788,
+            40.752094
+          ],
+          [
+            -73.977927,
+            40.752114
+          ],
+          [
+            -73.978066,
+            40.752176
+          ],
+          [
+            -73.978139,
+            40.752206
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.978524,
+            40.752367
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Chanin Building to 1 Vanderbilt",
+        "route_description": "Direct pedestrian route between Chanin Building and 1 Vanderbilt.",
+        "origin_landmark_id": "chanin_building",
+        "origin_landmark_name": "Chanin Building",
+        "origin_routing_coordinate": {
+          "lat": 40.751628,
+          "lon": -73.976787
+        },
+        "destination_landmark_id": "one_vanderbilt",
+        "destination_landmark_name": "1 Vanderbilt",
+        "destination_routing_coordinate": {
+          "lat": 40.752367,
+          "lon": -73.978524
+        },
+        "via_waypoints": [],
+        "distance_m": 167.0,
+        "estimated_duration_s": 123.8,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:46:38Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Times Square to Museum of Modern Art",
+    "route_description": "Direct pedestrian route between Times Square and Museum of Modern Art.",
+    "origin_landmark_id": "times_square",
+    "origin_landmark_name": "Times Square",
+    "origin_routing_coordinate": {
+      "lat": 40.757261,
+      "lon": -73.9859
+    },
+    "destination_landmark_id": "museum_of_modern_art",
+    "destination_landmark_name": "Museum of Modern Art",
+    "destination_routing_coordinate": {
+      "lat": 40.761612,
+      "lon": -73.977499
+    },
+    "via_waypoints": [],
+    "distance_m": 1149.0,
+    "estimated_duration_s": 835.8,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-22T18:44:51Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.985863,
+            40.757281
+          ],
+          [
+            -73.985833,
+            40.757323
+          ],
+          [
+            -73.985821,
+            40.75734
+          ],
+          [
+            -73.985836,
+            40.757347
+          ],
+          [
+            -73.985846,
+            40.757352
+          ],
+          [
+            -73.98585,
+            40.757358
+          ],
+          [
+            -73.985849,
+            40.757367
+          ],
+          [
+            -73.985842,
+            40.757378
+          ],
+          [
+            -73.985498,
+            40.757852
+          ],
+          [
+            -73.985494,
+            40.757857
+          ],
+          [
+            -73.985487,
+            40.757859
+          ],
+          [
+            -73.98548,
+            40.757858
+          ],
+          [
+            -73.985474,
+            40.757856
+          ],
+          [
+            -73.985451,
+            40.757847
+          ],
+          [
+            -73.985435,
+            40.757867
+          ],
+          [
+            -73.985417,
+            40.757914
+          ],
+          [
+            -73.985399,
+            40.75796
+          ],
+          [
+            -73.985391,
+            40.757971
+          ],
+          [
+            -73.985378,
+            40.757989
+          ],
+          [
+            -73.98502,
+            40.758476
+          ],
+          [
+            -73.985007,
+            40.758494
+          ],
+          [
+            -73.984967,
+            40.75855
+          ],
+          [
+            -73.984942,
+            40.758586
+          ],
+          [
+            -73.984933,
+            40.758599
+          ],
+          [
+            -73.984919,
+            40.758618
+          ],
+          [
+            -73.984565,
+            40.759101
+          ],
+          [
+            -73.98454,
+            40.759135
+          ],
+          [
+            -73.984509,
+            40.759175
+          ],
+          [
+            -73.984488,
+            40.759203
+          ],
+          [
+            -73.984474,
+            40.759222
+          ],
+          [
+            -73.9841,
+            40.75973
+          ],
+          [
+            -73.984087,
+            40.759748
+          ],
+          [
+            -73.984057,
+            40.759791
+          ],
+          [
+            -73.983161,
+            40.759409
+          ],
+          [
+            -73.983017,
+            40.759349
+          ],
+          [
+            -73.982136,
+            40.75898
+          ],
+          [
+            -73.981946,
+            40.759016
+          ],
+          [
+            -73.981723,
+            40.758926
+          ],
+          [
+            -73.981512,
+            40.758924
+          ],
+          [
+            -73.981451,
+            40.758936
+          ],
+          [
+            -73.981266,
+            40.759191
+          ],
+          [
+            -73.980924,
+            40.759218
+          ],
+          [
+            -73.980827,
+            40.759178
+          ],
+          [
+            -73.980791,
+            40.759163
+          ],
+          [
+            -73.980779,
+            40.759178
+          ],
+          [
+            -73.98075,
+            40.759218
+          ],
+          [
+            -73.98072,
+            40.759261
+          ],
+          [
+            -73.98071,
+            40.759274
+          ],
+          [
+            -73.98057,
+            40.759465
+          ],
+          [
+            -73.980335,
+            40.759788
+          ],
+          [
+            -73.980285,
+            40.759855
+          ],
+          [
+            -73.980243,
+            40.759911
+          ],
+          [
+            -73.980145,
+            40.760043
+          ],
+          [
+            -73.979875,
+            40.760407
+          ],
+          [
+            -73.979828,
+            40.760467
+          ],
+          [
+            -73.979781,
+            40.760526
+          ],
+          [
+            -73.979415,
+            40.761027
+          ],
+          [
+            -73.979366,
+            40.761095
+          ],
+          [
+            -73.979327,
+            40.761148
+          ],
+          [
+            -73.978964,
+            40.761665
+          ],
+          [
+            -73.978927,
+            40.761717
+          ],
+          [
+            -73.978894,
+            40.761761
+          ],
+          [
+            -73.978878,
+            40.761785
+          ],
+          [
+            -73.978526,
+            40.762289
+          ],
+          [
+            -73.97825,
+            40.762177
+          ],
+          [
+            -73.978241,
+            40.762173
+          ],
+          [
+            -73.977359,
+            40.761803
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Times Square to Museum of Modern Art",
+        "route_description": "Direct pedestrian route between Times Square and Museum of Modern Art.",
+        "origin_landmark_id": "times_square",
+        "origin_landmark_name": "Times Square",
+        "origin_routing_coordinate": {
+          "lat": 40.757261,
+          "lon": -73.9859
+        },
+        "destination_landmark_id": "museum_of_modern_art",
+        "destination_landmark_name": "Museum of Modern Art",
+        "destination_routing_coordinate": {
+          "lat": 40.761612,
+          "lon": -73.977499
+        },
+        "via_waypoints": [],
+        "distance_m": 1149.0,
+        "estimated_duration_s": 835.8,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-22T18:44:51Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route endpoints use unverified prototype routing candidates. Some are projected onto mapped OSM pedestrian ways; others are Nominatim place points whose entrances and sidewalk connections are unconfirmed. Valhalla must return and validate actual pedestrian geometry; no endpoint is represented as a field-verified public entrance.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1273 @@
+{
+  "schema_version": "2.0",
+  "collected_at": "2026-11-21T18:21:20Z",
+  "verification_policy": "All external matches are candidates only; manual confirmation is required before landmarks.json can be updated.",
+  "provider": "OpenStreetMap",
+  "candidate_summary": [
+    {
+      "landmark_id": "grand_central_terminal",
+      "candidate_count": 2,
+      "relevant_tags": [
+        {
+          "osm_type": "relation",
+          "osm_id": 11171793,
+          "name": "Grand Central Terminal",
+          "tags": {
+            "building": "train_station",
+            "layer": "-2",
+            "location": "underground",
+            "name": "Grand Central Terminal",
+            "name:zh": "大中央车站",
+            "name:zh-Hans": "大中央车站",
+            "name:zh-Hant": "大中央車站",
+            "operator": "New York City Transit Authority",
+            "public_transport": "station",
+            "railway": "station",
+            "train": "yes",
+            "type": "multipolygon",
+            "underground": "yes"
+          }
+        },
+        {
+          "osm_type": "way",
+          "osm_id": 265947358,
+          "name": "Grand Central Terminal",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "89",
+            "addr:state": "NY",
+            "addr:street": "East 42nd Street",
+            "building": "train_station",
+            "building:facade:colour": "#F7E8D1",
+            "ele": "18",
+            "gnis:feature_id": "951479",
+            "height": "45.8",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "layer": "2",
+            "loc_name": "Grand Central Station",
+            "name": "Grand Central Terminal",
+            "name:de": "Hauptbahnhof New York City (Grand Central)",
+            "name:ja": "グランド・セントラル駅",
+            "name:ko": "그랜드 센트럴 터미널",
+            "name:ru": "Центральный вокзал Нью-Йорка",
+            "name:zh": "大中央车站",
+            "name:zh-Hans": "大中央车站",
+            "name:zh-Hant": "大中央車站",
+            "nycdoitt:bin": "1035381",
+            "opening_hours": "Mo-Su 05:30-02:00",
+            "operator": "Metropolitan Transportation Authority",
+            "operator:wikidata": "Q1146109",
+            "roof:colour": "#A4BE93",
+            "short_name": "GCT",
+            "start_date": "1913",
+            "toilets": "yes",
+            "toilets:wheelchair": "yes",
+            "tourism": "attraction",
+            "website": "https://www.grandcentralterminal.com/",
+            "wheelchair": "yes",
+            "wikidata": "Q11290",
+            "wikipedia": "en:Grand Central Terminal"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "pershing_square_building",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947370,
+          "name": "Pershing Square Building",
+          "tags": {
+            "building": "commercial",
+            "name": "Pershing Square Building",
+            "nycdoitt:bin": "1036151",
+            "start_date": "1923",
+            "wikidata": "Q7170180",
+            "wikipedia": "en:Pershing Square Building"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "chrysler_building",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 42500770,
+          "name": "Chrysler Building",
+          "tags": {
+            "architect": "William Van Alen",
+            "architect:wikidata": "Q706549",
+            "building": "tower",
+            "building:architecture": "art_deco",
+            "building:part": "no",
+            "building:use": "office",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "name": "Chrysler Building",
+            "name:el": "Κτίριο Κράισλερ",
+            "name:es": "Edificio Chrysler",
+            "name:he": "בניין קרייזלר",
+            "name:ko": "크라이슬러 빌딩",
+            "name:ru": "Крайслер-билдинг",
+            "nycdoitt:bin": "1036156",
+            "start_date": "1930",
+            "tourism": "yes",
+            "wikidata": "Q11274",
+            "wikipedia": "en:Chrysler Building"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "graybar_building",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947361,
+          "name": "Graybar Building",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "420",
+            "addr:postcode": "10017",
+            "addr:street": "Lexington Avenue",
+            "building": "commercial",
+            "height": "118.6",
+            "name": "Graybar Building",
+            "nycdoitt:bin": "1035385",
+            "start_date": "1927",
+            "wikidata": "Q71429431",
+            "wikipedia": "en:Graybar Building"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "chanin_building",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947366,
+          "name": "Chanin Building",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "122",
+            "addr:postcode": "10017",
+            "addr:state": "NY",
+            "addr:street": "East 42nd Street",
+            "building": "yes",
+            "building:levels": "56",
+            "height": "205",
+            "name": "Chanin Building",
+            "nycdoitt:bin": "1036152",
+            "ref:nrhp": "80002676",
+            "start_date": "1929",
+            "wikidata": "Q2956104",
+            "wikipedia": "en:Chanin Building"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "daily_news_building",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 42500778,
+          "name": "Daily News Building",
+          "tags": {
+            "building": "yes",
+            "name": "Daily News Building",
+            "ref:nrhp": "82001191",
+            "start_date": "1930",
+            "tourism": "yes",
+            "wikidata": "Q2070225",
+            "wikipedia": "en:Daily News Building"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "one_vanderbilt",
+      "candidate_count": 0,
+      "relevant_tags": [],
+      "status": "unresolved_batch_failed"
+    },
+    {
+      "landmark_id": "stephen_a_schwarzman_building",
+      "candidate_count": 0,
+      "relevant_tags": [],
+      "status": "not_collected"
+    },
+    {
+      "landmark_id": "bryant_park",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 22727025,
+          "name": "Bryant Park",
+          "tags": {
+            "addr:city": "New York",
+            "addr:full": "Between 40th and 42nd Streets at 6th Avenue",
+            "addr:postcode": "10018",
+            "addr:state": "NY",
+            "check_date:opening_hours": "2021-11-16",
+            "ele": "20",
+            "gnis:feature_id": "2083160",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "internet_access:ssid": "Bryant Park Public WiFi",
+            "leisure": "park",
+            "lpc:inscription_date": "1974-11-12",
+            "name": "Bryant Park",
+            "name:etymology:wikidata": "Q454840",
+            "name:ja": "ブライアントパーク",
+            "name:ko": "브라이언트 공원",
+            "name:ru": "Брайант-парк",
+            "name:tr": "Bryant Park",
+            "nrhp:inscription_date": "1966-10-15",
+            "old_name": "Reservoir Square",
+            "opening_hours": "Mo-Su 07:00-23:00",
+            "operator": "Bryant Park Corporation",
+            "ref:lpc": "0879",
+            "ref:nrhp": "66000547",
+            "tourism": "attraction",
+            "website": "https://bryantpark.org/",
+            "wheelchair": "yes",
+            "wikidata": "Q995174",
+            "wikipedia": "en:Bryant Park"
+          }
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "times_square",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 702540318,
+          "name": "Times Square",
+          "tags": {}
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "rockefeller_center",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "relation",
+          "osm_id": 18351439,
+          "name": "Rockefeller Center",
+          "tags": {}
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "st_patricks_cathedral",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 266010379,
+          "name": "Saint Patrick’s Cathedral",
+          "tags": {}
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    },
+    {
+      "landmark_id": "museum_of_modern_art",
+      "candidate_count": 1,
+      "relevant_tags": [
+        {
+          "osm_type": "way",
+          "osm_id": 278346578,
+          "name": "MoMA",
+          "tags": {}
+        }
+      ],
+      "status": "candidate_unconfirmed"
+    }
+  ],
+  "request_metadata": {
+    "overpass_endpoint": "https://overpass-api.de/api/interpreter",
+    "batch_size": 1,
+    "nominatim_enabled": true,
+    "nominatim_only": true
+  },
+  "overpass_batches": [
+    {
+      "batch": 1,
+      "landmark_ids": [
+        "grand_central_terminal"
+      ],
+      "status": "failed",
+      "error": "HTTP 502: # 502 Gateway Timeout\n\nThis Overpass API server is currently at capacity. All query workers are busy\nand the request queue is full.\n\n## What to do\n\nRetry your request using exponential backoff: wait a short interval, then retry.\nIf the request fails again, double the wait time and retry again.\n\n## For heavy or automated use\n\nThis public endpoint is intended for browser-based and human-operated tools.\nFor automated or high-volume use, run a local Overpass API instance:\n\nhttps://github.com/b1tw153/Overpass-API/blob/main/README.md\n",
+      "attempts": 3,
+      "cache_file": "raw\\osm\\overpass_batch_01_grand_central_terminal.json",
+      "candidate_count": 0
+    },
+    {
+      "batch": 2,
+      "landmark_ids": [
+        "pershing_square_building"
+      ],
+      "status": "failed",
+      "error": "HTTP 502: # 502 Gateway Timeout\n\nThis Overpass API server is currently at capacity. All query workers are busy\nand the request queue is full.\n\n## What to do\n\nRetry your request using exponential backoff: wait a short interval, then retry.\nIf the request fails again, double the wait time and retry again.\n\n## For heavy or automated use\n\nThis public endpoint is intended for browser-based and human-operated tools.\nFor automated or high-volume use, run a local Overpass API instance:\n\nhttps://github.com/b1tw153/Overpass-API/blob/main/README.md\n",
+      "attempts": 3,
+      "cache_file": "raw\\osm\\overpass_batch_02_pershing_square_building.json",
+      "candidate_count": 0
+    },
+    {
+      "batch": 3,
+      "landmark_ids": [
+        "chrysler_building"
+      ],
+      "status": "success",
+      "request_metadata": {
+        "cache": "miss",
+        "retrieved_at": "2026-11-20T12:47:44Z",
+        "http_status": 200
+      },
+      "attempts": 2,
+      "cache_file": "raw\\osm\\overpass_batch_03_chrysler_building.json",
+      "candidate_count": 1
+    },
+    {
+      "batch": 4,
+      "landmark_ids": [
+        "graybar_building"
+      ],
+      "status": "success",
+      "request_metadata": {
+        "cache": "miss",
+        "retrieved_at": "2026-11-20T12:48:17Z",
+        "http_status": 200
+      },
+      "attempts": 1,
+      "cache_file": "raw\\osm\\overpass_batch_04_graybar_building.json",
+      "candidate_count": 1
+    },
+    {
+      "batch": 5,
+      "landmark_ids": [
+        "chanin_building"
+      ],
+      "status": "success",
+      "request_metadata": {
+        "cache": "miss",
+        "retrieved_at": "2026-11-20T12:49:28Z",
+        "http_status": 200
+      },
+      "attempts": 2,
+      "cache_file": "raw\\osm\\overpass_batch_05_chanin_building.json",
+      "candidate_count": 1
+    },
+    {
+      "batch": 6,
+      "landmark_ids": [
+        "daily_news_building"
+      ],
+      "status": "success",
+      "request_metadata": {
+        "cache": "miss",
+        "retrieved_at": "2026-11-20T12:50:25Z",
+        "http_status": 200
+      },
+      "attempts": 3,
+      "cache_file": "raw\\osm\\overpass_batch_06_daily_news_building.json",
+      "candidate_count": 1
+    },
+    {
+      "batch": 8,
+      "landmark_ids": [
+        "bryant_park"
+      ],
+      "status": "failed",
+      "error": "HTTP 502: # 502 Gateway Timeout\n\nThis Overpass API server is currently at capacity. All query workers are busy\nand the request queue is full.\n\n## What to do\n\nRetry your request using exponential backoff: wait a short interval, then retry.\nIf the request fails again, double the wait time and retry again.\n\n## For heavy or automated use\n\nThis public endpoint is intended for browser-based and human-operated tools.\nFor automated or high-volume use, run a local Overpass API instance:\n\nhttps://github.com/b1tw153/Overpass-API/blob/main/README.md\n",
+      "attempts": 3,
+      "cache_file": "raw\\osm\\overpass_batch_08_bryant_park.json",
+      "candidate_count": 0
+    },
+    {
+      "batch": 1,
+      "landmark_ids": [
+        "one_vanderbilt"
+      ],
+      "status": "failed",
+      "error": "request timed out for https://overpass.private.coffee/api/interpreter",
+      "attempts": 3,
+      "query": "[out:json][timeout:40];\n(\n  way[\"name\"~\"One\\ Vanderbilt|1\\ Vanderbilt|One\\ Vanderbilt\\ Avenue|1\\ Vanderbilt\\ Avenue\",i][\"building\"](40.746,-73.986,40.762,-73.97);\n  relation[\"name\"~\"One\\ Vanderbilt|1\\ Vanderbilt|One\\ Vanderbilt\\ Avenue|1\\ Vanderbilt\\ Avenue\",i][\"building\"](40.746,-73.986,40.762,-73.97);\n  way[\"official_name\"~\"One\\ Vanderbilt|1\\ Vanderbilt|One\\ Vanderbilt\\ Avenue|1\\ Vanderbilt\\ Avenue\",i][\"building\"](40.746,-73.986,40.762,-73.97);\n  relation[\"official_name\"~\"One\\ Vanderbilt|1\\ Vanderbilt|One\\ Vanderbilt\\ Avenue|1\\ Vanderbilt\\ Avenue\",i][\"building\"](40.746,-73.986,40.762,-73.97);\n  way[\"alt_name\"~\"One\\ Vanderbilt|1\\ Vanderbilt|One\\ Vanderbilt\\ Avenue|1\\ Vanderbilt\\ Avenue\",i][\"building\"](40.746,-73.986,40.762,-73.97);\n  relation[\"alt_name\"~\"One\\ Vanderbilt|1\\ Vanderbilt|One\\ Vanderbilt\\ Avenue|1\\ Vanderbilt\\ Avenue\",i][\"building\"](40.746,-73.986,40.762,-73.97);\n);\nout body center geom;",
+      "cache_file": "raw\\osm\\overpass_landmark_one_vanderbilt.json",
+      "candidate_count": 0
+    }
+  ],
+  "requested_landmark_ids": [
+    "times_square",
+    "rockefeller_center",
+    "st_patricks_cathedral",
+    "museum_of_modern_art"
+  ],
+  "skipped_existing_success_ids": [],
+  "landmarks": [
+    {
+      "landmark_id": "grand_central_terminal",
+      "landmark_name": "Grand Central Terminal",
+      "candidate_count": 2,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "relation",
+          "osm_id": 11171793,
+          "name": "Grand Central Terminal",
+          "tags": {
+            "building": "train_station",
+            "layer": "-2",
+            "location": "underground",
+            "name": "Grand Central Terminal",
+            "name:zh": "大中央车站",
+            "name:zh-Hans": "大中央车站",
+            "name:zh-Hant": "大中央車站",
+            "operator": "New York City Transit Authority",
+            "public_transport": "station",
+            "railway": "station",
+            "train": "yes",
+            "type": "multipolygon",
+            "underground": "yes"
+          }
+        },
+        {
+          "osm_type": "way",
+          "osm_id": 265947358,
+          "name": "Grand Central Terminal",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "89",
+            "addr:state": "NY",
+            "addr:street": "East 42nd Street",
+            "building": "train_station",
+            "building:facade:colour": "#F7E8D1",
+            "ele": "18",
+            "gnis:feature_id": "951479",
+            "height": "45.8",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "layer": "2",
+            "loc_name": "Grand Central Station",
+            "name": "Grand Central Terminal",
+            "name:de": "Hauptbahnhof New York City (Grand Central)",
+            "name:ja": "グランド・セントラル駅",
+            "name:ko": "그랜드 센트럴 터미널",
+            "name:ru": "Центральный вокзал Нью-Йорка",
+            "name:zh": "大中央车站",
+            "name:zh-Hans": "大中央车站",
+            "name:zh-Hant": "大中央車站",
+            "nycdoitt:bin": "1035381",
+            "opening_hours": "Mo-Su 05:30-02:00",
+            "operator": "Metropolitan Transportation Authority",
+            "operator:wikidata": "Q1146109",
+            "roof:colour": "#A4BE93",
+            "short_name": "GCT",
+            "start_date": "1913",
+            "toilets": "yes",
+            "toilets:wheelchair": "yes",
+            "tourism": "attraction",
+            "website": "https://www.grandcentralterminal.com/",
+            "wheelchair": "yes",
+            "wikidata": "Q11290",
+            "wikipedia": "en:Grand Central Terminal"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 11171793,
+          "name": "Grand Central Terminal",
+          "coordinates": {
+            "latitude": 40.755207,
+            "longitude": -73.9754588
+          },
+          "coordinate_basis": "Overpass representative center; not an entrance",
+          "address": null,
+          "tags": {
+            "building": "train_station",
+            "layer": "-2",
+            "location": "underground",
+            "name": "Grand Central Terminal",
+            "name:zh": "大中央车站",
+            "name:zh-Hans": "大中央车站",
+            "name:zh-Hant": "大中央車站",
+            "operator": "New York City Transit Authority",
+            "public_transport": "station",
+            "railway": "station",
+            "train": "yes",
+            "type": "multipolygon",
+            "underground": "yes"
+          },
+          "match_basis": "record recovered by exact OSM type and ID from existing raw cache; identity remains unconfirmed",
+          "source_url": "https://www.openstreetmap.org/relation/11171793",
+          "source_type": "OpenStreetMap via existing Overpass raw cache",
+          "raw_cache_file": "backend/data/raw/osm/overpass_landmarks.json",
+          "geometry": null,
+          "geometry_status": "full way/relation geometry was not present in cached response",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "relation",
+              "osm_id": 11171793
+            }
+          ]
+        },
+        {
+          "osm_type": "way",
+          "osm_id": 265947358,
+          "name": "Grand Central Terminal",
+          "coordinates": {
+            "latitude": 40.7526483,
+            "longitude": -73.9772748
+          },
+          "coordinate_basis": "Overpass representative center; not an entrance",
+          "address": "89 East 42nd Street, New York",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "89",
+            "addr:state": "NY",
+            "addr:street": "East 42nd Street",
+            "building": "train_station",
+            "building:facade:colour": "#F7E8D1",
+            "ele": "18",
+            "gnis:feature_id": "951479",
+            "height": "45.8",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "layer": "2",
+            "loc_name": "Grand Central Station",
+            "name": "Grand Central Terminal",
+            "name:de": "Hauptbahnhof New York City (Grand Central)",
+            "name:ja": "グランド・セントラル駅",
+            "name:ko": "그랜드 센트럴 터미널",
+            "name:ru": "Центральный вокзал Нью-Йорка",
+            "name:zh": "大中央车站",
+            "name:zh-Hans": "大中央车站",
+            "name:zh-Hant": "大中央車站",
+            "nycdoitt:bin": "1035381",
+            "opening_hours": "Mo-Su 05:30-02:00",
+            "operator": "Metropolitan Transportation Authority",
+            "operator:wikidata": "Q1146109",
+            "roof:colour": "#A4BE93",
+            "short_name": "GCT",
+            "start_date": "1913",
+            "toilets": "yes",
+            "toilets:wheelchair": "yes",
+            "tourism": "attraction",
+            "website": "https://www.grandcentralterminal.com/",
+            "wheelchair": "yes",
+            "wikidata": "Q11290",
+            "wikipedia": "en:Grand Central Terminal"
+          },
+          "match_basis": "record recovered by exact OSM type and ID from existing raw cache; identity remains unconfirmed",
+          "source_url": "https://www.openstreetmap.org/way/265947358",
+          "source_type": "OpenStreetMap via existing Overpass raw cache",
+          "raw_cache_file": "backend/data/raw/osm/overpass_landmarks.json",
+          "geometry": null,
+          "geometry_status": "full way/relation geometry was not present in cached response",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 265947358
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "pershing_square_building",
+      "landmark_name": "Pershing Square Building",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947370,
+          "name": "Pershing Square Building",
+          "tags": {
+            "building": "commercial",
+            "name": "Pershing Square Building",
+            "nycdoitt:bin": "1036151",
+            "start_date": "1923",
+            "wikidata": "Q7170180",
+            "wikipedia": "en:Pershing Square Building"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947370,
+          "name": "Pershing Square Building",
+          "coordinates": {
+            "latitude": 40.7515872,
+            "longitude": -73.9775033
+          },
+          "coordinate_basis": "Overpass representative center; not an entrance",
+          "address": null,
+          "tags": {
+            "building": "commercial",
+            "name": "Pershing Square Building",
+            "nycdoitt:bin": "1036151",
+            "start_date": "1923",
+            "wikidata": "Q7170180",
+            "wikipedia": "en:Pershing Square Building"
+          },
+          "match_basis": "record recovered by exact OSM type and ID from existing raw cache; identity remains unconfirmed",
+          "source_url": "https://www.openstreetmap.org/way/265947370",
+          "source_type": "OpenStreetMap via existing Overpass raw cache",
+          "raw_cache_file": "backend/data/raw/osm/overpass_landmarks.json",
+          "geometry": null,
+          "geometry_status": "full way/relation geometry was not present in cached response",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 265947370
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "chrysler_building",
+      "landmark_name": "Chrysler Building",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 42500770,
+          "name": "Chrysler Building",
+          "tags": {
+            "architect": "William Van Alen",
+            "architect:wikidata": "Q706549",
+            "building": "tower",
+            "building:architecture": "art_deco",
+            "building:part": "no",
+            "building:use": "office",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "name": "Chrysler Building",
+            "name:el": "Κτίριο Κράισλερ",
+            "name:es": "Edificio Chrysler",
+            "name:he": "בניין קרייזלר",
+            "name:ko": "크라이슬러 빌딩",
+            "name:ru": "Крайслер-билдинг",
+            "nycdoitt:bin": "1036156",
+            "start_date": "1930",
+            "tourism": "yes",
+            "wikidata": "Q11274",
+            "wikipedia": "en:Chrysler Building"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 42500770,
+          "name": "Chrysler Building",
+          "coordinates": {
+            "latitude": 40.7516216,
+            "longitude": -73.9753388
+          },
+          "coordinate_basis": "OSM way/relation representative center; not an entrance",
+          "address": null,
+          "tags": {
+            "architect": "William Van Alen",
+            "architect:wikidata": "Q706549",
+            "building": "tower",
+            "building:architecture": "art_deco",
+            "building:part": "no",
+            "building:use": "office",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "name": "Chrysler Building",
+            "name:el": "Κτίριο Κράισλερ",
+            "name:es": "Edificio Chrysler",
+            "name:he": "בניין קרייזלר",
+            "name:ko": "크라이슬러 빌딩",
+            "name:ru": "Крайслер-билдинг",
+            "nycdoitt:bin": "1036156",
+            "start_date": "1930",
+            "tourism": "yes",
+            "wikidata": "Q11274",
+            "wikipedia": "en:Chrysler Building"
+          },
+          "match_score": 100,
+          "match_basis": "exact_configured_name_and_expected_feature_type",
+          "source_url": "https://www.openstreetmap.org/way/42500770",
+          "source_type": "OpenStreetMap via Overpass API",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 42500770
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "graybar_building",
+      "landmark_name": "Graybar Building",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947361,
+          "name": "Graybar Building",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "420",
+            "addr:postcode": "10017",
+            "addr:street": "Lexington Avenue",
+            "building": "commercial",
+            "height": "118.6",
+            "name": "Graybar Building",
+            "nycdoitt:bin": "1035385",
+            "start_date": "1927",
+            "wikidata": "Q71429431",
+            "wikipedia": "en:Graybar Building"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947361,
+          "name": "Graybar Building",
+          "coordinates": {
+            "latitude": 40.7526977,
+            "longitude": -73.9758525
+          },
+          "coordinate_basis": "OSM way/relation representative center; not an entrance",
+          "address": "420 Lexington Avenue, New York, 10017",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "420",
+            "addr:postcode": "10017",
+            "addr:street": "Lexington Avenue",
+            "building": "commercial",
+            "height": "118.6",
+            "name": "Graybar Building",
+            "nycdoitt:bin": "1035385",
+            "start_date": "1927",
+            "wikidata": "Q71429431",
+            "wikipedia": "en:Graybar Building"
+          },
+          "match_score": 100,
+          "match_basis": "exact_configured_name_and_expected_feature_type",
+          "source_url": "https://www.openstreetmap.org/way/265947361",
+          "source_type": "OpenStreetMap via Overpass API",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 265947361
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "chanin_building",
+      "landmark_name": "Chanin Building",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947366,
+          "name": "Chanin Building",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "122",
+            "addr:postcode": "10017",
+            "addr:state": "NY",
+            "addr:street": "East 42nd Street",
+            "building": "yes",
+            "building:levels": "56",
+            "height": "205",
+            "name": "Chanin Building",
+            "nycdoitt:bin": "1036152",
+            "ref:nrhp": "80002676",
+            "start_date": "1929",
+            "wikidata": "Q2956104",
+            "wikipedia": "en:Chanin Building"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 265947366,
+          "name": "Chanin Building",
+          "coordinates": {
+            "latitude": 40.7512154,
+            "longitude": -73.9767048
+          },
+          "coordinate_basis": "OSM way/relation representative center; not an entrance",
+          "address": "122 East 42nd Street, New York, 10017",
+          "tags": {
+            "addr:city": "New York",
+            "addr:housenumber": "122",
+            "addr:postcode": "10017",
+            "addr:state": "NY",
+            "addr:street": "East 42nd Street",
+            "building": "yes",
+            "building:levels": "56",
+            "height": "205",
+            "name": "Chanin Building",
+            "nycdoitt:bin": "1036152",
+            "ref:nrhp": "80002676",
+            "start_date": "1929",
+            "wikidata": "Q2956104",
+            "wikipedia": "en:Chanin Building"
+          },
+          "match_score": 100,
+          "match_basis": "exact_configured_name_and_expected_feature_type",
+          "source_url": "https://www.openstreetmap.org/way/265947366",
+          "source_type": "OpenStreetMap via Overpass API",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 265947366
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "daily_news_building",
+      "landmark_name": "Daily News Building",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 42500778,
+          "name": "Daily News Building",
+          "tags": {
+            "building": "yes",
+            "name": "Daily News Building",
+            "ref:nrhp": "82001191",
+            "start_date": "1930",
+            "tourism": "yes",
+            "wikidata": "Q2070225",
+            "wikipedia": "en:Daily News Building"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 42500778,
+          "name": "Daily News Building",
+          "coordinates": {
+            "latitude": 40.7497454,
+            "longitude": -73.9732003
+          },
+          "coordinate_basis": "OSM way/relation representative center; not an entrance",
+          "address": null,
+          "tags": {
+            "building": "yes",
+            "name": "Daily News Building",
+            "ref:nrhp": "82001191",
+            "start_date": "1930",
+            "tourism": "yes",
+            "wikidata": "Q2070225",
+            "wikipedia": "en:Daily News Building"
+          },
+          "match_score": 100,
+          "match_basis": "exact_configured_name_and_expected_feature_type",
+          "source_url": "https://www.openstreetmap.org/way/42500778",
+          "source_type": "OpenStreetMap via Overpass API",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 42500778
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "one_vanderbilt",
+      "landmark_name": "1 Vanderbilt",
+      "candidate_count": 0,
+      "candidate_tag_summary": [],
+      "manual_review_required": true,
+      "verification_status": "unresolved_batch_failed",
+      "unresolved": true,
+      "verified": false,
+      "candidates": [],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "stephen_a_schwarzman_building",
+      "landmark_name": "Stephen A. Schwarzman Building",
+      "candidate_count": 0,
+      "candidate_tag_summary": [],
+      "manual_review_required": true,
+      "verification_status": "not_collected",
+      "unresolved": true,
+      "verified": false,
+      "candidates": [],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "bryant_park",
+      "landmark_name": "Bryant Park",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 22727025,
+          "name": "Bryant Park",
+          "tags": {
+            "addr:city": "New York",
+            "addr:full": "Between 40th and 42nd Streets at 6th Avenue",
+            "addr:postcode": "10018",
+            "addr:state": "NY",
+            "check_date:opening_hours": "2021-11-16",
+            "ele": "20",
+            "gnis:feature_id": "2083160",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "internet_access:ssid": "Bryant Park Public WiFi",
+            "leisure": "park",
+            "lpc:inscription_date": "1974-11-12",
+            "name": "Bryant Park",
+            "name:etymology:wikidata": "Q454840",
+            "name:ja": "ブライアントパーク",
+            "name:ko": "브라이언트 공원",
+            "name:ru": "Брайант-парк",
+            "name:tr": "Bryant Park",
+            "nrhp:inscription_date": "1966-10-15",
+            "old_name": "Reservoir Square",
+            "opening_hours": "Mo-Su 07:00-23:00",
+            "operator": "Bryant Park Corporation",
+            "ref:lpc": "0879",
+            "ref:nrhp": "66000547",
+            "tourism": "attraction",
+            "website": "https://bryantpark.org/",
+            "wheelchair": "yes",
+            "wikidata": "Q995174",
+            "wikipedia": "en:Bryant Park"
+          }
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 22727025,
+          "name": "Bryant Park",
+          "coordinates": {
+            "latitude": 40.7537508,
+            "longitude": -73.9835384
+          },
+          "coordinate_basis": "Overpass representative center; not an entrance",
+          "address": "Between 40th and 42nd Streets at 6th Avenue",
+          "tags": {
+            "addr:city": "New York",
+            "addr:full": "Between 40th and 42nd Streets at 6th Avenue",
+            "addr:postcode": "10018",
+            "addr:state": "NY",
+            "check_date:opening_hours": "2021-11-16",
+            "ele": "20",
+            "gnis:feature_id": "2083160",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "internet_access:ssid": "Bryant Park Public WiFi",
+            "leisure": "park",
+            "lpc:inscription_date": "1974-11-12",
+            "name": "Bryant Park",
+            "name:etymology:wikidata": "Q454840",
+            "name:ja": "ブライアントパーク",
+            "name:ko": "브라이언트 공원",
+            "name:ru": "Брайант-парк",
+            "name:tr": "Bryant Park",
+            "nrhp:inscription_date": "1966-10-15",
+            "old_name": "Reservoir Square",
+            "opening_hours": "Mo-Su 07:00-23:00",
+            "operator": "Bryant Park Corporation",
+            "ref:lpc": "0879",
+            "ref:nrhp": "66000547",
+            "tourism": "attraction",
+            "website": "https://bryantpark.org/",
+            "wheelchair": "yes",
+            "wikidata": "Q995174",
+            "wikipedia": "en:Bryant Park"
+          },
+          "match_basis": "record recovered by exact OSM type and ID from existing raw cache; identity remains unconfirmed",
+          "source_url": "https://www.openstreetmap.org/way/22727025",
+          "source_type": "OpenStreetMap via existing Overpass raw cache",
+          "raw_cache_file": "backend/data/raw/osm/overpass_landmarks.json",
+          "geometry": null,
+          "geometry_status": "full way/relation geometry was not present in cached response",
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 22727025
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "times_square",
+      "landmark_name": "Times Square",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 702540318,
+          "name": "Times Square",
+          "tags": {}
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 702540318,
+          "name": "Times Square",
+          "coordinates": {
+            "latitude": 40.7572614,
+            "longitude": -73.9858998
+          },
+          "coordinate_basis": "Nominatim result point; entrance not established",
+          "address": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+          "tags": {},
+          "match_score": null,
+          "match_basis": "Nominatim text search result; manual identity check required",
+          "source_url": "https://www.openstreetmap.org/way/702540318",
+          "source_type": "OpenStreetMap Nominatim",
+          "retrieved_at": null,
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 702540318
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "rockefeller_center",
+      "landmark_name": "Rockefeller Center",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "relation",
+          "osm_id": 18351439,
+          "name": "Rockefeller Center",
+          "tags": {}
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "relation",
+          "osm_id": 18351439,
+          "name": "Rockefeller Center",
+          "coordinates": {
+            "latitude": 40.7592576,
+            "longitude": -73.9799569
+          },
+          "coordinate_basis": "Nominatim result point; entrance not established",
+          "address": "Rockefeller Center, 45, Manhattan Community Board 5, Manhattan, New York County, New York, 10111, United States",
+          "tags": {},
+          "match_score": null,
+          "match_basis": "Nominatim text search result; manual identity check required",
+          "source_url": "https://www.openstreetmap.org/relation/18351439",
+          "source_type": "OpenStreetMap Nominatim",
+          "retrieved_at": null,
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "relation",
+              "osm_id": 18351439
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "st_patricks_cathedral",
+      "landmark_name": "St. Patrick's Cathedral",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 266010379,
+          "name": "Saint Patrick’s Cathedral",
+          "tags": {}
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 266010379,
+          "name": "Saint Patrick’s Cathedral",
+          "coordinates": {
+            "latitude": 40.7585578,
+            "longitude": -73.9763641
+          },
+          "coordinate_basis": "Nominatim result point; entrance not established",
+          "address": "Saint Patrick’s Cathedral, 625, 5th Avenue, Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10022, United States",
+          "tags": {},
+          "match_score": null,
+          "match_basis": "Nominatim text search result; manual identity check required",
+          "source_url": "https://www.openstreetmap.org/way/266010379",
+          "source_type": "OpenStreetMap Nominatim",
+          "retrieved_at": null,
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 266010379
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    },
+    {
+      "landmark_id": "museum_of_modern_art",
+      "landmark_name": "Museum of Modern Art",
+      "candidate_count": 1,
+      "candidate_tag_summary": [
+        {
+          "osm_type": "way",
+          "osm_id": 278346578,
+          "name": "MoMA",
+          "tags": {}
+        }
+      ],
+      "manual_review_required": true,
+      "verification_status": "candidate_unconfirmed",
+      "unresolved": false,
+      "verified": false,
+      "candidates": [
+        {
+          "osm_type": "way",
+          "osm_id": 278346578,
+          "name": "MoMA",
+          "coordinates": {
+            "latitude": 40.7616124,
+            "longitude": -73.9774992
+          },
+          "coordinate_basis": "Nominatim result point; entrance not established",
+          "address": "MoMA, 11, West 53rd Street, Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
+          "tags": {},
+          "match_score": null,
+          "match_basis": "Nominatim text search result; manual identity check required",
+          "source_url": "https://www.openstreetmap.org/way/278346578",
+          "source_type": "OpenStreetMap Nominatim",
+          "retrieved_at": null,
+          "verification_status": "candidate_unconfirmed",
+          "verified": false,
+          "osm_representations": [
+            {
+              "osm_type": "way",
+              "osm_id": 278346578
+            }
+          ]
+        }
+      ],
+      "nominatim_error": null
+    }
+  ]
+}

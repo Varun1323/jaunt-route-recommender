@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "direct",
+  "metadata": {
+    "route_id": "direct",
+    "route_name": "Direct Route: Graybar Building to 1 Vanderbilt",
+    "route_description": "Direct pedestrian route between Graybar Building and 1 Vanderbilt.",
+    "origin_landmark_id": "graybar_building",
+    "origin_landmark_name": "Graybar Building",
+    "origin_routing_coordinate": {
+      "lat": 40.752168,
+      "lon": -73.975677
+    },
+    "destination_landmark_id": "one_vanderbilt",
+    "destination_landmark_name": "1 Vanderbilt",
+    "destination_routing_coordinate": {
+      "lat": 40.752367,
+      "lon": -73.978524
+    },
+    "via_waypoints": [],
+    "distance_m": 311.0,
+    "estimated_duration_s": 232.9,
+    "duration_type": "routing_engine_estimate",
+    "costing": "pedestrian",
+    "units": "kilometers",
+    "provider": "Valhalla public demo",
+    "provider_endpoint": "https://valhalla1.openstreetmap.de",
+    "retrieved_at": "2026-11-21T08:47:32Z",
+    "http_status": 200,
+    "verification_status": "prototype_candidate_unverified",
+    "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+    "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.975677,
+            40.752168
+          ],
+          [
+            -73.976505,
+            40.752519
+          ],
+          [
+            -73.976531,
+            40.752483
+          ],
+          [
+            -73.976714,
+            40.752559
+          ],
+          [
+            -73.976763,
+            40.752492
+          ],
+          [
+            -73.976787,
+            40.75246
+          ],
+          [
+            -73.976836,
+            40.752393
+          ],
+          [
+            -73.976883,
+            40.752413
+          ],
+          [
+            -73.977286,
+            40.752585
+          ],
+          [
+            -73.97733,
+            40.752604
+          ],
+          [
+            -73.977374,
+            40.752623
+          ],
+          [
+            -73.977837,
+            40.752821
+          ],
+          [
+            -73.977896,
+            40.752846
+          ],
+          [
+            -73.977967,
+            40.752797
+          ],
+          [
+            -73.978165,
+            40.752522
+          ],
+          [
+            -73.978186,
+            40.752518
+          ],
+          [
+            -73.978203,
+            40.752514
+          ],
+          [
+            -73.97822,
+            40.752511
+          ],
+          [
+            -73.978258,
+            40.752503
+          ],
+          [
+            -73.978296,
+            40.752519
+          ],
+          [
+            -73.978318,
+            40.752491
+          ],
+          [
+            -73.978382,
+            40.752411
+          ],
+          [
+            -73.978426,
+            40.752355
+          ],
+          [
+            -73.978443,
+            40.752333
+          ],
+          [
+            -73.978524,
+            40.752367
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "direct",
+        "route_name": "Direct Route: Graybar Building to 1 Vanderbilt",
+        "route_description": "Direct pedestrian route between Graybar Building and 1 Vanderbilt.",
+        "origin_landmark_id": "graybar_building",
+        "origin_landmark_name": "Graybar Building",
+        "origin_routing_coordinate": {
+          "lat": 40.752168,
+          "lon": -73.975677
+        },
+        "destination_landmark_id": "one_vanderbilt",
+        "destination_landmark_name": "1 Vanderbilt",
+        "destination_routing_coordinate": {
+          "lat": 40.752367,
+          "lon": -73.978524
+        },
+        "via_waypoints": [],
+        "distance_m": 311.0,
+        "estimated_duration_s": 232.9,
+        "duration_type": "routing_engine_estimate",
+        "costing": "pedestrian",
+        "units": "kilometers",
+        "provider": "Valhalla public demo",
+        "provider_endpoint": "https://valhalla1.openstreetmap.de",
+        "retrieved_at": "2026-11-21T08:47:32Z",
+        "http_status": 200,
+        "verification_status": "prototype_candidate_unverified",
+        "coordinate_limitation_disclosure": "Route was generated using prototype candidate coordinates projected onto OSM sidewalk centerlines from pedestrian_access_point_candidates.json. Access coordinates have not been independently field-verified.",
+        "geometry_source": "Valhalla response only; genuine pedestrian routing, no synthetic fallback"
+      }
+    }
+  ]
+}

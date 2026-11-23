@@ -1,0 +1,20 @@
+{
+  "locations": [
+    {
+      "lat": 40.75388,
+      "lon": -73.982104
+    },
+    {
+      "lat": 40.754132,
+      "lon": -73.983513
+    },
+    {
+      "lat": 40.75388,
+      "lon": -73.982104
+    }
+  ],
+  "costing": "pedestrian",
+  "units": "kilometers",
+  "id": "via_f00095f7a7da67c7",
+  "shape_format": "polyline6"
+}

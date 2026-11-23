@@ -1,0 +1,12 @@
+{
+  "rejected_at": "2026-11-23T14:48:45Z",
+  "origin": "grand_central_terminal",
+  "destination": "bryant_park",
+  "route_id": "via_vanderbilt",
+  "reason": "duplicate_path",
+  "compared_to": "direct",
+  "alternative_distance_m": 688.0,
+  "reference_distance_m": 686.0,
+  "distance_difference_m": 2.0,
+  "detour_ratio": 1.0029
+}
