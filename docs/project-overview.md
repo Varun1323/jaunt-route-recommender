@@ -23,12 +23,11 @@ The route ranking is performed by deterministic backend logic. AI assists with i
 
 ## Study area and landmark catalogue
 
-The research catalogue contains nine core landmarks used for the route study:
+The task-facing landmark set contains eight selected Midtown Manhattan landmarks:
 
 - Grand Central Terminal
 - Pershing Square Building
 - Chrysler Building
-- Graybar Building
 - Chanin Building
 - Daily News Building
 - 1 Vanderbilt
