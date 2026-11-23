@@ -6,7 +6,7 @@ This visual walkthrough accompanies the Jaunt technical-task submission. It uses
 
 The starting screen lets the traveler choose an origin and destination, enter a natural-language walking preference, or select a suggested preference. The map provides the geographic context for the journey.
 
-![Jaunt application interface](images/jaunt-initial-screen.png)
+![Jaunt architecture-focused route recommendation](images/jaunt-architecture-recommendation.png)
 
 ## 2. Preference-based route recommendation
 
@@ -14,7 +14,7 @@ In this example, the traveler selects Grand Central Terminal as the origin and B
 
 The application presents multiple pedestrian route options, estimated walking times and distances, intermediate places, a recommended option, and an explanation of the selection. The chosen route is displayed on the map.
 
-![Jaunt architecture-focused route recommendation](images/jaunt-architecture-recommendation.png)
+![Jaunt application interface](images/jaunt-initial-screen.png)
 
 ## How this demonstrates the task
 
