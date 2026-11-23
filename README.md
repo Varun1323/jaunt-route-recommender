@@ -18,9 +18,9 @@ The prototype supports eight selectable landmarks:
 
 **Prototype scope:** the application uses research-derived pedestrian approach points and Valhalla's pedestrian-network output to compare route candidates. Distances and walking times are routing-engine estimates for this task prototype.
 
-## Project documentation
+## Task documentations
 
-The `docs/` directory contains the research and technical documentation behind the task. Please go through these documents to understand the project beyond the setup instructions:
+The `docs/` directory contains the research and technical documentation behind the task. Please go through these documents beyond the setup instructions:
 
 - [`research.md`](docs/research.md) — the eight-landmark research set, points of interest, and research findings.
 - [`data-sources.md`](docs/data-sources.md) — geographic and historical data sources, provenance, and attribution.
