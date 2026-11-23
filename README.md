@@ -18,6 +18,19 @@ The prototype supports eight selectable landmarks:
 
 **Prototype scope:** the application uses research-derived pedestrian approach points and Valhalla's pedestrian-network output to compare route candidates. Distances and walking times are routing-engine estimates for this task prototype.
 
+## Project documentation
+
+The `docs/` directory contains the research and technical documentation behind the task. Please go through these documents to understand the project beyond the setup instructions:
+
+- [`research.md`](docs/research.md) — the eight-landmark research set, points of interest, and research findings.
+- [`data-sources.md`](docs/data-sources.md) — geographic and historical data sources, provenance, and attribution.
+- [`project-overview.md`](docs/project-overview.md) — task objectives, application architecture, and API flow.
+- [`recommendation-engine.md`](docs/recommendation-engine.md) — preference interpretation, constraints, scoring, and route trade-offs.
+- [`route-methodology.md`](docs/route-methodology.md) — pedestrian route generation, alternatives, and route validation.
+- [`technical-decisions.md`](docs/technical-decisions.md) — technology choices and implementation rationale.
+- [`verification-log.md`](docs/verification-log.md) — recorded geographic, route, backend, and frontend verification results.
+
+
 ## 1. Install the required software (Windows)
 
 Open **PowerShell** and install Git, Python 3.12, and Node.js LTS:
