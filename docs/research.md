@@ -1,4 +1,4 @@
-# Part 1 — Researching the Walking-Route Problem
+# Researching the Walking-Route Problem
 
 **Study area:** Midtown Manhattan, New York City  
 **Research focus:** Places of architectural and historical interest around Grand Central Terminal, Bryant Park, and the surrounding Midtown pedestrian network.
