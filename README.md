@@ -16,7 +16,7 @@ The prototype supports eight selectable landmarks:
 - St. Patrick's Cathedral
 - Museum of Modern Art
 
-**Prototype limitation:** route geometry is generated using Valhalla pedestrian routing, but the candidate pedestrian access-point coordinates have not been independently field-verified. Routes should therefore be treated as prototype candidates, not verified navigation or accessibility guidance.
+**Prototype scope:** the application uses research-derived pedestrian approach points and Valhalla's pedestrian-network output to compare route candidates. Distances and walking times are routing-engine estimates for this task prototype.
 
 ## 1. Install the required software (Windows)
 
