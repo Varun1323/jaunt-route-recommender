@@ -1,153 +1,125 @@
-# Jaunt Recommendation Engine Documentation
+# Recommendation Engine
 
-**Date:** 2026-11-21  
-**Module:** `backend/scripts/recommendation_engine.py` & `backend/scripts/preference_parser.py`  
-**Status:** Phase 9.1 integrated; final offline test results are recorded in `docs/progress.md`.
+**Implementation:** `backend/scripts/preference_parser.py`, `backend/scripts/recommendation_engine.py`, `backend/scripts/openrouter_client.py`
 
----
+## 1. Purpose
 
-## 1. Objective and Architecture
+The recommendation engine ranks available pedestrian routes according to a traveler's natural-language request. It compares actual route distance, estimated duration, intermediate landmarks, and place relevance. It uses the same scoring and constraint logic across requests rather than returning a hardcoded route for each example.
 
-The Jaunt Recommendation Engine evaluates available pedestrian walking routes against a traveler's natural-language or structured preferences. Preference interpretation may use OpenRouter; ranking remains deterministic and is strictly grounded in real route properties:
-- Walking distance (metres) from genuine Valhalla pedestrian routes.
-- Estimated duration (seconds/minutes) from genuine Valhalla pedestrian routes.
-- Intermediate landmarks visited along each route.
-- Landmark relevance (architectural, historical) sourced from `backend/data/landmarks.json`.
+The engine is deterministic once the route candidates and structured preferences are supplied.
 
-The engine avoids hardcoding responses for specific prompts; the same scoring formula and constraint ordering evaluate any validated route set against any preference vector.
+## 2. System flow
 
-OpenRouter is implemented with Python's standard-library HTTP client in `backend/scripts/openrouter_client.py`; no SDK or additional dependency is required. Configuration is read from the process environment first and then `backend/.env`, without mutating or overwriting pre-existing environment variables. `OPENROUTER_API_KEY` is backend-only; the frontend receives only an AI status and safe explanation text. A missing key uses local parsing. Provider errors and timeouts are surfaced in `ai_status` while preserving the local parser/scorer result. Structured preferences are range-validated before scoring.
-
-The explanation-focus request receives only the selected/ranked route IDs and names, actual route distances and estimated durations, backend-calculated extra distance/time versus the shortest/fastest options, supplied preference fields, and place names/categories/descriptions already returned by the recommendation engine. It does not receive route geometries or coordinates. The model selects from a constrained set of factual emphasis labels; the backend renders the human-readable explanation using validated route values, so the model cannot add route details. Deterministic backend scoring, not the model, selects the route.
-
-The recommendation API first reads strict-validated cached routes, then uses OpenRouter's structured preference parser (or the existing local parser) to select a set of justified generation options. The backend computes an allowlist based on cache coverage, scored route/place facts, and available alternative slots. OpenRouter may choose only `none`, `landmark`, `native`, or `both` from that allowlist. On provider failure, the local parser and policy choose the fallback strategy. The selected strategy calls the existing `fetch_all_routes()` with `skip_existing=True`; generated GeoJSON is reloaded with strict validation before scoring. The API reports generated route IDs and failures. Valhalla, not the model, supplies route geometry, distance, and duration.
-
+```text
+Traveler request
+      |
+      v
+OpenRouter interpretation (optional)
+      |
+      v
+Preference parser and schema validation
+      |
+      v
+Validated route candidates + landmark metadata
+      |
+      v
+Hard-constraint evaluation
+      |
+      v
+Weighted route scoring and ranking
+      |
+      v
+Recommendation, alternatives, metrics, explanation
 ```
-Free-text Query  ──►  preference_parser.py  ──►  UserPreferences (structured weights & constraints)
-                                                         │
-                                                         ▼
-Routes (*.geojson) & Landmarks (landmarks.json) ──►  recommendation_engine.py ──► Ranked Recommendations & Explanation
-```
 
----
+If OpenRouter is unavailable or no API key is configured, the local preference parser supplies the structured preference object. The backend validates all structured preferences before using them.
 
-## 2. Preference Dimensions
+## 3. Supported preference dimensions
 
-The `preference_parser.py` module converts unstructured text queries into a structured `UserPreferences` object supporting:
-
-| Dimension | Range | Description / Trigger Phrases |
+| Dimension | Meaning | Example |
 |---|---|---|
-| `architecture` | `0.0`–`1.0` | Interest in historic architecture, facades, historic landmarks, Art Deco, Beaux-Arts styles. |
-| `history` | `0.0`–`1.0` | Interest in historical places, heritage, monuments, and history. |
-| `shortest_distance` | `0.0`–`1.0` | Preference for minimizing distance ("shortest walk", "shortest route", "least distance"). |
-| `minimum_walking_time` | `0.0`–`1.0` | Preference for speed / brevity ("quick", "fast", "fastest", "in a hurry", "least time"). |
-| `more_landmarks` | `0.0`–`1.0` | Preference for seeing many sights / points of interest ("as many as possible", "more landmarks"). |
-| `min_landmarks` | `int` ($\ge 0$) | Minimum landmark count constraint ("at least one landmark"). |
-| `max_duration_minutes` | `float` or `None` | Explicit time ceiling (e.g. "under 10 minutes") or qualitative default (e.g. "don't have much time" $\to 10.0$ min). |
-| `max_detour_ratio` | `1.0`–`2.0` or `None` | Maximum allowed route-distance ratio vs. the shortest available route (e.g. "up to 25% longer" $\to 1.25$). The hard cap cannot exceed the route-generation policy. |
-| `excluded_categories` | subset of categories | Hard exclusions for architecture, history, or intermediate landmarks. |
+| Architecture | Interest in notable architectural styles and buildings | "I love Art Deco buildings" |
+| History | Interest in historic places and heritage | "I want to see historic places" |
+| Shortest distance | Prioritize a shorter route | "Take the shortest walk" |
+| Minimum walking time | Prioritize a quicker journey | "I need to get there quickly" |
+| More landmarks | Value additional relevant intermediate places | "Show me interesting buildings along the way" |
+| Minimum landmarks | Require a minimum number of intermediate landmarks | "Include at least one landmark" |
+| Maximum duration | Set a walking-time ceiling | "I have around 15 minutes" |
+| Maximum detour ratio | Bound additional distance relative to the direct route | "Avoid a big detour" |
+| Excluded categories | Exclude categories or place types | "Skip museums" |
 
-If a query is empty, missing, or neutral, preferences default to a balanced walk ($w_{\text{dist}} = 0.5, w_{\text{time}} = 0.5$).
+The parser also handles negative and mixed preferences, such as "I like architecture, but I don't want a long detour."
 
-`unsupported_preferences` records expressed qualities for which Jaunt lacks route-level evidence. Greenery and quietness are currently identified and disclosed, not scored. A route is never treated as quiet or green solely because of a model claim or landmark name.
+## 4. Route facts used for scoring
 
----
+Each route is evaluated from its validated GeoJSON and metadata:
 
-## 3. Deterministic Route Scoring
+- Walking distance in metres.
+- Estimated walking duration in seconds/minutes.
+- Intermediate landmarks detected along the route.
+- Landmark categories and architectural/historical relevance.
+- Extra distance and time compared with the direct/shortest available option.
+- Whether the route satisfies explicit constraints.
 
-### 3.1 Normalized Metrics
-For a set of candidate routes $\mathcal{R}$, raw metrics are normalized across available options to $[0.0, 1.0]$:
+Origin and destination landmarks are not counted as intermediate sightseeing stops. Landmark detection uses route geometry and geographic distance calculations rather than simply counting labels attached to a route.
 
-1. **Distance Efficiency ($S_{\text{dist}}$):**
-   $$S_{\text{dist}}(r) = 1.0 - \frac{D_r - D_{\min}}{D_{\max} - D_{\min}} \quad (\text{if } D_{\max} > D_{\min} \text{ else } 1.0)$$
+## 5. Constraint and scoring approach
 
-2. **Time Efficiency ($S_{\text{time}}$):**
-   $$S_{\text{time}}(r) = 1.0 - \frac{T_r - T_{\min}}{T_{\max} - T_{\min}} \quad (\text{if } T_{\max} > T_{\min} \text{ else } 1.0)$$
+The engine separates hard constraints from soft preferences.
 
-3. **Landmark Quantity ($S_{\text{landmarks}}$):**
-   $$S_{\text{landmarks}}(r) = \frac{L_r}{L_{\max}} \quad (\text{if } L_{\max} > 0 \text{ else } 0.0)$$
+### Hard constraints
 
-4. **Architectural Relevance ($S_{\text{arch}}$):**
-   Each intermediate landmark contributes according to verified categories in `landmarks.json` (architecture $= +1.0$, historic landmark $= +0.5$).
-   $$S_{\text{arch}}(r) = \frac{A_r}{A_{\max}} \quad (\text{if } A_{\max} > 0 \text{ else } 0.0)$$
+Examples include maximum duration, maximum detour ratio, minimum landmark count, and excluded categories. When at least one candidate satisfies a hard constraint, candidates that violate it are ranked behind candidates that satisfy it. If no candidate satisfies a constraint, the available routes remain rankable and the explanation identifies the trade-off.
 
-5. **Historical Relevance ($S_{\text{history}}$):**
-   $$S_{\text{history}}(r) = \frac{H_r}{H_{\max}} \quad (\text{if } H_{\max} > 0 \text{ else } 0.0)$$
+### Soft preferences
 
-### 3.2 Weighted Base Score
-$$\text{BaseScore}(r) = \frac{w_{\text{dist}} S_{\text{dist}}(r) + w_{\text{time}} S_{\text{time}}(r) + w_{\text{arch}} S_{\text{arch}}(r) + w_{\text{history}} S_{\text{history}}(r) + w_{\text{landmarks}} S_{\text{landmarks}}(r)}{w_{\text{dist}} + w_{\text{time}} + w_{\text{arch}} + w_{\text{history}} + w_{\text{landmarks}}}$$
+Routes are normalized against the available candidate set for distance, duration, architecture, history, and landmark value. The preference weights determine the relative contribution of those dimensions to the final score.
 
-If `min_landmarks > 0` and a route has fewer landmarks than required while alternatives meet the threshold, its landmark and architectural components are set to $0.0$.
+A route with more landmarks does not automatically win. Its additional sightseeing value must justify the added walking distance and time, and it must remain compatible with the traveler's constraints.
 
-### 3.3 Time Constraints and Feasibility Penalties
-Let $T_{\text{limit}}$ be `max_duration_minutes`. A route is feasible if $T_{r,\text{min}} \le T_{\text{limit}}$.
+### Walking-time budgets
 
-- **Feasible alternative exists:**
-  Infeasible routes ($T_{r,\text{min}} > T_{\text{limit}}$) receive a steep penalty scaling with the overtime ratio:
-  $$\text{PenaltyFactor} = 0.15 \times \max\left(0.1, 1.0 - \frac{T_{r,\text{min}} - T_{\text{limit}}}{T_{\text{limit}}}\right)$$
-  $$\text{FinalScore}(r) = \text{BaseScore}(r) \times \text{PenaltyFactor}$$
+A stated time budget is interpreted separately from a strict maximum. A budget expresses how much time the traveler would like to spend; a hard maximum is a constraint. The engine can reward useful sightseeing within a budget without treating a route over a strict maximum as feasible.
 
-  Time feasibility is applied before soft scores when any route meets the limit. Other satisfiable hard constraints (minimum landmarks, category exclusions, and maximum detour) are applied in that order before soft scores. If no route satisfies a hard constraint, all available routes remain ranked and the explanation identifies the unmet constraint.
+## 6. Route-generation strategy
 
-- **No feasible route exists ($T_{\text{limit}} < T_{\min}$):**
-  When all routes exceed $T_{\text{limit}}$, routes are ranked by proximity to the limit:
-  $$\text{FinalScore}(r) = \text{BaseScore}(r) \times \max\left(0.2, \frac{T_{\text{limit}}}{T_{r,\text{min}}}\right)$$
-  The engine recommends the fastest available route and issues a clear time limit warning in the explanation.
+The recommendation API can decide whether the existing cache contains enough candidates for the request. If another candidate is justified, the backend selects a bounded strategy from its own allowlist. OpenRouter may select only among those permitted options; the local policy provides the fallback.
 
----
+The supported strategies include landmark-based waypoint generation and native Valhalla alternatives. Existing valid baselines are retained, generated routes are validated before scoring, and duplicate or excessive-detour geometries are filtered.
 
-## 4. Human-Readable Explanation Generation
+## 7. Explanation generation
 
-The explanation dynamically details:
-1. **Primary Winning Factors:** Explicitly states which preferences favored the top route (e.g. shortest distance, fastest time, visits specific named landmarks, fits within time budget).
-2. **Comparison with Runner-up:** Contrasts distance or landmark trade-offs against the second-place route.
-3. **Time Limit Enforcement:** Identifies any routes penalized or excluded for exceeding the traveler's stated time limit.
+The response explains the winning factors using backend-validated facts, including:
 
----
+- Why the route matches the traveler's priorities.
+- Its estimated distance and walking time.
+- Which intermediate landmarks it visits.
+- How it compares with alternatives.
+- How any stated time or detour constraint affected the ranking.
 
-## 5. Example Queries and Outputs
+The optional model explanation step selects a constrained emphasis based on supplied route facts. The backend renders the final explanation from validated values and landmark metadata.
 
-Evaluating the 3 retrieved pedestrian routes for Grand Central Terminal $\to$ Bryant Park:
-- `direct`: 686.0 m, 494.9 s (8.2 min), 0 intermediate waypoints
-- `via_vanderbilt`: 688.0 m, 507.0 s (8.4 min), 1 intermediate waypoint (1 Vanderbilt)
-- `architecture`: 1102.0 m, 816.7 s (13.6 min), 2 intermediate waypoints (Pershing Square Building, Chrysler Building)
+## 8. Task examples
 
-### Example 1: "I love architecture but don't have much time."
-- **Recommended Route:** `via_vanderbilt` (Via One Vanderbilt Transit Hall)
-- **Distance & Time:** 688 m | 8.4 min
-- **Landmarks:** 1 Vanderbilt
-- **Scores:** `via_vanderbilt`: 0.6129 | `direct`: 0.4444 | `architecture`: 0.0532
-- **Explanation:** *"Recommended 'Via One Vanderbilt Transit Hall' because it provides a fast walking time of 8.4 minutes, and it visits notable architectural landmarks (1 Vanderbilt), and it fits comfortably within your 10-minute time budget (8.4 min). In comparison, 'Direct 42nd Street Pedestrian Route' visits fewer architectural landmarks (0 vs. 1). Route alternatives exceeding your 10-minute limit were penalized ('Art Deco Architectural Loop' (13.6 min))."*
+The following examples illustrate the intended behavior for the Grand Central Terminal → Bryant Park sample routes recorded in the project:
 
-### Example 2: "I want the shortest possible walk."
-- **Recommended Route:** `direct` (Direct 42nd Street Pedestrian Route)
-- **Distance & Time:** 686 m | 8.2 min
-- **Landmarks:** None
-- **Scores:** `direct`: 1.0000 | `via_vanderbilt`: 0.9952 | `architecture`: 0.0000
-- **Explanation:** *"Recommended 'Direct 42nd Street Pedestrian Route' because it is the shortest route at 686 metres. It saves 2 metres compared to 'Via One Vanderbilt Transit Hall'."*
+| Route | Distance | Estimated walking time | Intermediate places |
+|---|---:|---:|---|
+| Direct 42nd Street Pedestrian Route | 686 m | 8.2 min | None |
+| Via One Vanderbilt Transit Hall | 688 m | 8.4 min | 1 Vanderbilt |
+| Art Deco Architectural Loop | 1,102 m | 13.6 min | Pershing Square Building, Chrysler Building |
 
-### Example 3: "I want to see as many interesting buildings as possible."
-- **Recommended Route:** `architecture` (Art Deco Architectural Loop)
-- **Distance & Time:** 1102 m | 13.6 min
-- **Landmarks:** Pershing Square Building, Chrysler Building
-- **Scores:** `architecture`: 1.0000 | `via_vanderbilt`: 0.4167 | `direct`: 0.0000
-- **Explanation:** *"Recommended 'Art Deco Architectural Loop' because it visits notable architectural landmarks (Pershing Square Building, Chrysler Building), and it maximizes points of interest (2 intermediate landmarks). In comparison, 'Via One Vanderbilt Transit Hall' visits fewer architectural landmarks (1 vs. 2)."*
+**Traveler: "I love architecture but don't have much time."**  
+The route through 1 Vanderbilt offers an architectural point of interest while remaining close to the direct route's estimated duration.
 
-### Example 4: "I prefer a quick walk with at least one interesting landmark."
-- **Recommended Route:** `via_vanderbilt` (Via One Vanderbilt Transit Hall)
-- **Distance & Time:** 688 m | 8.4 min
-- **Landmarks:** 1 Vanderbilt
-- **Scores:** `via_vanderbilt`: 0.7890 | `direct`: 0.6250 | `architecture`: 0.3750
-- **Explanation:** *"Recommended 'Via One Vanderbilt Transit Hall' because it provides a fast walking time of 8.4 minutes, and it maximizes points of interest (1 intermediate landmark), and it fulfills your preference for at least one interesting landmark."*
+**Traveler: "I need to get to Bryant Park quickly."**  
+The direct route is favored because it has the shortest recorded distance and estimated duration among these examples.
 
----
+**Traveler: "I want to see as many interesting buildings as possible."**  
+The architecture-focused route is favored because it includes Pershing Square Building and Chrysler Building, with a longer walking estimate.
 
-## 6. Limitations & Prototype Notes
+These are examples of the same route comparison logic responding to different preference weights and constraints.
 
-1. **Unverified Prototype Coordinates:** Evaluated routes were generated using prototype coordinates projected onto OSM sidewalk centerlines (`verification_status: "prototype_candidate_unverified"`). Walk durations and distances are routing engine estimates from Valhalla pedestrian costing.
-2. **No Live Crowd or Safety Modeling:** The engine does not evaluate crowd density, perceived safety, or pavement quality as no verified data sources exist for those factors.
-3. **Intermediate vs. Endpoint Landmarks:** Landmarks at the start and end of the trip (Grand Central Terminal and Bryant Park) are common to all candidate routes; scoring specifically differentiates routes based on intermediate approach waypoints.
-4. **Cache precedence:** When the same `(origin, destination, route_id)` exists in both a journey-scoped file and a legacy unscoped file, `load_routes()` prefers the journey-scoped file. Preferences trigger generation only when supported interests or unmet hard constraints justify more options and cache capacity remains.
-5. **Route supply vs. ranking:** Route retrieval remains in `fetch_routes.py`; the API is responsible for a bounded strategy decision. Route geometry, actual metrics, policy bounds, idempotency, and distinctness checks remain enforced by the Valhalla integration.
-6. **Optional AI dependency:** Without an OpenRouter key, or when OpenRouter errors/times out, recommendations still use the local parser and deterministic strategy. Configured requests may make up to three provider calls (preference interpretation, constrained strategy choice, and explanation focus); no live provider call was made for Phase 9.1 verification.
-7. **Unsupported experiential qualities:** Current place data does not verify route-level quietness or greenery. Such preferences are surfaced as unsupported rather than being used to invent a route quality.
+## 9. Scope
+
+The current scoring dimensions are based on route geometry, route metrics, and the landmark catalogue. Live crowd levels, street quietness, greenery quality, safety, accessibility, pavement condition, and live closures are outside the current data model and are not inferred by the engine.
