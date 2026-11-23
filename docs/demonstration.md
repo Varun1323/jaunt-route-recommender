@@ -22,4 +22,4 @@ The two screenshots show the main interaction expected by the Jaunt task: a trav
 
 ## Project and setup
 
-The source code and setup instructions are available in the [Jaunt Route Recommender repository](https://github.com/Varun1323/jaunt-route-recommender/tree/final-working). See the root [README](../README.md) for installation and run instructions. The other documents in the `docs/` directory describe the research, geographic data sources, architecture, route methodology, recommendation logic, technical decisions, and verification results.
+The source code and setup instructions are available in the [Jaunt Route Recommender repository](https://github.com/Varun1323/jaunt-route-recommender/tree/main). See the root [README](../README.md) for installation and run instructions. The other documents in the `docs/` directory describe the research, geographic data sources, architecture, route methodology, recommendation logic, technical decisions, and verification results.
