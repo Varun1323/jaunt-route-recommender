@@ -22,7 +22,6 @@ This document records the geographic, historical, and routing sources used by th
 - Grand Central Terminal: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/0266.pdf), [visitor information](https://grandcentralterminal.com/visit/).
 - Pershing Square Building: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/2556.pdf).
 - Chrysler Building: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/0992.pdf).
-- Graybar Building: [LPC designation report](https://s-media.nyc.gov/agencies/lpc/lp/2554.pdf).
 - Chanin Building: [LPC presentation](https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20240625/374-Lexington-Avenue.pdf).
 - Daily News Building: [LPC presentation](https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20181120/220-East-42nd-Street-final.pdf), [Docomomo US register](https://docomomo-us.org/register/daily-news-building).
 - NYPL: [Visitor Center](https://visitorcenter.nypl.org/), [LPC interior designation report](https://s-media.nyc.gov/agencies/lpc/lp/2592.pdf).
