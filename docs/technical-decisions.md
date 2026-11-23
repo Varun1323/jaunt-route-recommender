@@ -1,45 +1,76 @@
-# Technical Decisions
+# Technical Decisions and Rationale
 
-## Planned application stack
+## Product decisions
 
-React, TypeScript, Tailwind CSS, and Leaflet are the planned map interface. Python/FastAPI is the planned backend, JSON/GeoJSON the data format, and Valhalla the preferred pedestrian-routing engine. No application frontend, API, or recommender has been implemented. No alternatives have been formally benchmarked for those application components.
+### Preference-aware routes rather than fastest-route-only
 
-## Geographic collection
+The task asks for a recommendation that changes with traveler priorities. The prototype therefore compares route candidates against structured preferences rather than returning a single fastest route for every request.
 
-### OSM discovery with Overpass
+### Natural-language input
 
-`collect_geodata.py` uses one-landmark Overpass requests by default because targeted queries are easier to retry and audit than a single broad query. Its endpoint is configurable with `JAUNT_OVERPASS_URL`; it retries transient capacity/timeouts up to three attempts, caches successful responses, and preserves successful candidate records on selective runs. Exact names and aliases are search/ranking evidence only. Failed requests and successful empty results have distinct unresolved states.
+Travelers can describe their goals in ordinary language. The parser maps that input to supported dimensions and constraints. A deterministic local parser keeps the main recommendation workflow usable without an external AI credential.
 
-### Direct OSM API for known object IDs
+### Deterministic route ranking
 
-Use the direct OSM API for a known way or relation when full member/node geometry is needed, instead of repeating broad Overpass discovery. Direct API requests can return complete way or relation membership and geometry. OSM IDs and raw provider responses remain OSM records. Retained direct way geometries include 1 Vanderbilt (`direct_way_265875648.json`) and Grand Central Terminal (`direct_way_265947358.json`). The full matched response geometries for Pershing Square and Chrysler were analyzed in memory and remain to be archived locally.
+AI is used as an interpretation aid, not as the authority for route facts or ranking. The backend validates structured preferences and applies deterministic scoring to actual route metrics and landmark metadata. This makes the recommendation reproducible and testable.
 
-### NYC Open Data BUILDING
+## Technology decisions
 
-`collect_nyc_buildings.py` queries NYC Open Data dataset `5zhs-2jue` through its Socrata resource API. It filters `the_geom` by a 200 m `within_circle` search and selects full polygon geometry plus attributes such as `BIN`, `DOITT_ID`, `BASE_BBL`, `OBJECTID`, `NAME`, construction year, feature code, and geometry source. It avoids downloading the citywide million-row dataset. `NAME` is not required for a spatial candidate because the field is incomplete and not actively maintained.
+| Choice | Rationale |
+|---|---|
+| React + TypeScript | Component-based interface with typed API contracts |
+| Vite | Lightweight frontend development and production build |
+| Tailwind CSS | Consistent styling with a small implementation footprint |
+| Leaflet | Interactive map with direct GeoJSON layer support |
+| FastAPI | Python API framework with request validation and interactive API documentation |
+| Pydantic | Structured input and output validation |
+| Valhalla | Pedestrian route geometry, distance, and estimated duration |
+| OpenStreetMap | Open geographic features and pedestrian network data |
+| NYC Open Data | Municipal building-footprint polygons and identifiers |
+| OpenRouter | Optional natural-language preference interpretation |
+| JSON / GeoJSON | Human-readable catalogue, cache, route, and provenance formats |
 
-For NYPL the supplied OSM reference point is only the spatial query anchor. For 1 Vanderbilt an address lookup is only the search anchor. Neither search point is substituted for a footprint or entrance. The NYC results and NYC identifiers are stored separately in `nyc_building_candidates.json`; they are never assigned invented OSM IDs.
+## Geographic data decisions
 
-## Geometry comparison
+- Official institutional and preservation sources are used for descriptions and historical context.
+- OSM and NYC Open Data records retain separate identifiers and provenance.
+- Building polygons are used to understand building footprints; they are not substituted for pedestrian entrances.
+- Route geometry comes from Valhalla's pedestrian network response.
+- The route cache stores source metadata and raw request/response evidence.
 
-`geodata_geometry.py` uses local, dependency-free planar calculations suitable for this small Midtown study area. It normalizes OSM way coordinate arrays and GeoJSON polygon/multipolygon exteriors, computes WGS84 bounding boxes, tests polygon overlap, triangulates simple rings for approximate planar IoU, and samples boundaries at roughly one-metre spacing for approximate distance statistics. It also checks OSM way closure/completeness and self-intersection.
+## Route-generation decisions
 
-These metrics are review evidence, not proof of identity. IoU and boundary distances use a local equirectangular projection; polygon holes are ignored by the current exterior-ring normalization. Keep source geometries separate and preserve the original coordinate order. A building polygon/centroid is not a pedestrian entrance.
+- Retain a direct pedestrian route as the baseline.
+- Generate waypoint alternatives only when a place offers a meaningful geographic and preference-related benefit.
+- Bound detours and reject duplicate geometries.
+- Preserve existing valid routes and raw provider evidence.
+- Keep walking time separate from sightseeing dwell time.
 
-## Verification and data preservation
+## Recommendation decisions
 
-Collection results remain `candidate_unconfirmed`; verification recommendations in research notes are separate from stored `verified: false` fields. Identity should be corroborated with official addresses/designation records, OSM tags and geometry, city identifiers, and cross-source geometry where present. Entrance suitability needs its own evidence. Selective collection should not overwrite prior successful candidate records or raw research evidence.
+The recommendation engine considers:
 
-Provider identifiers and original geometries remain in separate records: OSM type/ID and tags stay with OSM data; NYC `DOITT_ID`, `BIN`, `BASE_BBL`, and `OBJECTID` stay with NYC data. A cross-source match can support a review recommendation without changing either record's verification flag. Current comparisons support same-footprint matches for Pershing Square, Chrysler, NYPL, and 1 Vanderbilt, with attribute conflicts still needing review for NYPL and 1 Vanderbilt. Grand Central Terminal's way and relation are verified as representing the above-ground terminal and underground transit features respectively; the geometry difference between the photogrammetric roof outline and street-level footprint is documented. See [verification-log.md](verification-log.md) for evidence and limits.
+- Walking distance and estimated duration.
+- Architecture and history relevance.
+- Intermediate landmark count and identity.
+- Explicit minimum-landmark requirements.
+- Maximum duration and detour constraints.
+- Excluded categories and negative preferences.
 
-## Routing
+Hard constraints are considered before soft preference weights. If a hard constraint cannot be met by any available route, the API explains the trade-off and returns the closest available candidate rather than inventing a compliant route.
 
-Valhalla pedestrian costing is selected because it returns pedestrian-network route geometry, distance, and estimated time. `fetch_routes.py` only accepts verified WGS84 inputs with evidence and ordered access waypoints for non-direct routes. It decodes returned polyline6 geometry and does not generate straight-line fallbacks. The public demo is a research endpoint, not a production SLA. No route has yet been retrieved. OpenRouteService is documented as a possible fallback but has not been called or selected.
+More landmarks are not automatically better. Landmark value is balanced against distance and time, and the route must be meaningfully aligned with the request.
 
-## Decisions still open
+## AI integration decisions
 
-- Review the Grand Central geometry discrepancy and determine which footprint is the intended visible terminal geometry.
-- Verify pedestrian entrances/access points separately from landmark footprints.
-- Complete systematic checks for Graybar, Chanin, Daily News, and Bryant Park.
-- Agree on user preference fields and recommendation behavior after geographic research review.
-- Reassess public routing provider policy and availability before using it in an application.
+- OpenRouter is optional and configured only on the backend.
+- The model returns structured intent rather than route geometry.
+- Model output is validated against the application's preference schema and allowed values.
+- Route-generation strategy choices are restricted to a backend-computed allowlist.
+- The deterministic scoring engine selects the recommendation.
+- Explanation text is assembled from validated route metrics and known landmark metadata.
+- Missing credentials, provider errors, and timeouts use the local parser/scoring path.
+
+## Scope boundaries
+
+The current prototype evaluates supported place and route attributes. It does not model live crowd density, perceived quietness, greenery quality, real-time closures, pavement condition, or accessibility. Those qualities require suitable data and are not inferred from unsupported signals.
