@@ -49,14 +49,14 @@ Frontend tests cover API integration, preference input, route presentation, and 
 
 | Check | Recorded result |
 |---|---:|
-| Backend offline suite | 315 passed, 0 failed, 1 skipped |
+| Backend test suite (latest local run) | **356 passed, 0 failed, 1 skipped** |
 | Frontend unit tests | 6 passed |
 | Frontend production build | Passed |
 | Playwright end-to-end tests | 6 passed |
 | Directed baseline route coverage | 72 / 72 |
 | Cached route records | 74 |
 
-The skipped backend test is the opt-in live Valhalla integration test. Automated test suites use mocks/fixtures for external provider interactions so the standard test run does not depend on live OpenRouter or Valhalla availability.
+The latest local backend test run completed in **54.80 seconds** with **356 passed, 1 skipped, and 1 warning**. The skipped test is the opt-in live Valhalla integration test. The warning is a Pydantic V2 deprecation notice at `backend/scripts/openrouter_client.py:47`: the class-based `Config` style on `RoutingStrategyPayload` should be migrated to `ConfigDict`. It is a deprecation warning, not a test failure. Automated test suites use mocks/fixtures for external provider interactions so the standard test run does not depend on live OpenRouter or Valhalla availability.
 
 ## 6. Manual task scenarios
 
