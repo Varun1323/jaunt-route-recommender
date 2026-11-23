@@ -1,5 +1,23 @@
 # Jaunt Route Recommender
 
+## About this task
+
+**Jaunt Route Recommender** is a prototype built for the Jaunt technical task. It helps a person plan a walking journey between selected landmarks in Midtown Manhattan. The user chooses a starting point and destination, describes what they want from the walk in natural language, and receives a recommended pedestrian route with its estimated distance, walking time, intermediate landmarks, and an explanation of why it was selected.
+
+The application uses a React frontend, a FastAPI backend, OpenRouter for optional AI-assisted preference interpretation, and Valhalla for pedestrian route generation. The backend evaluates available route candidates against the interpreted preferences and constraints. If OpenRouter is not configured or unavailable, the main recommendation flow can fall back to local preference parsing.
+
+The prototype supports eight selectable landmarks:
+- Grand Central Terminal
+- Chrysler Building
+- Stephen A. Schwarzman Building (New York Public Library)
+- Bryant Park
+- Times Square
+- Rockefeller Center
+- St. Patrick's Cathedral
+- Museum of Modern Art
+
+**Prototype limitation:** route geometry is generated using Valhalla pedestrian routing, but the candidate pedestrian access-point coordinates have not been independently field-verified. Routes should therefore be treated as prototype candidates, not verified navigation or accessibility guidance.
+
 ## 1. Install the required software (Windows)
 
 Open **PowerShell** and install Git, Python 3.12, and Node.js LTS:
@@ -10,7 +28,7 @@ winget install --id Python.Python.3.12 --exact
 winget install --id OpenJS.NodeJS.LTS --exact
 ```
 
-If Windows asks for confirmation, approve the installations. When they finish, **close PowerShell and open a new PowerShell window** so the updated PATH is loaded.
+If Windows asks for confirmation, approve the installations. When they finish, close PowerShell and open a new PowerShell window so the updated PATH is loaded.
 
 Check that all three tools are available:
 
@@ -38,22 +56,35 @@ In PowerShell, move to the folder where you want the project, then clone the rep
 cd $HOME\Downloads
 git clone https://github.com/Varun1323/jaunt-route-recommender.git
 cd jaunt-route-recommender
-git switch final-tests
+git switch final-working
 ```
 
 If you have already downloaded and extracted the project as a ZIP file, open PowerShell in the extracted project folder instead. You do not need to clone it again.
 
-**Important:** The commands in the next sections that start the backend must be run from the main project folder (the folder containing `backend` and `frontend`), not from inside `backend`.
+**Important:** The commands in the next sections that start the backend must be run from the main project folder (the folder containing `backend` and `frontend`).
 
 ## 3. Install and configure the backend
 
-From the main project folder, install the Python dependencies:
+From the main project folder, create and activate a Python virtual environment:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks activation scripts, use the virtual environment's Python executable directly in the following commands (for example, `.\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt`).
+
+Install the pinned backend dependencies:
 
 ```powershell
 python -m pip install -r backend\requirements.txt
 ```
 
-This project can be run without a Python virtual environment. The packages will be installed into the selected Python installation.
+The backend dependencies are pinned in `backend/requirements.txt`:
+- FastAPI
+- HTTPX
+- Pydantic
+- Uvicorn
 
 Create the backend environment file:
 
@@ -69,11 +100,11 @@ OPENROUTER_MODEL=deepseek/deepseek-v4-flash
 OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 ```
 
-Replace the placeholder with your key. The OpenRouter key is optional: without it, the application uses its local preference parser. Do not share or commit your API key.
+Replace the placeholder with your key. The OpenRouter key is optional: without it, the main recommendation endpoint uses its local preference parser. Do not share or commit your API key.
 
 ## 4. Start the backend
 
-Make sure the PowerShell terminal is still in the **main project folder**. Start the API:
+Make sure the PowerShell terminal is in the **main project folder**. Start the API:
 
 ```powershell
 python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --reload
@@ -98,44 +129,51 @@ If your project is in a different location, change the path accordingly.
 Install the exact frontend dependencies recorded in the lockfile:
 
 ```powershell
-npm ci
+npm.cmd ci
 ```
 
 Start the frontend development server:
 
 ```powershell
-npm run dev
+npm.cmd run dev
 ```
 
-Keep this terminal open too. Open the local URL printed by Vite, normally:
+Using `npm.cmd` avoids the PowerShell execution-policy error that can occur when running the `npm.ps1` shim. In terminals where the npm PowerShell shim is permitted, `npm ci` and `npm run dev` also work.
+
+Keep this terminal open. Open the local URL printed by Vite, normally:
 
 http://localhost:5173
 
-The frontend sends its `/api` and `/health` requests to the backend at `http://127.0.0.1:8000`. Therefore, keep both the backend and frontend terminals running.
+The frontend sends its `/api` and `/health` requests to the backend at `http://127.0.0.1:8000`. Keep both the backend and frontend terminals running.
 
 ## 6. Starting the project again later
 
 After the initial installation, you do not need to reinstall dependencies every time.
 
-1. Open PowerShell in the main project folder and run:
+1. Open PowerShell in the main project folder, activate the virtual environment, and start the backend:
 
    ```powershell
+   .\.venv\Scripts\Activate.ps1
    python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --reload
    ```
 
-2. Open a second PowerShell window, go to the frontend folder, and run:
+2. Open a second PowerShell window, go to the frontend folder, and start Vite:
 
    ```powershell
-   npm run dev
+   cd $HOME\Downloads\jaunt-route-recommender\frontend
+   npm.cmd run dev
    ```
 
 3. Open http://localhost:5173.
 
-## Dependencies
+## Dependencies and external services
 
-- Python 3.12
-- Backend Python packages pinned in `backend/requirements.txt`
-- Node.js and npm
-- Frontend packages locked in `frontend/package-lock.json` (installed with `npm ci`)
-- Optional: an OpenRouter API key for AI-powered preference interpretation
+- **Python:** 3.12.x
+- **Backend:** pinned packages in `backend/requirements.txt` (FastAPI, HTTPX, Pydantic, Uvicorn)
+- **Node.js:** LTS release
+- **Frontend:** dependencies pinned by `frontend/package-lock.json`; install with `npm.cmd ci`
+- **OpenRouter:** optional API key for AI-assisted preference interpretation
+- **Valhalla:** external pedestrian routing service; live route generation requires network access
+- **OpenStreetMap tiles:** map display requires network access
 
+The frontend lockfile and pinned backend requirements help reproduce the software environment. External services, model availability, network access, and map tile availability remain outside the repository's control.
